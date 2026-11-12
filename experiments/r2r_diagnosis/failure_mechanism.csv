@@ -1,0 +1,25 @@
+episode_id,scene,group,step,step_role,geodesic_m,expert_stop,model_stop,apos,opos,executed_yaw_deg,waypoint9_yaw_deg,privileged_yaw_deg,horizon_vs_privileged,termination_error,action_generation_error,instruction_relation,attribution,note
+214,2azQ1b91cZZ,entered_then_left,71,closest,0.14,true,false,center,not_visible,0.0,17.4,,no_large_horizon,yes,no,not_checked,终止决策错误,专家停止已为真。模型直行约 0.15 m，opos 不可见。终点近于 0.75 m，没有另算一个转向标签。
+142,QUCTc6BB5sX,entered_then_left,58,closest,0.03,true,false,center,not_visible,-0.1,-7.6,,no_large_horizon,yes,no,not_checked,终止决策错误,专家停止已为真。模型直行，第 9 航点约 -8°。
+174,TbHJrupSAjP,entered_then_left,64,closest,0.98,true,false,center,not_visible,0.0,14.1,-122.7,no_large_horizon,yes,no,not_checked,终止决策错误,专家停止已为真。模型直行。路径航向约 -123° 不被当作该步该执行的动作，停止标签优先。
+1087,2azQ1b91cZZ,entered_then_left,64,closest,2.65,false,false,right,not_visible,-5.7,-71.5,98.8,opposite,yes,no,not_checked,终止决策错误,已在 3 米内，专家 1 米停止仍为假。当步和第 9 航点都朝右，特权航向朝左。随后离开成功半径。画面未再复核。
+376,TbHJrupSAjP,entered_then_left,40,closest,2.60,false,false,left,not_visible,15.0,14.6,-78.7,no_large_horizon,yes,no,not_checked,终止决策错误,已在 3 米内，专家停止为假。当步和第 9 航点都约 +15°，与特权航向异号。画面未再复核。
+189,x8F5xyUWy9e,entered_then_left,55,closest,2.93,false,false,center,center,-15.0,-14.0,94.4,no_large_horizon,yes,no,not_checked,终止决策错误,已在 3 米内，专家停止为假。当步和第 9 航点都约 -15°，与特权航向异号。画面未再复核。
+1332,TbHJrupSAjP,never_entered_3m,3,path_off,12.11,false,false,left_edge,not_visible,7.4,92.1,79.3,aligned,no,yes,same_side_as_privileged,动作生成错误,指令写上台阶后左转，特权航向也向左。apos 在画面最左侧。第 9 航点 +92°，第 0 航点只执行 +7°。左侧开口本身没有在画面里确认。
+1266,2azQ1b91cZZ,never_entered_3m,24,path_off,10.53,false,false,left,not_visible,2.0,54.0,95.6,aligned_partial,no,boundary,clause_unclear,动作生成边界,第 9 航点 +54° 与特权 +96° 差 42°，刚落在 45° 规则内。第 0 航点只有 +2°。apos 在中左，不是画面边缘。指令前半句是右转，这一步哪一句生效不能定。
+1049,2azQ1b91cZZ,never_entered_3m,0,path_off,8.10,false,false,center,not_visible,0.0,0.0,163.3,no_large_horizon,no,no,action_matches_instruction,动作与指令一致、与特权路径相反,眼前是走道，指令是走到走道尽头。10 个航点都是直行。特权航向在身后。不是把左右理解反了。
+585,x8F5xyUWy9e,never_entered_3m,13,path_off,9.86,false,false,left,left,9.0,29.7,-149.4,opposite,no,no,action_matches_instruction,动作与指令一致、与特权路径相反,指令写左转。apos 和 opos 都在左侧门，第 0 与第 9 航点都向左。特权航向在右后方。珠帘门没有确认，不把这一步写成找错了门。
+201,x8F5xyUWy9e,never_entered_3m,20,path_off,3.23,false,false,left,not_visible,11.1,30.0,-139.5,opposite,no,no,action_matches_instruction,动作与指令一致、与特权路径相反,左侧有开着的门，指令是穿过这扇门。模型向左约 11°，第 9 航点约 +30°。特权航向在右侧。
+326,2azQ1b91cZZ,never_entered_3m,26,path_off,10.46,false,false,center,not_visible,-5.5,-15.0,83.6,no_large_horizon,no,no,instruction_and_path_differ,证据不足,左侧拱门可见，指令写的是右侧的门，特权航向向左。模型约 -6°，两侧都没有明确转进去。
+1759,X7HyMhZNoso,never_entered_3m,11,path_off,10.05,false,false,right,not_visible,-1.0,-15.8,-110.1,no_large_horizon,no,no,referent_unconfirmed,证据不足,右侧有门洞，指令写右转。这一步第 9 航点只有 -16°，第 0 航点 -1°。另一步第 19 步的 -91° 见说明，不在这 24 行的计数里。
+116,2azQ1b91cZZ,never_entered_3m,8,path_off,5.99,false,false,center,not_visible,0.8,119.7,-118.1,opposite,no,no,referent_unconfirmed,证据不足,第 0 航点直行。第 9 航点 +120°，特权航向 -118°，远期转向在反侧。执行远期航点也不会走向特权方向。右侧开口看不清。
+455,QUCTc6BB5sX,never_entered_3m,22,path_off,8.65,false,false,center,not_visible,0.0,0.0,-142.4,no_large_horizon,no,no,referent_unconfirmed,证据不足,10 个航点都是直行。右缘有开口，走廊也在前方。柜子没有确认。
+569,QUCTc6BB5sX,never_entered_3m,8,path_off,10.34,false,false,center,not_visible,0.0,0.0,-118.5,no_large_horizon,no,no,referent_unconfirmed,证据不足,10 个航点都是直行。床在右侧，床头右侧的出口没有对上前方的拱门。
+875,QUCTc6BB5sX,never_entered_3m,6,path_off,12.26,false,false,center,not_visible,0.0,17.4,150.2,no_large_horizon,no,no,referent_unconfirmed,证据不足,走廊在前方。第 9 航点只有 +17°，特权航向在左后方。柜台之间没有确认。
+639,EU6Fwq7SyZv,never_entered_3m,42,path_off,6.30,false,false,right,not_visible,-13.0,-47.8,83.7,opposite,no,no,referent_unconfirmed,证据不足,apos 在画面右侧，第 0 与第 9 航点都向右。特权航向向左。楼梯和左侧开口没有确认。
+972,EU6Fwq7SyZv,never_entered_3m,33,path_off,3.76,false,false,center,center,0.0,0.4,85.6,no_large_horizon,no,no,referent_unconfirmed,证据不足,直行。指令要站到楼梯下，楼梯不在画面里。
+221,8194nk5LbLH,never_entered_3m,10,path_off,12.27,false,false,left,not_visible,-0.2,7.4,128.7,no_large_horizon,no,no,referent_unconfirmed,证据不足,起居空间，门和楼梯不在画面里。当步直行，第 9 航点只有 +7°。
+393,Z6MFQCViBuw,never_entered_3m,9,path_off,11.14,false,false,center,not_visible,1.9,60.3,-89.2,opposite,no,no,referent_unconfirmed,证据不足,第 9 航点 +60°，特权航向向右，远期转向在反侧。红桌在画面里，右侧暗口是否可进入不能定。
+846,oLBMNvg9in8,never_entered_3m,4,path_off,8.66,false,false,left,not_visible,-0.2,45.4,-93.2,opposite,no,no,instruction_and_path_differ,证据不足,指令要求从左侧离开，第 9 航点 +45°，第 0 航点直行。特权航向向右。左右开口都不够清楚。
+901,X7HyMhZNoso,never_entered_3m,32,path_off,4.96,false,false,center,not_visible,5.2,-2.4,-87.8,no_large_horizon,no,no,referent_unconfirmed,证据不足,当步和第 9 航点都接近直行。特权航向向右。右侧是不是可进入的分支看不清。
+199,x8F5xyUWy9e,never_entered_3m,18,path_off,3.18,false,false,center,center,0.0,-0.1,-82.2,no_large_horizon,no,no,referent_unconfirmed,证据不足,砖墙和植物，右侧没有开口。10 个航点几乎都是 0°。

@@ -1,0 +1,67 @@
+[
+  {
+    "scene": "oLBMNvg9in8",
+    "episode_id": "1343",
+    "baseline_success": 1
+  },
+  {
+    "scene": "X7HyMhZNoso",
+    "episode_id": "1676",
+    "baseline_success": 1
+  },
+  {
+    "scene": "8194nk5LbLH",
+    "episode_id": "1593",
+    "baseline_success": 0
+  },
+  {
+    "scene": "TbHJrupSAjP",
+    "episode_id": "1642",
+    "baseline_success": 1
+  },
+  {
+    "scene": "TbHJrupSAjP",
+    "episode_id": "1271",
+    "baseline_success": 1
+  },
+  {
+    "scene": "TbHJrupSAjP",
+    "episode_id": "1408",
+    "baseline_success": 1
+  },
+  {
+    "scene": "X7HyMhZNoso",
+    "episode_id": "1571",
+    "baseline_success": 1
+  },
+  {
+    "scene": "x8F5xyUWy9e",
+    "episode_id": "1664",
+    "baseline_success": 1
+  },
+  {
+    "scene": "oLBMNvg9in8",
+    "episode_id": "1512",
+    "baseline_success": 0
+  },
+  {
+    "scene": "x8F5xyUWy9e",
+    "episode_id": "1604",
+    "baseline_success": 1
+  },
+  {
+    "scene": "TbHJrupSAjP",
+    "episode_id": "1660",
+    "baseline_success": 1
+  },
+  {
+    "scene": "pLe4wQe7qrG",
+    "episode_id": "1583",
+    "baseline_success": 0
+  },
+  {
+    "scene": "TbHJrupSAjP",
+    "episode_id": "1654",
+    "baseline_success": 1
+  }
+]

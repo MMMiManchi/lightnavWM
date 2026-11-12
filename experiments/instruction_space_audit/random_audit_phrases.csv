@@ -1,0 +1,1184 @@
+sample_index,route_group_id,episode_id,phrase_index,phrase,verdict,evidence
+7,zsNo4HB9uLZ__4634,1165,1,Walk into and through the kitchen.,contradicted,start 是卧室。第一段相对起步 +161.3°。厨房台面出现在 w1m，不在起步画面里。
+7,zsNo4HB9uLZ__4634,1165,2,Stop next to the long wooden dining table.,not_in_view,w5 和 end 能看到窗，没有长木餐桌。
+7,zsNo4HB9uLZ__4634,1166,1,Turn around,supported,第一段 +161.3°。start 是卧室，w0 转为走廊。
+7,zsNo4HB9uLZ__4634,1166,2,go straight into the kitchen.,contradicted,掉头后的下一段是 +60.3°，不是直行进入厨房。
+7,zsNo4HB9uLZ__4634,1166,3,Go straight,supported,w3 到 w4 的航向变化只有 -2.8° 和 -0.3°。
+7,zsNo4HB9uLZ__4634,1166,4,stop by the table near the window.,not_in_view,终点附近有窗，没有看到窗边的桌子。
+7,zsNo4HB9uLZ__4634,1167,1,"Go to the kitchen, then to the dining room table inside.",contradicted,起步是卧室，第一段 +161.3°。厨房在 w1m，餐桌没有出现在起步画面。
+8,Z6MFQCViBuw__2230,547,1,Walk straight,contradicted,第一段是 -79.6°。start 面对椅子，不是走廊。
+8,Z6MFQCViBuw__2230,547,2,turn right,supported,随后还有 -61.4° 和 -38.9°。
+8,Z6MFQCViBuw__2230,547,3,walk down the hallway until you get near the large painting of a man.,not_in_view,end 有一幅深色人物画，不能确认是男人。
+8,Z6MFQCViBuw__2230,548,1,Turn to the right,supported,第一段 -79.6°，w0 转到红地毯走廊。
+8,Z6MFQCViBuw__2230,548,2,walk forward.,supported,这次右转之后有 2.76 米沿新航向前进。后面还有未写出的右转。
+8,Z6MFQCViBuw__2230,549,1,Head towards the painting of the woman in a white dress.,supported,w0 和 w1 能看到白衣女子的画像。
+8,Z6MFQCViBuw__2230,549,2,Turn right at the painting.,supported,w1 位于 2.76 米，下一段航向变化 -61.4°。
+8,Z6MFQCViBuw__2230,549,3,Follow the red path until you are standing next to two red and white chairs.,not_in_view,两把红白椅子在 w1 的画像旁。end 没有确认终点就在这两把椅子旁边。
+9,2azQ1b91cZZ__6417,1606,1,After you leave the grill area and are in the sitting room make a left,not_in_view,start 到 w1 没有看到烤架。
+9,2azQ1b91cZZ__6417,1606,2,go through the doorway.,supported,start 和 w0 都有门洞。
+9,2azQ1b91cZZ__6417,1606,3,Now walk past the couch,supported,w2、w3 的客厅里有沙发。
+9,2azQ1b91cZZ__6417,1606,4,wait by the chair at the bar.,supported,end 是厨房吧台和浅色坐垫的高脚椅。
+9,2azQ1b91cZZ__6417,1607,1,Head a bit ahead and towards the double doors on the left towards the kitchen.,not_in_view,能看到门和 w1 的厨房台面，不能确认左侧双扇门。
+9,2azQ1b91cZZ__6417,1607,2,Stop upon reaching the counter.,supported,end 停在吧台边。
+9,2azQ1b91cZZ__6417,1608,1,Go stand behind the nearest of the three chairs with white cushions at the kitchen bar.,supported,end 能看到三只浅色坐垫的吧椅和烤箱。路径上还有未写出的 +29.7° 和 +37.4°。
+10,X7HyMhZNoso__6169,1567,1,With the foot of the bed behind you,not_in_view,正向帧看不到身后。
+10,X7HyMhZNoso__6169,1567,2,exit the bedroom through the door on the left,not_in_view,没有定位到左侧的卧室门。
+10,X7HyMhZNoso__6169,1567,3,walk to the top of the stairs.,not_in_view,w2 是走廊，没有楼梯。
+10,X7HyMhZNoso__6169,1567,4,Go through the open door at the top of the stairs,not_in_view,没有看到楼梯口的门。
+10,X7HyMhZNoso__6169,1567,5,enter the bedroom.,supported,end 是一间有床的卧室。
+10,X7HyMhZNoso__6169,1567,6,Stop after entering this bedroom.,supported,终点就在这间卧室里。
+10,X7HyMhZNoso__6169,1568,1,Go into the hall,supported,start 和 w2 是室内走廊。
+10,X7HyMhZNoso__6169,1568,2,stop in the bedroom across from the stairs.,not_in_view,end 是卧室，沿途没有看到楼梯。
+10,X7HyMhZNoso__6169,1569,1,Walk through door way into the next room.Turn left,supported,w2 有门洞，下一段航向变化 +64.1°。
+10,X7HyMhZNoso__6169,1569,2,walk forward past the railing.,not_in_view,没有看到栏杆。
+10,X7HyMhZNoso__6169,1569,3,Turn right,not_in_view,后段只有 -18.9° 和 -22.6°，画面里没有对应的右转参照物。
+10,X7HyMhZNoso__6169,1569,4,walk to the front of the stairs.Turn left,not_in_view,没有看到楼梯。
+10,X7HyMhZNoso__6169,1569,5,walk into the bedroom.,supported,end 进入卧室。
+10,X7HyMhZNoso__6169,1569,6,Stop in the bedroom.,supported,终点在卧室里。
+11,QUCTc6BB5sX__239,67,1,Face the walkway with a kitchen counter with bar stools on the right and large windows on the other side,contradicted,w0 里高脚椅在画面左侧，落地窗在右侧。指令写凳子在右侧。
+11,QUCTc6BB5sX__239,67,2,walk past them towards a large dining table Turn to the sitting area,supported,w3 能看到餐桌，终点 end 是起居区。
+11,QUCTc6BB5sX__239,67,3,stop.,supported,end 是停止位置。
+11,QUCTc6BB5sX__239,68,1,Walk straight past the kitchen area and bar stools until you reach a formal dining table.,contradicted,第一段 +92.2°。start 是另一条走廊，柜台通道在 w0。
+11,QUCTc6BB5sX__239,68,2,Walk into the room with the sofa on the right,contradicted,end 的沙发在画面左侧，不在右侧。
+11,QUCTc6BB5sX__239,68,3,stop by the glass table.,supported,end 沙发前有玻璃茶几。
+11,QUCTc6BB5sX__239,69,1,Walk through the kitchen,supported,w0 和 w1 沿柜台和高脚椅前进。
+11,QUCTc6BB5sX__239,69,2,enter the dining room,supported,w3 正对餐厅和餐桌。
+11,QUCTc6BB5sX__239,69,3,walk to the doorway to the right of the dining room table,supported,餐桌之后的航向变化是 -73.6°。
+11,QUCTc6BB5sX__239,69,4,wait at the glass table.,supported,end 的玻璃茶几在沙发前。路径开头还有未写出的 +92.2°。
+12,8194nk5LbLH__1622,400,1,continue down stairs,supported,start 正对下行楼梯，前两段 dy 为 -0.51 和 -0.71。
+12,8194nk5LbLH__1622,400,2,walk straight into lobby,contradicted,楼梯之后的航向变化是 -48.7°，不是直行进入门厅。
+12,8194nk5LbLH__1622,400,3,stop at tree.,supported,end 的门厅里有一棵大型盆栽。
+12,8194nk5LbLH__1622,401,1,Walk downstairs,supported,start 正对下行楼梯。
+12,8194nk5LbLH__1622,401,2,wait by the exterior door near the potted palm.,supported,end 有玻璃外墙和大型盆栽。楼梯底还有未写出的 -48.7°。
+12,8194nk5LbLH__1622,402,1,Walk down the stairs.,supported,start 正对下行楼梯。
+12,8194nk5LbLH__1622,402,2,Walk forward,contradicted,下楼后的下一段是 -48.7°，不是直行。
+12,8194nk5LbLH__1622,402,3,stop next to the door that is next to the recycling bin.,not_in_view,end 没有看到回收箱。
+13,oLBMNvg9in8__3875,937,1,Go toward the stairs.,supported,w2 前方是楼梯。前三段航向变化只有 +27.8°、-1.7°、-10.1°。
+13,oLBMNvg9in8__3875,937,2,Turn into the room just before the stairs,supported,w3 处航向变化 -87.7°，从楼梯前转入房间。
+13,oLBMNvg9in8__3875,937,3,stop in the doorway.,contradicted,end 已经在房间内部，面对壁炉和沙发，不是停在门洞。
+13,oLBMNvg9in8__3875,938,1,Go down the hallway,supported,w0 到 w2 沿走廊走向楼梯。
+13,oLBMNvg9in8__3875,938,2,wait in the room next to the stairs.,supported,楼梯在 w2 前方，-87.7° 转入旁边的房间，end 在房间内。
+13,oLBMNvg9in8__3875,939,1,Walk in the direction of the stairs.,supported,w2 前方是楼梯。
+13,oLBMNvg9in8__3875,939,2,Take a right into the room at the end of the stairs.,supported,进入房间的航向变化是 -87.7°。
+13,oLBMNvg9in8__3875,939,3,Stop once you are in the dining room.,not_in_view,end 有壁炉和沙发，没有餐桌，不能确认餐厅。
+14,TbHJrupSAjP__6973,1762,1,Walk up the stairs,supported,start 和 w0 是上行楼梯，前两段 dy 为 +0.92 和 +0.81。
+14,TbHJrupSAjP__6973,1762,2,turn left at the plant.,supported,w3 右侧窗台有植物，该点航向变化 +85.0°。
+14,TbHJrupSAjP__6973,1762,3,Walk forward,supported,w4 的航向变化是 +14.8°。
+14,TbHJrupSAjP__6973,1762,4,wait at the bedroom with rug that has squares on it.,supported,end 从门口看见卧室和几何图案地毯。
+14,TbHJrupSAjP__6973,1763,1,Walk up the stairs.,supported,w0 是上行楼梯。
+14,TbHJrupSAjP__6973,1763,2,Turn left,supported,楼层平台 w3 的航向变化是 +85.0°。
+14,TbHJrupSAjP__6973,1763,3,wait in the entry way of the bedroom.,supported,end 站在卧室门口看向床。
+14,TbHJrupSAjP__6973,1764,1,Go up the stairs and at the top turn to the left,supported,先沿 w0 上楼梯，w3 再 +85.0°。
+14,TbHJrupSAjP__6973,1764,2,walk.,supported,w4 沿走廊向前。
+14,TbHJrupSAjP__6973,1764,3,Stop in the doorway of the bedroom.,supported,end 位于卧室门口。
+15,zsNo4HB9uLZ__3965,967,1,Exit the room,supported,start 是卧室，第一段 -151.3° 后 w0 成为走廊。
+15,zsNo4HB9uLZ__3965,967,2,go straight,supported,下一段航向变化 +4.6°。
+15,zsNo4HB9uLZ__3965,967,3,turn left.,supported,再下一段 +88.7°。
+15,zsNo4HB9uLZ__3965,967,4,Go straight until you pass an eye chart picture frame on the left wall,not_in_view,w1 和 end 都没有视力表。
+15,zsNo4HB9uLZ__3965,967,5,wait there.,not_in_view,没有看到视力表，不能确认停在它旁边。
+15,zsNo4HB9uLZ__3965,968,1,Exit the bedroom,supported,start 是卧室，w0 转到门外走廊。
+15,zsNo4HB9uLZ__3965,968,2,turn left down the hall.,supported,走廊上的左转是 +88.7°。
+15,zsNo4HB9uLZ__3965,968,3,Stop just past the eye exam chart on the wall.,not_in_view,沿途没有视力检查图。
+15,zsNo4HB9uLZ__3965,969,1,Exit the bedroom,supported,start 是卧室，w0 离开房间。
+15,zsNo4HB9uLZ__3965,969,2,"turn left, past the bathroom.",not_in_view,有 +88.7° 左转，但没有看到浴室。
+15,zsNo4HB9uLZ__3965,969,3,"Continue through the short hallway, past the washroom and pantry.",not_in_view,没有看到洗手间或食品间。
+15,zsNo4HB9uLZ__3965,969,4,"Wait in the intersection with the long hallway, in between the low shelf and table.",not_in_view,end 是客厅一角，没有低柜和桌子夹着的路口。
+16,Z6MFQCViBuw__2417,592,1,Go through the doorway with the desk on the right,supported,start 正对木门，右侧是深色柜子。
+16,Z6MFQCViBuw__2417,592,2,make a left,supported,w2 处航向变化 +67.5°。
+16,Z6MFQCViBuw__2417,592,3,go straight passed the stairs on the right,not_in_view,w2 到 end 没有楼梯。
+16,Z6MFQCViBuw__2417,592,4,go to the doorway,supported,end 停在通往大桌子的门口。
+16,Z6MFQCViBuw__2417,592,5,wait.,supported,终点就在这个门口。
+16,Z6MFQCViBuw__2417,593,1,Exit the room,supported,start 在门内，w2 已经到门外。
+16,Z6MFQCViBuw__2417,593,2,turn left,supported,门外的航向变化是 +67.5°。
+16,Z6MFQCViBuw__2417,593,3,go through the door on the left.,supported,左转后 end 的双扇门在前方。
+16,Z6MFQCViBuw__2417,593,4,Wait at the entrance.,supported,end 停在这扇门口。
+16,Z6MFQCViBuw__2417,594,1,Walk out the double wood doors in front of you.,supported,start 正前方就是打开的双扇木门。
+16,Z6MFQCViBuw__2417,594,2,Once out the room,supported,w2 已经在门外。
+16,Z6MFQCViBuw__2417,594,3,walk forward and,supported,前两段航向变化只有 -0.5° 和 -1.1°。
+16,Z6MFQCViBuw__2417,594,4,turn left,supported,随后 +67.5°。
+16,Z6MFQCViBuw__2417,594,5,enter the double wood doors straight ahead.,supported,end 前方又是一扇双扇门。
+16,Z6MFQCViBuw__2417,594,6,Stop once you reach the doorway facing the large table.,supported,透过这扇门能看到长桌。
+17,8194nk5LbLH__6339,1591,1,Go straight until you pass all the couches and chairs.,contradicted,start 面对壁炉。第一段 +121.3°，沙发列在 w0，不在起步正前方。
+17,8194nk5LbLH__6339,1591,2,Stop by the large picture of the bridge.,supported,w2 和 end 正对桥的大幅画面。
+17,8194nk5LbLH__6339,1592,1,Walk to the right of the blue and black chairs,contradicted,起步朝向的第一段是 +121.3° 左转，不是沿椅子右侧向前。
+17,8194nk5LbLH__6339,1592,2,turn left.,supported,下一段还有 +94.0° 左转。
+17,8194nk5LbLH__6339,1592,3,Walk past the coffee table,not_in_view,没有看到咖啡桌。
+17,8194nk5LbLH__6339,1592,4,stop by the green and black chair.,not_in_view,w2 有深色椅子，不能确认是绿黑椅子，也没有确认它是终点。
+17,8194nk5LbLH__6339,1593,1,Walk to the far end of the lobby,contradicted,大厅尽头的桥在两次左转之后。起步面对的是壁炉，第一段 +121.3°。
+17,8194nk5LbLH__6339,1593,2,wait under the exit sign.,supported,w2 天花板上有绿色出口标志，下方是桥的画面。
+18,X7HyMhZNoso__1478,373,1,Leave the bathroom,supported,start 能看到马桶，位于浴室。
+18,X7HyMhZNoso__1478,373,2,go up the stairs.,supported,w0 是向上的短楼梯，dy +0.69。
+18,X7HyMhZNoso__1478,373,3,"At the top of the stairs take a right, and another right into the living room.",supported,上楼后的两段是 -65.4° 和 -108.9°。
+18,X7HyMhZNoso__1478,373,4,Stop next to the coffee table.,supported,end 的客厅茶几在沙发之间。
+18,X7HyMhZNoso__1478,374,1,Walk up the three stairs,supported,w0 是一段短楼梯。
+18,X7HyMhZNoso__1478,374,2,turn right.,supported,上到 w2 后的航向变化是 -65.4°。
+18,X7HyMhZNoso__1478,374,3,Walk towards the living room,supported,w3 和 end 进入客厅。
+18,X7HyMhZNoso__1478,374,4,turn right.,supported,下一段是 -108.9°。
+18,X7HyMhZNoso__1478,374,5,Wait by the coffee table.,supported,end 停在茶几旁。
+18,X7HyMhZNoso__1478,375,1,Go up the stairs.,supported,w0 向上的楼梯。
+18,X7HyMhZNoso__1478,375,2,Turn right,supported,-65.4°。
+18,X7HyMhZNoso__1478,375,3,go toward the slatted door.,not_in_view,沿途没有百叶门或条板门。
+18,X7HyMhZNoso__1478,375,4,Turn right,supported,-108.9°。
+18,X7HyMhZNoso__1478,375,5,enter the living area.,supported,end 是客厅。
+19,Z6MFQCViBuw__6093,1555,1,Walk past the large dining table with the chandelier overhead.,contradicted,start 正对门洞和红毯，没有餐桌。餐桌在 +172.1° 之后的 w0。
+19,Z6MFQCViBuw__6093,1555,2,The table should be on your right as you walk past it.,supported,w0 里带椅子的餐桌在画面右侧。
+19,Z6MFQCViBuw__6093,1555,3,Follow the red carpet to exit that room by the first doorway you come to after passing the table.,supported,w0 到 w3 沿红毯走到门口。
+19,Z6MFQCViBuw__6093,1555,4,There are some red chairs just to the right of the doorway you will go through.,not_in_view,w0 有红色椅子，但没有和出口门洞同时出现。
+19,Z6MFQCViBuw__6093,1555,5,Walk down the hall,supported,w4 是走廊。
+19,Z6MFQCViBuw__6093,1555,6,stop in the first doorway on your right.,supported,end 在门洞里，最后一段航向变化 -29.4°。
+19,Z6MFQCViBuw__6093,1556,1,Walk across the room past the table and chairs and into the hallway.,contradicted,start 不面向餐桌。第一段是 +172.1°。
+19,Z6MFQCViBuw__6093,1556,2,Walk into the first door on the right,supported,end 是右侧门洞，进入前的航向变化是 -29.4°。
+19,Z6MFQCViBuw__6093,1556,3,stop.,supported,end 停在门洞。
+19,Z6MFQCViBuw__6093,1557,1,Turn around,supported,第一段 +172.1°。
+19,Z6MFQCViBuw__6093,1557,2,go passed the dining room table.,supported,w0 经过餐厅长桌。
+19,Z6MFQCViBuw__6093,1557,3,Enter the doors next to the red chairs.,not_in_view,红椅子在 w0，出口门没有和它们同时入画。
+19,Z6MFQCViBuw__6093,1557,4,Go down the hallway,supported,w4 沿走廊向前。
+19,Z6MFQCViBuw__6093,1557,5,enter the doors on the right.,supported,end 进入门洞，最后一段 -29.4°。
+20,Z6MFQCViBuw__2233,550,1,Take the leftmost door.,contradicted,start 面对长桌椅背，前方没有门。第一段 +123.8°。
+20,Z6MFQCViBuw__2233,550,2,Walk past the large painting to your left.,not_in_view,画廊里有画，左右关系没有在同一画面确认。
+20,Z6MFQCViBuw__2233,550,3,Take a left,supported,最后一段 +44.7°。
+20,Z6MFQCViBuw__2233,550,4,wait in the doorway.,supported,end 右侧是门框，前方还有门洞。
+20,Z6MFQCViBuw__2233,551,1,Facing the long table in the center of the room,supported,start 正对房间中央的长桌。
+20,Z6MFQCViBuw__2233,551,2,turn left,supported,第一段 +123.8°。
+20,Z6MFQCViBuw__2233,551,3,then walk straight,supported,中间三段航向变化是 +2.4°、-0.5°、+0.2°。
+20,Z6MFQCViBuw__2233,551,4,and turn left,supported,随后 +44.7°。
+20,Z6MFQCViBuw__2233,551,5,go through the open doorway to the right of a blue vase on a table.,not_in_view,w0 柜子上是深色花瓶且在画面左侧，没有看到它右侧的门。
+20,Z6MFQCViBuw__2233,551,6,Continue straight down the red path until it turns left and goes through a doorway.,supported,w2 到 w5 沿红毯直行，然后 +44.7° 进门。
+20,Z6MFQCViBuw__2233,551,7,Stop in that doorway.,supported,end 停在门洞旁。
+20,Z6MFQCViBuw__2233,552,1,walk through the doorway to the left of the small table with two chairs,contradicted,start 是一排多把椅子的长桌，不是两把椅子小桌左侧的门。第一段 +123.8°。
+20,Z6MFQCViBuw__2233,552,2,walk straight down past art on your right,not_in_view,沿途有画，但没有确认都在右侧。
+20,Z6MFQCViBuw__2233,552,3,turn left,supported,最后一段 +44.7°。
+20,Z6MFQCViBuw__2233,552,4,stop in the doorway.,supported,end 停在门洞。
+21,x8F5xyUWy9e__2662,640,1,Head past the bar along the side of the pool.,not_in_view,start 到 w2 没有明确的吧台和泳池。
+21,x8F5xyUWy9e__2662,640,2,Turn right,supported,w3 处航向变化 -80.5°。
+21,x8F5xyUWy9e__2662,640,3,stop inside of the sauna.,supported,end 是封闭的条纹瓷砖房间。
+21,x8F5xyUWy9e__2662,641,1,You should walk past the bar and to the pool.,not_in_view,没有看到吧台和泳池。
+21,x8F5xyUWy9e__2662,641,2,Across from the pool there is a doorway,not_in_view,没有看到泳池对面的门。
+21,x8F5xyUWy9e__2662,641,3,go through that doorway,not_in_view,那扇门没有定位到画面。
+21,x8F5xyUWy9e__2662,641,4,wait.,supported,end 在房间内部。
+21,x8F5xyUWy9e__2662,642,1,Walk past the bar,not_in_view,没有看到吧台。
+21,x8F5xyUWy9e__2662,642,2,make a hard right into the walkway next to the jacuzzi.,not_in_view,-80.5° 是急右转，但没有看到按摩池。
+21,x8F5xyUWy9e__2662,642,3,Wait just inside the door.,supported,end 在门内。
+22,oLBMNvg9in8__5795,1456,1,Walk up stairs.,contradicted,start 对着破损墙面。楼梯在 +172.7° 之后的 w0，这段 dy +0.51。
+22,oLBMNvg9in8__5795,1456,2,Walk onto the carpet runner on the floor.,supported,w2 地面有花纹地毯。
+22,oLBMNvg9in8__5795,1456,3,Make a right through the open door on the right.,supported,w3 处航向变化 -68.2°，右侧有开着的门。
+22,oLBMNvg9in8__5795,1456,4,Walk between the two columns on the right.,supported,w4 和 w5 有两根柱子，随后还有 -47.2° 和 -76.8°。
+22,oLBMNvg9in8__5795,1456,5,Wait at the animal head on the floor to the left.,supported,end 地面左侧有动物头雕像。
+22,oLBMNvg9in8__5795,1457,1,Go up the stairs.,contradicted,楼梯不在 start，要先 +172.7°。
+22,oLBMNvg9in8__5795,1457,2,continue straight when you get to the floor.,contradicted,到楼面后的两段是 +35.0° 和 +26.1°，不是直行。
+22,oLBMNvg9in8__5795,1457,3,Turn right,supported,随后 -68.2°。
+22,oLBMNvg9in8__5795,1457,4,wait near the antelope head.,supported,end 有带角的动物头雕像。
+22,oLBMNvg9in8__5795,1458,1,Go up the stairs to the next level,contradicted,上楼方向在 +172.7° 之后，start 看不到楼梯。
+22,oLBMNvg9in8__5795,1458,2,go down the hallway.,supported,w2 沿走廊。
+22,oLBMNvg9in8__5795,1458,3,Turn into the room on the right,supported,进入房间的航向变化是 -68.2°。
+22,oLBMNvg9in8__5795,1458,4,walk to the center of it.,not_in_view,没有画面能确认停在房间中心。
+22,oLBMNvg9in8__5795,1458,5,Walk through the two columns on the right,supported,w5 从两根柱子之间看过去。
+22,oLBMNvg9in8__5795,1458,6,stop in front of the horned animal head on the floor.,supported,end 正对地面上的带角动物头。
+23,zsNo4HB9uLZ__6994,1771,1,Exit the bedroom,supported,start 在房间角落，-173.0° 后 w0 朝向房门。
+23,zsNo4HB9uLZ__6994,1771,2,"enter another bedroom straight ahead, next to the table.",contradicted,下一动作是 -80.6°，不是直走进另一间卧室。
+23,zsNo4HB9uLZ__6994,1771,3,Wait there.,supported,end 在另一间卧室里。
+23,zsNo4HB9uLZ__6994,1772,1,Walk past the foot of the bed and out the door on the other side of the room.,contradicted,床在 -173.0° 之后的 w0，不在 start。
+23,zsNo4HB9uLZ__6994,1772,2,"After passing through a small hallway, you will see two doors to bedrooms next to each other.",supported,w2 走廊两侧有多扇门。
+23,zsNo4HB9uLZ__6994,1772,3,Enter the bedroom on the right,supported,进入房间的航向变化是 -80.6°。
+23,zsNo4HB9uLZ__6994,1772,4,stop after entering the room.,supported,end 已经在卧室内。
+23,zsNo4HB9uLZ__6994,1773,1,Exit bedroom.,supported,-173.0° 后离开所在房间。
+23,zsNo4HB9uLZ__6994,1773,2,Walk forward,contradicted,离开后下一段是 -80.6°，不是直行。
+23,zsNo4HB9uLZ__6994,1773,3,enter the door on the right.,supported,这 -80.6° 是向右进门。
+23,zsNo4HB9uLZ__6994,1773,4,Wait inside bedroom.,supported,end 在卧室内。
+24,EU6Fwq7SyZv__2194,535,1,Go down the stairs,contradicted,start 对着床。楼梯在 -169.9° 之后，随后 dy 为 -0.62、-1.22、-1.05。
+24,EU6Fwq7SyZv__2194,535,2,turn right.,supported,下楼后的航向变化是 -38.6°。
+24,EU6Fwq7SyZv__2194,535,3,Stop on the grey tile in front of the window panel farthest to the left.,not_in_view,w4 有灰地砖和玻璃门，没有确认最左边那一块。
+24,EU6Fwq7SyZv__2194,536,1,Head down the stairs from the loft,contradicted,阁楼床在 start，下楼方向要先 -169.9°。
+24,EU6Fwq7SyZv__2194,536,2,then head towards the doors that are ahead and slightly to the right from the bottom of the stairs.,supported,end 是玻璃门，接近时航向变化 -38.6°。
+24,EU6Fwq7SyZv__2194,537,1,Go down the stairs,contradicted,下楼方向不在 start，第一段 -169.9°。
+24,EU6Fwq7SyZv__2194,537,2,turn right,supported,-38.6°。
+24,EU6Fwq7SyZv__2194,537,3,wait by the glass doors that lead to the patio.,supported,end 停在通往室外的玻璃门前。
+25,oLBMNvg9in8__2044,508,1,walk through the doorway directly opposite and slightly to the left of the fireplace,supported,start 看向房间对面，第一段只有 +8.6°，w1 是门洞。
+25,oLBMNvg9in8__2044,508,2,turn left in the hallway,supported,走廊处 +68.2°。
+25,oLBMNvg9in8__2044,508,3,walk down the staircase on the left,supported,w2 是楼梯，最后一段 dy -0.51。
+25,oLBMNvg9in8__2044,508,4,stop in the doorway to the outside.,supported,end 是通向室外的门洞。
+25,oLBMNvg9in8__2044,509,1,Go into the white door,supported,w1 是白色门框。
+25,oLBMNvg9in8__2044,509,2,turn left,supported,+68.2°。
+25,oLBMNvg9in8__2044,509,3,go down the stairs until you get to the door that leads to outdoors,supported,w2 下楼，dy -0.51。
+25,oLBMNvg9in8__2044,509,4,wait there.,supported,end 停在室外门口。
+25,oLBMNvg9in8__2044,510,1,Walk across the room to the open door.,supported,前两段 +8.6°、+7.0°，走到 w1 的开门。
+25,oLBMNvg9in8__2044,510,2,Go to the left towards the stairs,supported,楼梯方向是 +68.2°。
+25,oLBMNvg9in8__2044,510,3,go downstairs.,supported,w2 到 end 的 dy 为负。
+25,oLBMNvg9in8__2044,510,4,Stop in front of the open door that leads outside.,supported,end 停在开着的室外门前。
+26,TbHJrupSAjP__3151,766,1,Go up stairs,supported,start 正对上行楼梯，前四段 dy 为正。
+26,TbHJrupSAjP__3151,766,2,turn left to stairs.,supported,楼梯顶部 w4 的航向变化是 +38.6°。
+26,TbHJrupSAjP__3151,766,3,Stop between stairs and large double doors.,not_in_view,end 有双扇门和地毯，楼梯不在这个朝向里。
+26,TbHJrupSAjP__3151,767,1,Make your way up the steps,supported,start 到 w3 沿楼梯向上。
+26,TbHJrupSAjP__3151,767,2,take a left turn,supported,+38.6°。
+26,TbHJrupSAjP__3151,767,3,walk into the main room,supported,w5 进入有沙发的大房间。
+26,TbHJrupSAjP__3151,767,4,stopping at the door.,supported,end 停在玻璃门前。
+26,TbHJrupSAjP__3151,768,1,You need to walk up the stairs,supported,start 正对楼梯且高度上升。
+26,TbHJrupSAjP__3151,768,2,make a left when you get to the top.,supported,顶部 +38.6°。
+26,TbHJrupSAjP__3151,768,3,Next,supported,这一小句没有空间断言。
+26,TbHJrupSAjP__3151,768,4,make a right,contradicted,左转之后下一段是 +15.7°，没有右转。
+26,TbHJrupSAjP__3151,768,5,walk towards the stairs.,not_in_view,顶部之后没有第二段楼梯。
+26,TbHJrupSAjP__3151,768,6,When you get to the stairs,not_in_view,end 朝向里没有楼梯。
+26,TbHJrupSAjP__3151,768,7,wait beside them and in front of the rug in front of the front door.,not_in_view,end 有地毯和门，但楼梯不在画面中。
+27,TbHJrupSAjP__6617,1654,1,Walk down the hall.,contradicted,start 前方是玻璃门所在的走廊。第一段航向变化 -73.9°，没有沿这条走廊直行。
+27,TbHJrupSAjP__6617,1654,2,Pass the stairs,supported,w2 能看到楼梯。
+27,TbHJrupSAjP__6617,1654,3,enter the doorway on the right.,supported,w5 进入客厅前的航向变化是 -70.3°。
+27,TbHJrupSAjP__6617,1654,4,Wait beside the potted plant.,not_in_view,end 是客厅和柜子，没有盆栽。
+27,TbHJrupSAjP__6617,1655,1,Leave the room and to straight.,contradicted,离开后的第一段是 -73.9°，不是直行。
+27,TbHJrupSAjP__6617,1655,2,Enter the kitchen through the door on the right.,not_in_view,w3 是餐厅，没有看到厨房门。
+27,TbHJrupSAjP__6617,1655,3,Take a right into the living room.,supported,进入客厅的航向变化是 -70.3°。
+27,TbHJrupSAjP__6617,1655,4,Stop next to the first end table.,not_in_view,end 没有可确认的第一张边桌。
+27,TbHJrupSAjP__6617,1656,1,Walk toward the railing and right past the stairs.,supported,右转后 w2 同时有栏杆和楼梯。
+27,TbHJrupSAjP__6617,1656,2,Walk into the living room,supported,w5 是客厅。
+27,TbHJrupSAjP__6617,1656,3,turn right.,supported,-70.3°。
+27,TbHJrupSAjP__6617,1656,4,Stop by the end table.,not_in_view,end 没有边桌。
+28,TbHJrupSAjP__1399,358,1,Walk forward,supported,start 正对开着的房门，第一段 -38.0°。
+28,TbHJrupSAjP__1399,358,2,turn right,supported,下一段 -77.7°。
+28,TbHJrupSAjP__1399,358,3,exiting the room.,supported,w1 已经到门外走廊。
+28,TbHJrupSAjP__1399,358,4,Continue forward,supported,w2 到 w3 的航向变化是 +3.2°。
+28,TbHJrupSAjP__1399,358,5,turn right,contradicted,直行段 +3.2° 之后的下一次转弯是 +65.0°，不是右转。
+28,TbHJrupSAjP__1399,358,6,walking past the mirror and side table.,supported,w2 有镜子和深色柜子。
+28,TbHJrupSAjP__1399,358,7,Enter the bedroom,supported,w4 是卧室。
+28,TbHJrupSAjP__1399,358,8,turn left.,supported,进入卧室后 +65.0°。
+28,TbHJrupSAjP__1399,358,9,Turn left again,supported,下一段 +82.7°。
+28,TbHJrupSAjP__1399,358,10,wait inside the doorway.,supported,end 停在衣帽间门口。
+28,TbHJrupSAjP__1399,359,1,Walk out of the bedroom and into the hall.,supported,start 在卧室，w1 是走廊。
+28,TbHJrupSAjP__1399,359,2,Take a right in the hall past the stairs,supported,w0 能看到楼梯，走廊上的右转是 -77.7° 和 -55.4°。
+28,TbHJrupSAjP__1399,359,3,enter the room.,supported,w4 进入卧室。
+28,TbHJrupSAjP__1399,359,4,Take a left before the bed,supported,床在 w4，随后 +65.0°。
+28,TbHJrupSAjP__1399,359,5,take a left into the closet.,supported,+82.7° 后 w5 是衣帽间。
+28,TbHJrupSAjP__1399,359,6,Stop in the doorway to the closet.,supported,end 停在衣帽间门口。
+28,TbHJrupSAjP__1399,360,1,Walk out of the room,supported,start 的房门通向 w1 走廊。
+28,TbHJrupSAjP__1399,360,2,turn right.,supported,-77.7°。
+28,TbHJrupSAjP__1399,360,3,Turn right at the stairs,supported,楼梯在 w0，下一次右转是 -55.4°。
+28,TbHJrupSAjP__1399,360,4,walk into the bedroom.,supported,w4 是卧室。
+28,TbHJrupSAjP__1399,360,5,Turn left,supported,+65.0°。
+28,TbHJrupSAjP__1399,360,6,take another left at the nightstand.,not_in_view,w5 是柜子，不能确认床头柜。
+28,TbHJrupSAjP__1399,360,7,Wait in the doorway next to the nightstand.,not_in_view,end 是衣帽间门口，没有床头柜。
+29,2azQ1b91cZZ__1041,265,1,Walk towards oven,supported,start 正前方是双层烤箱。
+29,2azQ1b91cZZ__1041,265,2,turn right through doorway.,supported,烤箱右侧有拱门，第一段 -39.4°。
+29,2azQ1b91cZZ__1041,265,3,Go down hallway,supported,w3 是走廊。
+29,2azQ1b91cZZ__1041,265,4,turn left,supported,随后 +27.3°。
+29,2azQ1b91cZZ__1041,265,5,wait at bathroom.,supported,end 能看到洗手台和马桶。
+29,2azQ1b91cZZ__1041,266,1,Walk across the kitchen between the cabinets and island.,supported,start 到 w1 走在柜子和中岛之间。
+29,2azQ1b91cZZ__1041,266,2,Go throught the archway to the right of the oven.,supported,烤箱在前方，拱门在画面右侧，航向变化 -39.4°。
+29,2azQ1b91cZZ__1041,266,3,Walk past the first door to the second one.,not_in_view,走廊上没有数清第一扇和第二扇门。
+29,2azQ1b91cZZ__1041,266,4,Stop in this doorway to the bathroom.,supported,end 停在浴室门口内侧。
+29,2azQ1b91cZZ__1041,267,1,Walk towards the ovens and into the hallway on the right of the oven.,supported,start 朝向烤箱，右侧拱门通向 w3 走廊。
+29,2azQ1b91cZZ__1041,267,2,Enter the second door on your left,not_in_view,只有 +27.3° 的左转，没有看到左侧第二扇门。
+29,2azQ1b91cZZ__1041,267,3,go into the bathroom.,supported,end 是浴室。
+29,2azQ1b91cZZ__1041,267,4,Stop inside the doorway to the bathroom.,supported,end 位于浴室门内。
+30,X7HyMhZNoso__2787,685,1,Turn right at stairs,contradicted,start 左侧是栏杆、前方是走廊。第一段 +149.8°，不是在楼梯处右转。
+30,X7HyMhZNoso__2787,685,2,go down them.,supported,w1 出现楼梯，最后一段 dy -0.69。
+30,X7HyMhZNoso__2787,685,3,Stop between the bathroom and laundry rooms.,supported,end 同时有马桶和洗衣机。
+30,X7HyMhZNoso__2787,686,1,Walk to the staircase,supported,楼梯在 +149.8° 之后的 w1。
+30,X7HyMhZNoso__2787,686,2,walk up,contradicted,各段 dy 没有上升，最后一段是 -0.69。
+30,X7HyMhZNoso__2787,686,3,turn right,supported,楼梯旁的航向变化是 -43.6° 和 -44.5°。
+30,X7HyMhZNoso__2787,686,4,go down stairs,supported,dy -0.69。
+30,X7HyMhZNoso__2787,686,5,wait at the bottom.,supported,end 在楼梯底部附近。
+30,X7HyMhZNoso__2787,687,1,With the staircase to your right,contradicted,start 的栏杆在画面左侧，不是右侧。
+30,X7HyMhZNoso__2787,687,2,go forward,contradicted,第一段 +149.8°，不是直行。
+30,X7HyMhZNoso__2787,687,3,turn right at the bottom of the staircase.,supported,楼梯处有 -43.6° 和 -44.5°。
+30,X7HyMhZNoso__2787,687,4,Continue forward,supported,w2 沿走廊继续。
+30,X7HyMhZNoso__2787,687,5,take three steps down until you're at the doorway leading into a bathroom.,supported,最后一段下降，end 能看到浴室门。
+31,zsNo4HB9uLZ__155,40,1,Walk into the kitchen area.,supported,start 远处是厨房中岛，w1 进入厨房通道。
+31,zsNo4HB9uLZ__155,40,2,Walk by the sink and oven.,not_in_view,w1 只有柜台，没有水槽和烤箱。
+31,zsNo4HB9uLZ__155,40,3,Walk straight into the hallway.,supported,w2 到 w3 的航向变化是 +0.3° 和 +2.8°。
+31,zsNo4HB9uLZ__155,40,4,turn right into the little room.,supported,w4m 转入小房间，航向变化 -20.7°。
+31,zsNo4HB9uLZ__155,40,5,Turn left,supported,下一段 +17.9°。
+31,zsNo4HB9uLZ__155,40,6,walk into the bedroom.,supported,w5 和 end 是卧室。
+31,zsNo4HB9uLZ__155,40,7,Stop by the corner of the bed.,supported,end 正对床角。
+31,zsNo4HB9uLZ__155,41,1,Walk through the kitchen between the sink and the stove.,not_in_view,厨房通道里没有同时看到水槽和炉灶。
+31,zsNo4HB9uLZ__155,41,2,and down the hall.,supported,w3 沿走廊向前。
+31,zsNo4HB9uLZ__155,41,3,Turn right before the bathroom.,not_in_view,没有看到浴室，不能确认在浴室前右转。
+31,zsNo4HB9uLZ__155,41,4,Go into the bedroom.,supported,end 是卧室。
+31,zsNo4HB9uLZ__155,42,1,Walk towards the kitchen area.,supported,start 朝向厨房区域。
+31,zsNo4HB9uLZ__155,42,2,Keep walking along the kitchen area towards the doorway.,supported,w0 到 w1 沿柜台走向门口。
+31,zsNo4HB9uLZ__155,42,3,Turn right,contradicted,离开厨房通道时 w1 的航向变化是 +47.7°，不是右转。
+31,zsNo4HB9uLZ__155,42,4,exit the kitchen area walking across the small living room area and into the bedroom to you left.,supported,end 的卧室在小房间之后，接近时航向变化 +17.9°。
+32,X7HyMhZNoso__3840,925,1,Exit bathroom,supported,start 能看到马桶，w1 离开浴室。
+32,X7HyMhZNoso__3840,925,2,make hard left into bedroom,supported,进入卧室前的航向变化是 +89.8°，end 是卧室。
+32,X7HyMhZNoso__3840,925,3,wait by bed.,supported,end 停在床边。
+32,X7HyMhZNoso__3840,926,1,Exit the bathroom,supported,start 在浴室，w1 到走廊。
+32,X7HyMhZNoso__3840,926,2,turn left.,supported,走廊上有 +98.1°。
+32,X7HyMhZNoso__3840,926,3,Walk past the guardrail,supported,w1 有破损的白色护栏。
+32,X7HyMhZNoso__3840,926,4,turn into the first bedroom on the left.,supported,进入这间卧室的航向变化是 +89.8°。
+32,X7HyMhZNoso__3840,926,5,Stop in the doorway.,contradicted,end 在卧室内部看着床和床头柜，不是停在门口。
+32,X7HyMhZNoso__3840,927,1,Exit the bathroom,supported,start 在浴室。
+32,X7HyMhZNoso__3840,927,2,turn left,supported,+98.1°。
+32,X7HyMhZNoso__3840,927,3,go into the bedroom next door.,supported,end 是相邻的卧室。
+32,X7HyMhZNoso__3840,927,4,Wait near the bed.,supported,end 靠近床。
+33,QUCTc6BB5sX__101,19,1,Walk through the living room around the backside of the couches.,supported,start 在客厅，w0 仍沿客厅走动。
+33,QUCTc6BB5sX__101,19,2,Walk into the kitchen area,supported,w1 到 w2 进入有柜台的区域。
+33,QUCTc6BB5sX__101,19,3,walk along the barstools and countertop.,supported,w2 有吧台凳和台面。
+33,QUCTc6BB5sX__101,19,4,Continue ahead towards the arched entryway that leads to a hall beside the stairs.,contradicted,拱门走廊在 w4。从玻璃门到拱门的航向变化是 +84.3°，不是继续向前。
+33,QUCTc6BB5sX__101,20,1,Walk behind the couch towards the kitchen.,not_in_view,没有看到沙发背面。
+33,QUCTc6BB5sX__101,20,2,Enter the kitchen.,supported,w2 是厨房柜台。
+33,QUCTc6BB5sX__101,20,3,Walk towards the doors that go outside.,supported,w3 是通往室外的玻璃门。
+33,QUCTc6BB5sX__101,20,4,Turn left when you reach the doors.,supported,到达玻璃门后的航向变化是 +84.3°。
+33,QUCTc6BB5sX__101,20,5,Walk down the hallway past the kitchen.,supported,w4 和 end 是走廊。
+33,QUCTc6BB5sX__101,20,6,Stop where the four hallways intersect.,not_in_view,end 只看到一条走廊，没有四条走廊的交叉口。
+33,QUCTc6BB5sX__101,21,1,Head diagonally through the kitchen,supported,路径经过 w2 的厨房柜台。
+33,QUCTc6BB5sX__101,21,2,stop at the edge of the kitchen table,not_in_view,没有看到餐桌边缘。
+33,QUCTc6BB5sX__101,21,3,turn left,supported,+84.3°。
+33,QUCTc6BB5sX__101,21,4,stop in the middle of the room near a vase on the floor.,not_in_view,end 是走廊，没有地上的花瓶。
+34,zsNo4HB9uLZ__1660,415,1,Go down the hallway past the mirror.,contradicted,start 正对入户门。走廊在 +176.8° 之后的 w0。
+34,zsNo4HB9uLZ__1660,415,2,Turn left at the picture with the letters.,not_in_view,有 +86.8° 左转，但没有带字母的画。
+34,zsNo4HB9uLZ__1660,415,3,Step through the doorway into the kitchen.,supported,-85.4° 后 end 是厨房柜台。
+34,zsNo4HB9uLZ__1660,416,1,Turn around,supported,第一段 +176.8°。
+34,zsNo4HB9uLZ__1660,416,2,walk down the hallway.,supported,w0 到 w1 沿走廊走。
+34,zsNo4HB9uLZ__1660,416,3,Turn left at the eye exam.,not_in_view,没有视力检查图。
+34,zsNo4HB9uLZ__1660,416,4,Turn right to enter the kitchen.,supported,进入厨房的航向变化是 -85.4°。
+34,zsNo4HB9uLZ__1660,416,5,Stop at the sink.,not_in_view,end 只有柜子，没有水槽。
+34,zsNo4HB9uLZ__1660,417,1,Walk forward down the hall past the table on the left.,contradicted,start 对着门，不是走廊。第一段 +176.8°。
+34,zsNo4HB9uLZ__1660,417,2,Continue going forward to you reach the open doorway to the left.,not_in_view,左侧开口没有在直行画面里确认。
+34,zsNo4HB9uLZ__1660,417,3,Turn left,supported,+86.8°。
+34,zsNo4HB9uLZ__1660,417,4,walk forward,supported,w2 沿走廊向前。
+34,zsNo4HB9uLZ__1660,417,5,stop in front of the doorway to the bathroom.,not_in_view,没有浴室门。
+34,zsNo4HB9uLZ__1660,417,6,Turn right,supported,下一段 -85.4°。
+34,zsNo4HB9uLZ__1660,417,7,enter that hallway,supported,转弯后 end 是厨房通道。
+34,zsNo4HB9uLZ__1660,417,8,stop,supported,end 停在柜台前。
+34,zsNo4HB9uLZ__1660,417,9,wait in front of the sink on your right.,not_in_view,没有看到右侧水槽。
+35,zsNo4HB9uLZ__583,145,1,Facing the couch with the counter at your back take a right down the hallway,contradicted,start 能看到沙发。第一段是 +58.8°，不是右转进走廊。
+35,zsNo4HB9uLZ__583,145,2,go straight past the sitting area,supported,w1 经过起居区，这段航向变化 +4.5°。
+35,zsNo4HB9uLZ__583,145,3,take the right right into the hallway,supported,w3 处航向变化 -79.4°。
+35,zsNo4HB9uLZ__583,145,4,stop past the letter picture in front of the sliding door to the pantry.,not_in_view,end 是架子和窗户，没有字母画和食品间推拉门。
+35,zsNo4HB9uLZ__583,146,1,Walk along the backside of the couches passed the hanging wall clock into the next room.,not_in_view,没有看到挂钟，也不能确认沙发背面。
+35,zsNo4HB9uLZ__583,146,2,Continue down the hallway passing the shelf with decorations below a mirror.,not_in_view,没有看到镜子下方的装饰架。
+35,zsNo4HB9uLZ__583,146,3,Turn the corner,supported,走廊尽头的航向变化是 -79.4°。
+35,zsNo4HB9uLZ__583,146,4,continue passed the hanging art piece that looks like an eye exam test.,not_in_view,没有视力检查图。
+35,zsNo4HB9uLZ__583,147,1,Walk down the hall,supported,w0 和 w2 是走廊。
+35,zsNo4HB9uLZ__583,147,2,take the first right,supported,第一次大角度右转是 -79.4°。
+35,zsNo4HB9uLZ__583,147,3,wait in the short hallway between the two doors.,not_in_view,end 没有两扇门之间的短走廊。
+36,QUCTc6BB5sX__4590,1141,1,walk through the doorway on the right side of the bed,contradicted,床在 +148.8° 之后的 w0，不在 start。
+36,QUCTc6BB5sX__4590,1141,2,walk straight past decorative cabinet on your left,not_in_view,w2 有高柜，左右没有确认。
+36,QUCTc6BB5sX__4590,1141,3,continue through doorway,supported,w3 通过门洞。
+36,QUCTc6BB5sX__4590,1141,4,stop on hardwood floor.,supported,end 是木地板。
+36,QUCTc6BB5sX__4590,1142,1,Turn left to face bed.,supported,第一段 +148.8° 后，w0 正对床。
+36,QUCTc6BB5sX__4590,1142,2,Walk past bed and out of door.,supported,w0 经过床，w1 朝向房门。
+36,QUCTc6BB5sX__4590,1142,3,Walk across hall to next bedroom.,supported,w3 穿过走廊进入另一间卧室。
+36,QUCTc6BB5sX__4590,1142,4,Stop in doorway.,not_in_view,end 已经看着床，不能确认停在门洞。
+36,QUCTc6BB5sX__4590,1143,1,"Enter the bedroom, and",contradicted,卧室在 +148.8° 之后才出现。
+36,QUCTc6BB5sX__4590,1143,2,exit on the far side of the bedroom.,supported,w1 从卧室另一侧的门离开。
+36,QUCTc6BB5sX__4590,1143,3,Walk across the hall,supported,w2 到 w3 穿过走廊。
+36,QUCTc6BB5sX__4590,1143,4,enter the adjacent bedroom.,supported,end 进入相邻卧室。
+37,zsNo4HB9uLZ__2877,712,1,Head past the closed closet.,broken_view,start 的墙面几何破损，没有看到关闭的壁橱。
+37,zsNo4HB9uLZ__2877,712,2,Go through the pantry and into the kitchen.,supported,w1 是架子间，w2 是厨房柜台。
+37,zsNo4HB9uLZ__2877,712,3,Walk past the kitchen up to the table in the dining room.,not_in_view,end 的家具破损，没有完整餐桌。
+37,zsNo4HB9uLZ__2877,713,1,walk through the doorway directly away from the chair,broken_view,start 破损，没有椅子和相反方向的门。
+37,zsNo4HB9uLZ__2877,713,2,continue straight,supported,后三段航向变化只有 +20.7°、-2.8°、-0.3°。
+37,zsNo4HB9uLZ__2877,713,3,"turn right, immediately continue to the left into the pantry area.",supported,第一段 -90.6°，随后 +20.7° 进入 w1 的架子间。
+37,zsNo4HB9uLZ__2877,713,4,"walk past the sink, fridge, oven",not_in_view,厨房柜台破损，没有同时看到水槽、冰箱和烤箱。
+37,zsNo4HB9uLZ__2877,713,5,and,supported,这一小句没有空间断言。
+37,zsNo4HB9uLZ__2877,713,6,stop before you get to the dining room table.,not_in_view,没有看到餐桌，不能确认停在餐桌前。
+37,zsNo4HB9uLZ__2877,714,1,Leave the bedroom,broken_view,start 不像卧室，几何破损。
+37,zsNo4HB9uLZ__2877,714,2,take a right,supported,第一段 -90.6°。
+37,zsNo4HB9uLZ__2877,714,3,walk into the pantry.,supported,w1 进入架子间。
+37,zsNo4HB9uLZ__2877,714,4,Walk through the pantry and kitchen towards the dining room.,supported,w2 到 end 经过厨房通向餐厅区域。
+37,zsNo4HB9uLZ__2877,714,5,Stop before you reach the table.,not_in_view,end 没有完整餐桌。
+38,QUCTc6BB5sX__601,148,1,Turn around,supported,第一段 -159.7°。
+38,QUCTc6BB5sX__601,148,2,walk to the chair,supported,w0 有椅子。
+38,QUCTc6BB5sX__601,148,3,then take a right.,supported,下一段 -87.6°。
+38,QUCTc6BB5sX__601,148,4,"Walk past the bed, and across the hallway",supported,w1 经过床，w2 进入走廊。
+38,QUCTc6BB5sX__601,148,5,and,supported,这一小句没有空间断言。
+38,QUCTc6BB5sX__601,148,6,stop in the doorway.,supported,w3 停在衣帽间入口。
+38,QUCTc6BB5sX__601,149,1,TURN RIGHT TO FACE THE END OF THE BED,supported,-159.7° 向右后，w0 对着床尾。
+38,QUCTc6BB5sX__601,149,2,WALK TOWARDS THE CHAIR,supported,w0 朝向椅子。
+38,QUCTc6BB5sX__601,149,3,TURN RIGHT,supported,-87.6°。
+38,QUCTc6BB5sX__601,149,4,WALK TOWARDS THE OPEN DOOR AND THE HALLWAY,supported,w2 是开着的门和走廊。
+38,QUCTc6BB5sX__601,149,5,WALK ACROSS THE HALLWAY AND TO THE NEXT OPEN DOORWAY,supported,w3 穿过走廊到达下一个门洞。
+38,QUCTc6BB5sX__601,149,6,WALK THROUGH THE DOOR AND INTO THE CLOSET.,supported,end 进入衣帽间。
+38,QUCTc6BB5sX__601,150,1,Turn around,supported,-159.7°。
+38,QUCTc6BB5sX__601,150,2,walk to the end of the bed.,supported,w0 和 w1 走到床尾。
+38,QUCTc6BB5sX__601,150,3,At the end of the bed turn right,supported,-87.6°。
+38,QUCTc6BB5sX__601,150,4,walk to the hallway.,supported,w2 是走廊。
+38,QUCTc6BB5sX__601,150,5,Once at the entrance way,supported,w2 位于走廊入口。
+38,QUCTc6BB5sX__601,150,6,walk through the hallway to the next room.,supported,end 进入下一间，也就是衣帽间。
+39,oLBMNvg9in8__128,28,1,Exit the room through the door on the right.,contradicted,start 对着壁炉，右侧没有门。第一段 -149.8°。
+39,oLBMNvg9in8__128,28,2,Walk past the stairs and the bathroom,not_in_view,沿途没有同时看到楼梯和浴室。
+39,oLBMNvg9in8__128,28,3,enter the room with the cardboard boxes.,not_in_view,没有纸箱。
+39,oLBMNvg9in8__128,28,4,Stop by the doorway on the left that leads to the living room.,not_in_view,end 没有通向客厅的左侧门。
+39,oLBMNvg9in8__128,29,1,Turn around,supported,第一段 -149.8°。
+39,oLBMNvg9in8__128,29,2,go through the single door on the right.,supported,下一段 -55.6°，w2 是单扇门。
+39,oLBMNvg9in8__128,29,3,Go down the hallway.,supported,w1 沿走廊走。
+39,oLBMNvg9in8__128,29,4,You'll go all the way into the room,supported,end 进入房间内部。
+39,oLBMNvg9in8__128,29,5,stand on the rug,not_in_view,end 没有地毯。
+39,oLBMNvg9in8__128,29,6,wait.,supported,end 是停留点。
+39,oLBMNvg9in8__128,30,1,go through the dooorway on the right,contradicted,右侧门洞不在 start。要先 -149.8°。
+39,oLBMNvg9in8__128,30,2,continue straightacross the hallway and into the room ahead.,supported,后两段 -4.6° 和 +1.6°，穿过 w1 走廊进入房间。
+39,oLBMNvg9in8__128,30,3,Stop near the shell.,supported,end 地面有一只大贝壳。
+40,TbHJrupSAjP__6577,1642,1,Turn right,supported,第一段 -55.9°。
+40,TbHJrupSAjP__6577,1642,2,walk down the hall until you enter the kitchen.,not_in_view,w0 是走廊，w2 是餐桌，没有看到厨房。
+40,TbHJrupSAjP__6577,1642,3,Then turn right,supported,最后一段 -70.3°。
+40,TbHJrupSAjP__6577,1642,4,walk into the living room.,supported,end 进入客厅。
+40,TbHJrupSAjP__6577,1642,5,Stand near the end table.,not_in_view,end 没有边桌。
+40,TbHJrupSAjP__6577,1643,1,Exit the office into the hallway,supported,start 在房间门口，w0 是走廊。
+40,TbHJrupSAjP__6577,1643,2,proceed past the stairs and through the entry to the great room.,supported,w1 经过楼梯，w2 进入大房间。
+40,TbHJrupSAjP__6577,1643,3,Then turn right,supported,-70.3°。
+40,TbHJrupSAjP__6577,1643,4,wait by the end table.,not_in_view,end 没有边桌。
+40,TbHJrupSAjP__6577,1644,1,Walk down the hallway towards the table and chairs next to the large window.,supported,w2 的窗边有桌子和椅子。
+40,TbHJrupSAjP__6577,1644,2,You will pass a staircase going down on your right hand side.,not_in_view,w1 有楼梯，但没有确认在右手边，也没有确认向下。
+40,TbHJrupSAjP__6577,1644,3,Once you pass the staircase,supported,w1 之后继续向前。
+40,TbHJrupSAjP__6577,1644,4,enter the larger room,supported,end 进入更大的客厅。
+40,TbHJrupSAjP__6577,1644,5,turn right.,supported,-70.3°。
+40,TbHJrupSAjP__6577,1644,6,Walk forward until you are standing beside the frist black end table next to the couch.,not_in_view,没有看到沙发旁的黑色边桌。
+41,TbHJrupSAjP__4197,1036,1,Go straight pass the couches on the left.,contradicted,沙发在 +94.7° 之后的 w0。第一段不是直行。
+41,TbHJrupSAjP__4197,1036,2,Turn left,supported,楼梯前的航向变化是 +46.7°。
+41,TbHJrupSAjP__4197,1036,3,go down the stairs on the left.,supported,w3 的楼梯向下，这段 dy -0.43。
+41,TbHJrupSAjP__4197,1036,4,Go down three steps,not_in_view,下降只有 0.43 米，数不清三级台阶。
+41,TbHJrupSAjP__4197,1036,5,stop.,supported,end 停在楼梯上。
+41,TbHJrupSAjP__4197,1037,1,Turn left,supported,第一段 +94.7°。
+41,TbHJrupSAjP__4197,1037,2,walk out the doorway to the right of the large black cabinet.,not_in_view,没有看到黑色大柜右侧的门。
+41,TbHJrupSAjP__4197,1037,3,Once out turn left to go down the stairs.,supported,出门后的 +46.7° 通向 w3 的下行楼梯。
+41,TbHJrupSAjP__4197,1037,4,Stop on the 2nd step from the,not_in_view,不能确认是从上数第二级。
+41,TbHJrupSAjP__4197,1037,5,stop.,supported,end 停在楼梯上。
+41,TbHJrupSAjP__4197,1038,1,Walk into the house,supported,start 靠近室外窗户，w0 进入室内。
+41,TbHJrupSAjP__4197,1038,2,and go through the kitchen.,supported,w1 经过带柜子的厨房区域。
+41,TbHJrupSAjP__4197,1038,3,Leave the kitchen through the door on the right of the large black bookcase.,not_in_view,没有看到黑色书柜右侧的门。
+41,TbHJrupSAjP__4197,1038,4,Go down the stairs.,supported,w3 下楼，dy -0.43。
+41,TbHJrupSAjP__4197,1038,5,Stop on the third stair from the top.,not_in_view,不能确认是从上数第三级。
+42,QUCTc6BB5sX__6898,1741,1,Walk in the direction of the refrigerator,not_in_view,start 到 w2 没有看到冰箱。
+42,QUCTc6BB5sX__6898,1741,2,and take a left.,supported,w2 处航向变化 +73.2°。
+42,QUCTc6BB5sX__6898,1741,3,Exit through the door next to the refrigerator.,not_in_view,没有看到冰箱旁边的门。
+42,QUCTc6BB5sX__6898,1741,4,Enter the hallway,supported,w3 进入走廊。
+42,QUCTc6BB5sX__6898,1741,5,stop.,supported,end 停在走廊尽头的房间。
+42,QUCTc6BB5sX__6898,1742,1,Turn to walk between the kitchen sink counters,supported,start 能看到水槽和两侧柜台，第一段 +176.6° 后仍在厨房间。
+42,QUCTc6BB5sX__6898,1742,2,then turn left.,supported,+73.2°。
+42,QUCTc6BB5sX__6898,1742,3,Pass the refrigerator,not_in_view,没有冰箱。
+42,QUCTc6BB5sX__6898,1742,4,turn right.,supported,下一段 -72.0°。
+42,QUCTc6BB5sX__6898,1742,5,Wait in the hallway by the counter.,supported,end 在走廊旁的柜台前。
+42,QUCTc6BB5sX__6898,1743,1,Walk through the kitchen,supported,start、w0、w1 都在厨房柜台之间。
+42,QUCTc6BB5sX__6898,1743,2,go into the hallway with a marble floor to the left of the refrigerator.,not_in_view,w3 是石墙走廊，没有冰箱，也不能确认大理石地面。
+42,QUCTc6BB5sX__6898,1743,3,Step in front of the counter with the phone and some flowers in a white vase,not_in_view,end 的柜台上没有看清电话和白花瓶。
+42,QUCTc6BB5sX__6898,1743,4,stop there.,supported,end 停在这个柜台前。
+43,2azQ1b91cZZ__5687,1441,1,Go around the bed and into the room on the right.,contradicted,start 对着柜子和墙。床在 -148.4° 之后的 w0，右侧房间还要再 -58.9°。
+43,2azQ1b91cZZ__5687,1441,2,Wait there.,supported,end 停在床另一侧的门口。
+43,2azQ1b91cZZ__5687,1442,1,Walk clockwise around the bed,supported,四段航向变化都是右转：-148.4°、-58.9°、-61.7°、-19.5°，床在 w1 到 w3 旁边。
+43,2azQ1b91cZZ__5687,1442,2,stop in the interior doorway on the other side.,supported,end 停在内侧门洞。
+43,2azQ1b91cZZ__5687,1443,1,Walk to the opposite side of bed.,supported,w3 转到床的另一侧。
+43,2azQ1b91cZZ__5687,1443,2,Wait by white bear rug on the floor.,not_in_view,end 没有白色熊形地毯。
+44,zsNo4HB9uLZ__3709,910,1,Keeping the hanging wall mirror on your right,not_in_view,走廊上没有看到挂镜。
+44,zsNo4HB9uLZ__3709,910,2,proceed onward up the hall until you reach another hallway on your left,contradicted,start 正对入户门。走廊在 +176.8° 之后。
+44,zsNo4HB9uLZ__3709,910,3,go down that left hallway.,supported,w2 处航向变化 +86.8°。
+44,zsNo4HB9uLZ__3709,910,4,You will know you are on the correct path if you see a framed photo of letters on the right wall.,not_in_view,没有带字母的镶框照片。
+44,zsNo4HB9uLZ__3709,910,5,Continue moving forward until you pass the room on the left with the sink.,not_in_view,没有看到带水槽的房间。
+44,zsNo4HB9uLZ__3709,910,6,Pivot to your right,supported,w4 处航向变化 -88.7°。
+44,zsNo4HB9uLZ__3709,910,7,travel in a forward direction down across the tile and,supported,随后 -4.6°，地面从瓷砖过渡。
+44,zsNo4HB9uLZ__3709,910,8,take a step onto the carpet in front of you.,supported,end 的地面是地毯。
+44,zsNo4HB9uLZ__3709,910,9,Stand on that carpet,supported,end 站在地毯上。
+44,zsNo4HB9uLZ__3709,910,10,wait for further instructions.,supported,end 是停留点。
+44,zsNo4HB9uLZ__3709,911,1,Go through the hallway,contradicted,start 对着门，走廊要先 +176.8°。
+44,zsNo4HB9uLZ__3709,911,2,turn left at the intersection,supported,路口处 +86.8°。
+44,zsNo4HB9uLZ__3709,911,3,go straight into middle room and,supported,下一段 +0.7°，w3 进入中间的房间。
+44,zsNo4HB9uLZ__3709,911,4,turn right,supported,-88.7°。
+44,zsNo4HB9uLZ__3709,911,5,go straight into the dooryway,supported,end 进入卧室门。
+44,zsNo4HB9uLZ__3709,911,6,stop.,supported,end 停在卧室内。
+44,zsNo4HB9uLZ__3709,912,1,Walk forward,contradicted,第一段 +176.8°，start 对着门，不是直行。
+44,zsNo4HB9uLZ__3709,912,2,and take a left.,supported,+86.8°。
+44,zsNo4HB9uLZ__3709,912,3,Go down the hall,supported,w2 到 w4 沿走廊。
+44,zsNo4HB9uLZ__3709,912,4,take a right before you enter the office.,not_in_view,有 -88.7° 右转，但没有看到办公室。
+44,zsNo4HB9uLZ__3709,912,5,Enter the bedroom at the end of the hall.,supported,end 是走廊尽头的卧室。
+44,zsNo4HB9uLZ__3709,912,6,Stop once you are in the bedroom.,supported,end 已经在卧室内。
+45,oLBMNvg9in8__485,130,1,Walk down the stairs.,supported,start 能看到下行楼梯，前两段 dy -0.48、-0.49。
+45,oLBMNvg9in8__485,130,2,When you reach the landing,supported,w2 到达平台。
+45,oLBMNvg9in8__485,130,3,turn right,supported,平台处 -84.6°。
+45,oLBMNvg9in8__485,130,4,continue to walk down the stairs.,supported,下一段 dy -1.20。
+45,oLBMNvg9in8__485,130,5,Walk through the doorway on your left,supported,底部 +100.9°，w5 进入左侧房间。
+45,oLBMNvg9in8__485,130,6,stop.,supported,end 停在房间门口内侧。
+45,oLBMNvg9in8__485,131,1,Go down the stairs.,supported,楼梯向下，dy 为负。
+45,oLBMNvg9in8__485,131,2,Enter the door on your left,supported,底部进入房间的航向变化是 +100.9°。
+45,oLBMNvg9in8__485,131,3,stop.,supported,end 停在门内。
+45,oLBMNvg9in8__485,132,1,Going down the stairs take a right,not_in_view,右转下楼和底部 +100.9° 左转都能看到，但 end 是壁炉和沙发，没有餐桌，不能确认餐厅。
+45,oLBMNvg9in8__485,132,2,go down the next set of stairs and at the bottom of the stairs take a left into the dining room stopping just inside the doorway.,supported,下一段继续下降 dy -1.20，底部 +100.9° 进入房间。end 有沙发和壁炉，没有餐桌，不能确认餐厅。
+46,EU6Fwq7SyZv__7193,1810,1,Continue down the wooden staircase,supported,start 是木楼梯，前两段 dy -0.37、-0.80。
+46,EU6Fwq7SyZv__7193,1810,2,following it to the right.,supported,楼梯上的航向变化是 -164.7° 和 -79.8°。
+46,EU6Fwq7SyZv__7193,1810,3,Once on the bottom floor.,supported,w2 到达下层房间。
+46,EU6Fwq7SyZv__7193,1810,4,Walk directly across the room towards the plaid couch.,not_in_view,下层没有格子沙发。
+46,EU6Fwq7SyZv__7193,1810,5,Then turn right,supported,接近门口时航向变化 -26.4° 和 -23.0°。
+46,EU6Fwq7SyZv__7193,1810,6,proceed through the white door into the bathroom.,supported,end 是有洗手台的浴室。
+46,EU6Fwq7SyZv__7193,1810,7,Step into the bathroom,supported,end 进入浴室。
+46,EU6Fwq7SyZv__7193,1810,8,stop just inside of the doorway.,supported,end 停在浴室门内。
+46,EU6Fwq7SyZv__7193,1811,1,Walk downstairs,supported,start 沿木楼梯向下。
+46,EU6Fwq7SyZv__7193,1811,2,go to the door on the right at the end of the room,supported,房间尽头的门在右侧转弯之后，end 是浴室。
+46,EU6Fwq7SyZv__7193,1811,3,and,supported,这一小句没有空间断言。
+46,EU6Fwq7SyZv__7193,1811,4,wait just inside the doorway.,supported,end 停在浴室门内。
+46,EU6Fwq7SyZv__7193,1812,1,Turn around,supported,第一段 -164.7°。
+46,EU6Fwq7SyZv__7193,1812,2,head down the stairs.,supported,dy 为负，w0 到 w1 下楼。
+46,EU6Fwq7SyZv__7193,1812,3,Then walk to the open white door,supported,w3 有浅色门，end 在门后。
+46,EU6Fwq7SyZv__7193,1812,4,stand in the doorway.,supported,end 位于门口。
+46,EU6Fwq7SyZv__7193,1812,5,Wait by the sink.,supported,end 能看到洗手台。
+47,Z6MFQCViBuw__3390,823,1,Go into the room with the white head bust,contradicted,白色头像在 +118.4° 之后的 w1，不在 start。
+47,Z6MFQCViBuw__3390,823,2,continue through the doorway until you take a few steps into the bedroom and,supported,之后近乎直行，end 进入卧室。
+47,Z6MFQCViBuw__3390,823,3,stop.,supported,end 停在卧室内。
+47,Z6MFQCViBuw__3390,824,1,Turn around,supported,+118.4° 后 w0 正对红毯。
+47,Z6MFQCViBuw__3390,824,2,walk down the red rug,supported,w0 到 w4 沿红毯，航向变化约 0°。
+47,Z6MFQCViBuw__3390,824,3,cross the room.,supported,红毯穿过这个房间。
+47,Z6MFQCViBuw__3390,824,4,Stop once you enter the next room,supported,end 进入下一间卧室。
+47,Z6MFQCViBuw__3390,824,5,stop.,supported,end 停在那里。
+47,Z6MFQCViBuw__3390,825,1,Turn until you're facing the red carpet that creates a path for tourists to walk on.,supported,+118.4° 后面对红毯。
+47,Z6MFQCViBuw__3390,825,2,Then move forward passing a couple of chairs on your right until you pass through a double door opening and the carpet takes an approximately thirty degree turn to the right.,contradicted,此后航向变化只有 +1.1°、+1.1°、-1.2°、-3.9°，地毯路径没有约 30° 的右转。
+47,Z6MFQCViBuw__3390,825,3,Stop just after the carpet makes that turn.,contradicted,终点前没有这段右转。
+48,EU6Fwq7SyZv__5956,1516,1,Move forward staying between the footstool on your right and the basket on the floor on your left.,contradicted,第一段 -122.0°。脚凳和篮子不在 start 的前进方向上。
+48,EU6Fwq7SyZv__5956,1516,2,Proceed ahead past the desk on the left.,not_in_view,没有确认左侧书桌。
+48,EU6Fwq7SyZv__5956,1516,3,Continue on the forward path until you pass by the one wooden pole on your left.,not_in_view,木柱的左右没有确认。
+48,EU6Fwq7SyZv__5956,1516,4,When you are even with the staircase on the left,not_in_view,end 没有确认左侧楼梯。
+48,EU6Fwq7SyZv__5956,1516,5,remain in this spot.,not_in_view,不能确认楼梯旁边就是终点。
+48,EU6Fwq7SyZv__5956,1517,1,Walk to the left of the pool table,not_in_view,w1 有球桌，但没有确认从它左侧经过。
+48,EU6Fwq7SyZv__5956,1517,2,stop across from the stairs.,not_in_view,end 没有看到对面的楼梯。
+48,EU6Fwq7SyZv__5956,1518,1,Go straight toward the stairs.,contradicted,第一段 -122.0°，楼梯不在 start 正前方。
+48,EU6Fwq7SyZv__5956,1518,2,When you get to the stairs on the left.,not_in_view,没有看到左侧楼梯。
+48,EU6Fwq7SyZv__5956,1518,3,Stop there.,not_in_view,不能确认停在楼梯旁。
+49,zsNo4HB9uLZ__5971,1522,1,Turn left,supported,第一段 +92.1°。
+49,zsNo4HB9uLZ__5971,1522,2,exit the room out the door.,supported,w0 通过房门离开。
+49,zsNo4HB9uLZ__5971,1522,3,Once out turn left,supported,门外下一段 +83.0°。
+49,zsNo4HB9uLZ__5971,1522,4,enter the door straight ahead,supported,随后 +3.4°，end 进入前方房间。
+49,zsNo4HB9uLZ__5971,1522,5,stop.,supported,end 停下。
+49,zsNo4HB9uLZ__5971,1523,1,Exit the room.,supported,start 在门内，+92.1° 后 w0 出门。
+49,zsNo4HB9uLZ__5971,1523,2,Turn left,supported,+83.0°。
+49,zsNo4HB9uLZ__5971,1523,3,go straight into the room.,supported,+3.4° 进入 end 的房间。
+49,zsNo4HB9uLZ__5971,1523,4,Wait near the entrance.,supported,end 靠近房间入口。
+49,zsNo4HB9uLZ__5971,1524,1,Go through the doorway opposite outside.,not_in_view,start 的门几何破损，不能确认对面室外的门。
+49,zsNo4HB9uLZ__5971,1524,2,Go through the doorway next to the art on the wall,supported,w1 墙上有画，路径从旁边的门通过。
+49,zsNo4HB9uLZ__5971,1524,3,stop in front of the closet.,not_in_view,end 没有看到壁橱。
+50,QUCTc6BB5sX__321,103,1,Exit the bedroom,supported,start 在卧室，+172.3° 后 w0 朝向拱门。
+50,QUCTc6BB5sX__321,103,2,enter the bathroom,supported,-83.7° 后 w2 是浴室。
+50,QUCTc6BB5sX__321,103,3,wait at the toilet.,supported,end 停在马桶前。
+50,QUCTc6BB5sX__321,104,1,Walk out of the bedroom,supported,+172.3° 后离开卧室朝向。
+50,QUCTc6BB5sX__321,104,2,take a right into the bathroom.,supported,-83.7° 进入浴室。
+50,QUCTc6BB5sX__321,104,3,In the bathroom take your first right into the water closet,supported,浴室内下一段 -62.2°，w3 是马桶间。
+50,QUCTc6BB5sX__321,104,4,stop in front of the door.,supported,end 停在马桶间门前。
+50,QUCTc6BB5sX__321,105,1,Walk through the archway to the right and into the bathroom.,contradicted,拱门在 +172.3° 之后的 w0，不是起步右侧。
+50,QUCTc6BB5sX__321,105,2,Wait in the room to the right with the toilet.,supported,-62.2° 后 end 是有马桶的小间。
+51,Z6MFQCViBuw__2564,610,1,"Walk to the far end of the room, through the double doors",contradicted,start 不朝向房间远端。双开门和红毯在 +178.6° 之后。
+51,Z6MFQCViBuw__2564,610,2,wait in the bedroom.,supported,end 远端有带帷幔的床。
+51,Z6MFQCViBuw__2564,611,1,Turn around,supported,第一段 +178.6°。
+51,Z6MFQCViBuw__2564,611,2,enter the bedroom straight ahead.,supported,转弯后到 end 的航向变化约为 0°，远端是卧室。
+51,Z6MFQCViBuw__2564,611,3,Wait just inside the doorway.,contradicted,终点在约 8 米之后的房间远端，不是刚进门。
+51,Z6MFQCViBuw__2564,612,1,Walk down the path with an informational sign on your right.,contradicted,信息牌不在 start。红毯路径要先 +178.6°。
+51,Z6MFQCViBuw__2564,612,2,Continue straight through the doorway,supported,转弯后沿红毯直行通过门洞。
+51,Z6MFQCViBuw__2564,612,3,"stop after a couple of feet, just before another informational sign on the right.",not_in_view,end 右侧没有第二块信息牌。
+52,2azQ1b91cZZ__2211,541,1,Go up all the stairs,contradicted,start 对着门厅。楼梯在 +162.4° 之后的 w0，这段 dy +0.46。
+52,2azQ1b91cZZ__2211,541,2,stop on the rug at the top.,not_in_view,end 是镜子和墙，没有看到地毯。
+52,2azQ1b91cZZ__2211,542,1,Go up the stairs,contradicted,上楼方向不在 start，第一段 +162.4°，dy 持续为正。
+52,2azQ1b91cZZ__2211,542,2,stop at the top near the mirror.,supported,end 墙上有镜子。
+52,2azQ1b91cZZ__2211,543,1,Go up the stairs.,contradicted,楼梯在 +162.4° 之后，start 看不到。
+52,2azQ1b91cZZ__2211,543,2,At the top of the stairs step on the rug.,not_in_view,楼梯顶部没有看到地毯。
+52,2azQ1b91cZZ__2211,543,3,Stop on the rug close to the window on the right.,not_in_view,没有确认右侧窗户。
+53,2azQ1b91cZZ__264,76,1,Walk through the doorway into the dining room,contradicted,餐厅在 +124.7° 之后的 w0，不在 start。
+53,2azQ1b91cZZ__264,76,2,walk straight back to the door leading outside.,supported,w1 有通向室外的玻璃门，这段接近直行。
+53,2azQ1b91cZZ__264,76,3,When you get to the door make a right,supported,到达门口后的航向变化是 -105.3°。
+53,2azQ1b91cZZ__264,76,4,walk down the hallway.,supported,w2 进入走廊。
+53,2azQ1b91cZZ__264,76,5,Walk straight down the hall,supported,后三段 -2.6°、+14.2°、+0.3°。
+53,2azQ1b91cZZ__264,76,6,wait in the doorway of another dining area.,supported,end 是另一间有餐桌的餐厅门口。
+53,2azQ1b91cZZ__264,77,1,Walk into the nearest open double doors to the dining area that has a cupboard and candle lamps on top.,contradicted,带柜子的餐厅在 +124.7° 之后，不是 start 正前方最近的门。
+53,2azQ1b91cZZ__264,77,2,Walk passed the dining table and through the open double doors on the other side that lead outside.,supported,w0 有餐桌，w1 的双开门通向室外。
+53,2azQ1b91cZZ__264,77,3,Walk through the next set of double doors on the other side of the front entrance and back into the home.,supported,-105.3° 后 w4 到 end 从另一侧回到室内餐厅。
+53,2azQ1b91cZZ__264,78,1,"Go through the dining room, past the table.",contradicted,餐桌在 +124.7° 之后的 w0。
+53,2azQ1b91cZZ__264,78,2,Turn right,supported,-105.3°。
+53,2azQ1b91cZZ__264,78,3,go through the door onto the patio.,supported,w3 通过门到室外。
+53,2azQ1b91cZZ__264,78,4,Continue straight across the patio,supported,穿过院子的三段接近直行。
+53,2azQ1b91cZZ__264,78,5,wait at the door.,supported,end 停在室内门口。
+54,2azQ1b91cZZ__1581,394,1,Move to the right towards the open doorway,contradicted,第一段是 +144.2°，不是向右走向门洞。
+54,2azQ1b91cZZ__1581,394,2,continue forward to the fireplace.,supported,随后接近壁炉，end 正对壁炉。
+54,2azQ1b91cZZ__1581,394,3,Wait near the fireplace.,supported,end 停在壁炉旁。
+54,2azQ1b91cZZ__1581,395,1,Walk past the sitting area to the fireplace.,contradicted,壁炉在 +144.2° 之后的 w0，不在 start。
+54,2azQ1b91cZZ__1581,395,2,Wait in front of the fireplace.,supported,end 停在壁炉正面。
+54,2azQ1b91cZZ__1581,396,1,Walk to the front of the fireplace.,contradicted,壁炉不在 start 的前进方向，第一段 +144.2°。
+55,QUCTc6BB5sX__2527,607,1,Leave the kitchen through the door to the left of the stove.,contradicted,start 在厨房柜台前。离开时第一段是 -63.4°，不是炉灶左侧。炉灶也没有入画。
+55,QUCTc6BB5sX__2527,607,2,Enter the fitness room on the right,supported,后续右转后 end 是有跑步机的健身室。
+55,QUCTc6BB5sX__2527,607,3,stop at the end of the treadmill.,supported,end 停在跑步机一端。
+55,QUCTc6BB5sX__2527,608,1,Turn right,supported,第一段 -63.4°。
+55,QUCTc6BB5sX__2527,608,2,walk to the cabinet in front of you.,supported,w0 前方是柜子。
+55,QUCTc6BB5sX__2527,608,3,Turn right,supported,下一段 -86.5°。
+55,QUCTc6BB5sX__2527,608,4,walk forward out of the kitchen and into the next room.,supported,w2 离开厨房进入下一间。
+55,QUCTc6BB5sX__2527,608,5,Walk behind the couch and,not_in_view,没有看到沙发背面。
+55,QUCTc6BB5sX__2527,608,6,turn into the next room on your right.,supported,最后一段 -43.1°，end 进入健身室。
+55,QUCTc6BB5sX__2527,608,7,Stop at the doorway facing the exercise equipment.,supported,end 门口正对健身器材。
+55,QUCTc6BB5sX__2527,609,1,Exit the kitchen,supported,start 在厨房，右转后 w2 离开。
+55,QUCTc6BB5sX__2527,609,2,walk down the hall,supported,w2 到 w3 沿通道走。
+55,QUCTc6BB5sX__2527,609,3,wait in the exercise room.,supported,end 在健身室里。
+56,QUCTc6BB5sX__1676,421,1,Walk past the piano to the oval door opening,supported,w0 经过钢琴，w2 是拱形木门。
+56,QUCTc6BB5sX__1676,421,2,walk straight ahead to the bathtub,supported,最后一段 -2.5°，end 朝向浴缸。
+56,QUCTc6BB5sX__1676,421,3,stop right in front of bathtub.,supported,end 停在浴缸前。
+56,QUCTc6BB5sX__1676,422,1,Walk past piano.,supported,w0 有钢琴。
+56,QUCTc6BB5sX__1676,422,2,Walk through arched wooden doors.,supported,w2 通过拱形木门。
+56,QUCTc6BB5sX__1676,422,3,Wait at bathtub.,supported,end 是浴缸。
+56,QUCTc6BB5sX__1676,423,1,Turn left,supported,第一段 +86.8°。
+56,QUCTc6BB5sX__1676,423,2,walk across the hallway.,supported,w1 穿过走廊。
+56,QUCTc6BB5sX__1676,423,3,Turn left again,supported,下一段 +63.1°。
+56,QUCTc6BB5sX__1676,423,4,walk across this hallway,supported,最后一段 -2.5° 穿过这段走廊。
+56,QUCTc6BB5sX__1676,423,5,wait by the bathtub.,supported,end 停在浴缸旁。
+57,QUCTc6BB5sX__4629,1156,1,Turn left,supported,第一段 +93.9°。
+57,QUCTc6BB5sX__4629,1156,2,walk to the end and,supported,w0 走到厨房区域尽头。
+57,QUCTc6BB5sX__4629,1156,3,turn left.,supported,w2 前的航向变化是 +84.3°。
+57,QUCTc6BB5sX__4629,1156,4,Walk all the way past the kitchen bar Once you are past the bar,supported,w1 到 w2 经过厨房吧台。
+57,QUCTc6BB5sX__4629,1156,5,turn right,supported,随后 -93.9°。
+57,QUCTc6BB5sX__4629,1156,6,enter the hallway.,supported,w3 进入拱门走廊。
+57,QUCTc6BB5sX__4629,1156,7,Go past the door on your left to the stairs,not_in_view,没有看到左侧通往楼梯的门。
+57,QUCTc6BB5sX__4629,1156,8,stop at the next door looking into the sitting area.,supported,+82.5° 后 end 看向起居区。
+57,QUCTc6BB5sX__4629,1157,1,Veer left to walk through the kitchen,supported,+93.9° 后 w0 到 w1 穿过厨房。
+57,QUCTc6BB5sX__4629,1157,2,then turn left.,supported,+84.3°。
+57,QUCTc6BB5sX__4629,1157,3,Make the first right and then left into the living room,supported,接着 -93.9°，再 +82.5° 进入 end 的起居区。
+57,QUCTc6BB5sX__4629,1157,4,wait by the console table.,not_in_view,end 没有看到供桌。
+57,QUCTc6BB5sX__4629,1158,1,Turn left,supported,+93.9°。
+57,QUCTc6BB5sX__4629,1158,2,go through the kitchen.,supported,w1 穿过厨房。
+57,QUCTc6BB5sX__4629,1158,3,Turn left,supported,+84.3°。
+57,QUCTc6BB5sX__4629,1158,4,walk past the kitchen island.,supported,w1 经过厨房中岛式柜台。
+57,QUCTc6BB5sX__4629,1158,5,Turn right,supported,-93.9°。
+57,QUCTc6BB5sX__4629,1158,6,walk past the pottery.,supported,w4 经过大陶罐。
+57,QUCTc6BB5sX__4629,1158,7,Wait inside the room on the left next to the table with the flowers.,not_in_view,end 是起居区，没有看到花瓶桌子。
+58,EU6Fwq7SyZv__3562,886,1,Walk forward toward the stairs.,not_in_view,start 到 w2 没有看到楼梯。
+58,EU6Fwq7SyZv__3562,886,2,Enter the living area on the right.,supported,最后一段 -64.5°，end 进入右侧座位区。
+58,EU6Fwq7SyZv__3562,886,3,Wait there.,supported,end 停在那里。
+58,EU6Fwq7SyZv__3562,887,1,Walk through the living room past the front doors.,supported,前三段接近直行，穿过这间大屋子。
+58,EU6Fwq7SyZv__3562,887,2,Stop next to the chair by the lamp.,not_in_view,end 有椅子，没有确认旁边的灯。
+58,EU6Fwq7SyZv__3562,888,1,Exit the library area,not_in_view,start 是大客厅，不能确认图书区。
+58,EU6Fwq7SyZv__3562,888,2,go to the living are.,supported,直行后 end 进入座位区。
+58,EU6Fwq7SyZv__3562,888,3,Turn right,supported,-64.5°。
+58,EU6Fwq7SyZv__3562,888,4,wait at the wooden chair.,supported,end 有一把木椅。
+59,QUCTc6BB5sX__3274,793,1,Go into the bathroom,supported,start 已经能看到浴室洗手台。
+59,QUCTc6BB5sX__3274,793,2,exit through the other door on the left.,supported,离开浴室的航向变化是 +49.9°。
+59,QUCTc6BB5sX__3274,793,3,Turn right,supported,随后 -65.7°。
+59,QUCTc6BB5sX__3274,793,4,go out through the door on the right,supported,下一段 -55.5° 通过房门。
+59,QUCTc6BB5sX__3274,793,5,go straight until you get near the top of the stairs.,not_in_view,最后接近直行，但 end 是走廊，没有楼梯顶部。
+59,QUCTc6BB5sX__3274,794,1,Walk through the bathroom,supported,start 到 w0 穿过浴室。
+59,QUCTc6BB5sX__3274,794,2,take a right,supported,-65.7°。
+59,QUCTc6BB5sX__3274,794,3,walk through the kitchen.Take a right out of the kitchen,not_in_view,w2 是书架角，不能确认厨房，也无法确认从厨房右转。
+59,QUCTc6BB5sX__3274,794,4,walk down the hall.,supported,w4 到 end 沿走廊走。
+59,QUCTc6BB5sX__3274,794,5,Stop once you leave the hall way.,contradicted,end 仍在走廊里，不是已经离开走廊。
+59,QUCTc6BB5sX__3274,795,1,Go through the bathroom and into the kitchenette.,not_in_view,浴室能看到，w2 不能确认是小厨房。
+59,QUCTc6BB5sX__3274,795,2,Go past the counter and out the open door.,not_in_view,没有确认柜台外侧的开门。
+59,QUCTc6BB5sX__3274,795,3,Head down the hallway,supported,w4 和 end 沿走廊向前。
+59,QUCTc6BB5sX__3274,795,4,stop right past the open book.,not_in_view,end 没有打开的书。
+60,QUCTc6BB5sX__4070,994,1,Walk straight and,contradicted,第一段 -35.5°，接着 -55.5°，不是直行。
+60,QUCTc6BB5sX__4070,994,2,turn right to exit the room.,supported,-55.5° 后 w1 离开房间。
+60,QUCTc6BB5sX__4070,994,3,Turn left,supported,下一段 +30.8°。
+60,QUCTc6BB5sX__4070,994,4,go down the hallway.,supported,w2 到 w4 沿走廊，航向接近 0°。
+60,QUCTc6BB5sX__4070,994,5,Turn left when you get to large glass doors on the right,not_in_view,最后 +59.0° 是左转，但没有看到右侧玻璃门。
+60,QUCTc6BB5sX__4070,994,6,wait near the clear vase with the white flowers.,not_in_view,end 没有白色花的透明花瓶。
+60,QUCTc6BB5sX__4070,995,1,turn right,supported,第一段 -35.5°，下一段 -55.5°。
+60,QUCTc6BB5sX__4070,995,2,walk past wood table,supported,start 有木桌。
+60,QUCTc6BB5sX__4070,995,3,turn right at the doorway,supported,门口处 -55.5°。
+60,QUCTc6BB5sX__4070,995,4,turn left down the hallway,supported,+30.8° 后沿走廊走。
+60,QUCTc6BB5sX__4070,995,5,turn right,contradicted,走廊之后的转弯是 +59.0°，不是右转。
+60,QUCTc6BB5sX__4070,995,6,stop behind plush chair.,supported,end 有一张软椅。
+60,QUCTc6BB5sX__4070,996,1,Turn right,supported,-55.5°。
+60,QUCTc6BB5sX__4070,996,2,walk forward to exit out the door to the right beside the refrigerator.,not_in_view,没有冰箱，不能确认它旁边右侧的门。
+60,QUCTc6BB5sX__4070,996,3,Once out walk forward down the hallway,supported,w2 到 w4 沿走廊向前。
+60,QUCTc6BB5sX__4070,996,4,keep walking until you pass the stairs to the left.,not_in_view,没有看到左侧楼梯。
+60,QUCTc6BB5sX__4070,996,5,Once you pass the stairs,not_in_view,楼梯没有入画。
+60,QUCTc6BB5sX__4070,996,6,enter the next room to the left,supported,+59.0° 后 end 进入下一间。
+60,QUCTc6BB5sX__4070,996,7,stop behind the first chair.,not_in_view,end 有椅子，不能确认停在第一把椅子后面。
+61,zsNo4HB9uLZ__3651,898,1,Exit the bathroom.,supported,start 靠近白色洁具，-165.5° 后 w0 离开浴室。
+61,zsNo4HB9uLZ__3651,898,2,Turn left.,supported,下一段 +77.5°。
+61,zsNo4HB9uLZ__3651,898,3,Then go into the bedroom nearest to the world map on the wall above a desk.,not_in_view,没有世界地图和书桌。end 是卧室。
+61,zsNo4HB9uLZ__3651,898,4,Stop a couple of feet into the room.,supported,end 已经进入卧室几步。
+61,zsNo4HB9uLZ__3651,899,1,Walk out of the bathroom,supported,w0 离开浴室。
+61,zsNo4HB9uLZ__3651,899,2,turn left.,supported,+77.5°。
+61,zsNo4HB9uLZ__3651,899,3,Turn left,supported,下一段 +70.9°。
+61,zsNo4HB9uLZ__3651,899,4,walk into the second door on the right.,contradicted,进入卧室的转弯是 +70.9° 左转，不是右侧第二扇门。
+61,zsNo4HB9uLZ__3651,899,5,Stop in front of the bed.,supported,end 停在床前。
+61,zsNo4HB9uLZ__3651,900,1,Turn around,supported,第一段 -165.5°。
+61,zsNo4HB9uLZ__3651,900,2,exit the bathroom.,supported,w0 到 w1 离开浴室。
+61,zsNo4HB9uLZ__3651,900,3,Once out turn left,supported,+77.5°。
+61,zsNo4HB9uLZ__3651,900,4,head towards the sitting area.,supported,w2 朝向有座位的区域。
+61,zsNo4HB9uLZ__3651,900,5,Once you reach that area turn left,supported,+70.9°。
+61,zsNo4HB9uLZ__3651,900,6,"enter the door to your right, beside the desk.",contradicted,进门的航向变化是 +70.9°，不是右侧的门。也没有书桌。
+61,zsNo4HB9uLZ__3651,900,7,Stop once you are in the doorway of the room.,contradicted,end 已经在卧室里看着床，不是停在门洞。
+62,2azQ1b91cZZ__2607,622,1,"Walk down the stairs, and through the archway directly to the left of the wooden chair",not_in_view,楼梯向下 dy -0.64，但没有木椅左侧的拱门。
+62,2azQ1b91cZZ__2607,622,2,Continue past the potted plant and through the wooden archway on the left onto the hardwood floor.,not_in_view,有左转，但没有盆栽和左侧木拱门同时入画。
+62,2azQ1b91cZZ__2607,622,3,Walk towards the dining table,not_in_view,end 没有确认餐桌。
+62,2azQ1b91cZZ__2607,622,4,stop.,supported,end 停下。
+62,2azQ1b91cZZ__2607,623,1,Go down four stairs.,not_in_view,高度下降，但数不清四级台阶。
+62,2azQ1b91cZZ__2607,623,2,Go down three stairs.,not_in_view,数不清三级台阶。
+62,2azQ1b91cZZ__2607,623,3,Go to the wood bench.,not_in_view,没有木凳。
+62,2azQ1b91cZZ__2607,623,4,Go to the flower vase.,not_in_view,没有花瓶。
+62,2azQ1b91cZZ__2607,623,5,Go to the round wood doorway.,supported,w4 有圆形木门洞。
+62,2azQ1b91cZZ__2607,623,6,Go to the dining table.,not_in_view,end 没有确认餐桌。
+62,2azQ1b91cZZ__2607,624,1,Head down the stairs,supported,start 沿楼梯向下，dy 为负。
+62,2azQ1b91cZZ__2607,624,2,take a left through the archway.,supported,下楼后 +38.9° 通过拱门。
+62,2azQ1b91cZZ__2607,624,3,Go through the wooden archway,supported,w4 通过木拱门。
+62,2azQ1b91cZZ__2607,624,4,stop next to the table and behind the couch.,not_in_view,end 没有同时确认桌子和沙发背后。
+63,2azQ1b91cZZ__2068,511,1,Exit the kitchen heading towards the small dining nook,contradicted,小餐厅在 +136.9° 之后的 w0，start 对着厨房柜子。
+63,2azQ1b91cZZ__2068,511,2,turn right.,supported,随后 -114.7°。
+63,2azQ1b91cZZ__2068,511,3,Continue forward,supported,右转前有一段 +1.4°。
+63,2azQ1b91cZZ__2068,511,4,take the entrance ahead and to the right.,supported,-114.7° 通向右侧入口。
+63,2azQ1b91cZZ__2068,511,5,Wait at the corner next to the end of both couches.,supported,end 停在两张白色沙发的端部。
+63,2azQ1b91cZZ__2068,512,1,Exit the kitchen,contradicted,离开厨房的第一段是 +136.9°，小餐桌在转弯后。
+63,2azQ1b91cZZ__2068,512,2,go towards the small table set.,supported,w0 有一套小桌椅。
+63,2azQ1b91cZZ__2068,512,3,Turn right,supported,-114.7°。
+63,2azQ1b91cZZ__2068,512,4,turn right again past the table.,supported,下一段还有 -14.9°。
+63,2azQ1b91cZZ__2068,512,5,Wait by the white couches in the next room.,supported,end 是白色沙发。
+63,2azQ1b91cZZ__2068,513,1,Go into the living area with the fireplace.,contradicted,壁炉客厅在 +136.9° 和 -114.7° 之后，不在 start。
+63,2azQ1b91cZZ__2068,513,2,"Stop in the area between the two white sofas, next to the entrance to the dining room.",supported,end 位于两张白色沙发之间，旁边能看到餐厅入口。
+64,TbHJrupSAjP__5643,1423,1,Walk into the hallway,supported,+74.2° 后 w0 进入走廊。
+64,TbHJrupSAjP__5643,1423,2,turn right.,supported,-54.6°。
+64,TbHJrupSAjP__5643,1423,3,Walk past the railing,supported,w3 经过栏杆。
+64,TbHJrupSAjP__5643,1423,4,turn left past the plant.,supported,w3 有植物，随后航向变化 +28.6°。
+64,TbHJrupSAjP__5643,1423,5,Walk toward the front door,not_in_view,没有看到前门。
+64,TbHJrupSAjP__5643,1423,6,turn right.,supported,最后一段 -133.9°。
+64,TbHJrupSAjP__5643,1423,7,Walk up the steps,supported,这段 dy +0.78，end 是上行楼梯。
+64,TbHJrupSAjP__5643,1423,8,stop on the third step.,not_in_view,end 在楼梯上，数不清第三级。
+64,TbHJrupSAjP__5643,1424,1,Exit the room.,supported,start 在房间侧边，w0 离开到走廊。
+64,TbHJrupSAjP__5643,1424,2,Turn right,supported,-54.6°。
+64,TbHJrupSAjP__5643,1424,3,go straight until you get to three vases.,not_in_view,没有三个花瓶。
+64,TbHJrupSAjP__5643,1424,4,Continue straight,contradicted,中间两段是 +17.7° 和 +28.6°，不是直行。
+64,TbHJrupSAjP__5643,1424,5,go up four steps of the stairs on the right.,not_in_view,楼梯在右侧且向上，但 end 数不清四级。
+64,TbHJrupSAjP__5643,1425,1,Exit the laundry room,not_in_view,start 不能确认是洗衣房。
+64,TbHJrupSAjP__5643,1425,2,turn right.,supported,-54.6°。
+64,TbHJrupSAjP__5643,1425,3,Walk past the large plant,supported,w3 经过大植物。
+64,TbHJrupSAjP__5643,1425,4,stand on the stairs.,supported,end 站在楼梯上。
+65,EU6Fwq7SyZv__2258,556,1,take the stairs,contradicted,start 对着床。楼梯在 -169.9° 之后，随后 dy -0.62、-1.22、-1.05。
+65,EU6Fwq7SyZv__2258,556,2,head for the kitchen.,not_in_view,end 是楼梯底部的房间，没有看到厨房。
+65,EU6Fwq7SyZv__2258,556,3,stop at the bottom of the stairs.,supported,end 位于楼梯底部。
+65,EU6Fwq7SyZv__2258,557,1,Walk towards the balcony,not_in_view,start 没有阳台。
+65,EU6Fwq7SyZv__2258,557,2,take the stairs down on the left.,contradicted,下楼前先 -169.9°。下行转弯是 +41.6°，但楼梯不在 start 左侧。
+65,EU6Fwq7SyZv__2258,557,3,Wait at the bottom of the stairs.,supported,end 在楼梯底部。
+65,EU6Fwq7SyZv__2258,558,1,Go downstairs,contradicted,下楼方向不在 start，第一段 -169.9°。
+65,EU6Fwq7SyZv__2258,558,2,stop at the bottom.,supported,end 停在楼梯底部。
+66,EU6Fwq7SyZv__5144,1315,1,Walk past the table,supported,start 前方有桌子。
+66,EU6Fwq7SyZv__5144,1315,2,turn right.,supported,第一段 -60.2°。
+66,EU6Fwq7SyZv__5144,1315,3,Walk past the coffee table and couch,supported,w2 经过茶几和沙发。
+66,EU6Fwq7SyZv__5144,1315,4,stop by the pool table.,supported,end 停在台球桌旁。
+66,EU6Fwq7SyZv__5144,1316,1,"Take a right, another immediate right",supported,前两段连续右转 -60.2° 和 -74.9°。
+66,EU6Fwq7SyZv__5144,1316,2,go to the front of the couch towards the billiard table,supported,w2 到 end 走向沙发前方的台球桌。
+66,EU6Fwq7SyZv__5144,1316,3,and,supported,这一小句没有空间断言。
+66,EU6Fwq7SyZv__5144,1316,4,stop.,supported,end 停下。
+66,EU6Fwq7SyZv__5144,1317,1,Turn around,contradicted,第一段是 -60.2°，不是掉头。
+66,EU6Fwq7SyZv__5144,1317,2,enter the sitting room to your right.,supported,连续右转后 w2 进入右侧起居区。
+66,EU6Fwq7SyZv__5144,1317,3,Walk in front of the fireplace to the other side,supported,w2 的壁炉在沙发前方。
+66,EU6Fwq7SyZv__5144,1317,4,stop once you reach the pool table.,supported,end 到达台球桌。
+67,QUCTc6BB5sX__620,151,1,Walk toward and past the kitchen bar area.,supported,w2 经过吧台和凳子，前段接近直行。
+67,QUCTc6BB5sX__620,151,2,Continue forward,supported,到右转前的航向变化只有 -11.2° 和 -19.1°。
+67,QUCTc6BB5sX__620,151,3,turn right just before the stairs that go down.,not_in_view,有 -93.9° 右转，但没有向下的楼梯。
+67,QUCTc6BB5sX__620,151,4,"Stop at the entrance to the area on your left with four white chairs, next to the table with the white flowers on it.",not_in_view,end 有浅色椅子，没有白花桌子。
+67,QUCTc6BB5sX__620,152,1,Walk down the hall to the last bar bench.,supported,w2 的吧台尽头有凳子。
+67,QUCTc6BB5sX__620,152,2,Make a right into the connecting hallway.,supported,-93.9° 后 w3 进入连接走廊。
+67,QUCTc6BB5sX__620,152,3,Make a left at the opening of the first room.,supported,第一间开口处 +82.5°。
+67,QUCTc6BB5sX__620,153,1,Walk down the hallway passed the potted plant.,not_in_view,走廊上没有确认盆栽。
+67,QUCTc6BB5sX__620,153,2,Walk passed the counter and bar stools.,supported,w2 经过柜台和吧台凳。
+67,QUCTc6BB5sX__620,153,3,Walk towards the staircase,not_in_view,没有楼梯。
+67,QUCTc6BB5sX__620,153,4,turn right around the corner.,supported,-93.9° 绕过转角。
+67,QUCTc6BB5sX__620,153,5,Walk passed the ceramic urns and through the arched entryway.,supported,w4 经过陶罐，w3 是拱门。
+67,QUCTc6BB5sX__620,153,6,towards the circle of armchairs.,supported,end 是一圈扶手椅。
+68,Z6MFQCViBuw__1574,391,1,Walk into the dining room,contradicted,餐厅在 +172.1° 之后的 w0，start 对着门洞。
+68,Z6MFQCViBuw__1574,391,2,go back to the door across the room.,supported,w3 是房间对面的门。
+68,Z6MFQCViBuw__1574,391,3,Go through the door,supported,end 通过这扇门进入方格地面的走廊。
+68,Z6MFQCViBuw__1574,391,4,wait.,supported,end 停下。
+68,Z6MFQCViBuw__1574,392,1,Turn around,supported,第一段 +172.1°。
+68,Z6MFQCViBuw__1574,392,2,walk across the dining room area.,supported,w0 到 w2 穿过餐厅。
+68,Z6MFQCViBuw__1574,392,3,Enter the leftmost doorway.,supported,离开餐厅时 +37.3°，end 进入门洞。
+68,Z6MFQCViBuw__1574,392,4,Wait by the glass sign on the left.,not_in_view,没有左侧的玻璃牌子。
+68,Z6MFQCViBuw__1574,393,1,Walk towards large red table and chairs.,contradicted,红色大桌在 +172.1° 之后，不在 start。
+68,Z6MFQCViBuw__1574,393,2,Go slightly right,supported,随后 -27.2°。
+68,Z6MFQCViBuw__1574,393,3,pass through doorway.,supported,end 通过门洞。
+69,X7HyMhZNoso__407,112,1,Walk to the other side of the patio,contradicted,露台另一侧在 +144.8° 之后的 w0，start 对着砖墙。
+69,X7HyMhZNoso__407,112,2,enter the building through the sliding glass doors turn right,supported,w3 通过推拉门，随后有 -44.2°、-92.4°、-58.4°。
+69,X7HyMhZNoso__407,112,3,wait in the dining area.,supported,end 停在餐厅。
+69,X7HyMhZNoso__407,113,1,With the windows on your right walk forward between the windows and the patio couch walk forward towards the table and into the living room through the sliding glass doors,contradicted,第一段 +144.8°。窗户和露台沙发不在 start 的前进方向。
+69,X7HyMhZNoso__407,113,2,take a right into the dining room stopping just past the wall on the left next to the door.,supported,右转后 end 停在餐厅门内。
+69,X7HyMhZNoso__407,114,1,Walk past outdoor living room.,contradicted,室外起居区在 +144.8° 之后，不在 start 前方。
+69,X7HyMhZNoso__407,114,2,Make right at outdoor dining.,supported,w1 是室外餐桌，附近航向变化 -44.2°。
+69,X7HyMhZNoso__407,114,3,Walk to chair in tv room.,supported,w4 的电视房里有椅子。
+69,X7HyMhZNoso__407,114,4,Wait at threshold to dining room.,supported,end 停在餐厅门口。
+70,EU6Fwq7SyZv__810,202,1,Make a left at the end of the bed.,contradicted,start 在浴室。床在 +152.4° 之后的 w0，不是床尾左转。
+70,EU6Fwq7SyZv__810,202,2,Walk to the banister.,supported,w2 走到楼梯栏杆。
+70,EU6Fwq7SyZv__810,202,3,Walk to the bottom of the stairs to the left of this point.,supported,随后 dy -0.62、-1.22、-1.05，到达楼梯底部。
+70,EU6Fwq7SyZv__810,202,4,Make a right,supported,底部 -38.6°。
+70,EU6Fwq7SyZv__810,202,5,move to the panoramic checker doors.,supported,end 是格子玻璃门。
+70,EU6Fwq7SyZv__810,203,1,enter the bedroom,supported,start 在浴室，w0 进入卧室。
+70,EU6Fwq7SyZv__810,203,2,veer left,supported,第一段 +152.4°。
+70,EU6Fwq7SyZv__810,203,3,continue to the top of the stairs,supported,w2 到达楼梯顶部。
+70,EU6Fwq7SyZv__810,203,4,go down the stairs,supported,dy 为负。
+70,EU6Fwq7SyZv__810,203,5,continue straight,supported,下楼中段 +2.2° 和 +3.7°。
+70,EU6Fwq7SyZv__810,203,6,turn right after the support beam,supported,支撑梁附近 -38.6°。
+70,EU6Fwq7SyZv__810,203,7,stop in front of the glass pane doors.,supported,end 停在玻璃门前。
+70,EU6Fwq7SyZv__810,204,1,Turn Left.,supported,+152.4°。
+70,EU6Fwq7SyZv__810,204,2,walk through bedroom.,supported,w0 穿过卧室。
+70,EU6Fwq7SyZv__810,204,3,walk down stairs,supported,楼梯向下。
+70,EU6Fwq7SyZv__810,204,4,go to entrance.,supported,end 到达玻璃入口。
+71,EU6Fwq7SyZv__2658,637,1,Continue down the wood staircase,supported,start 能看到木楼梯，第一段 dy -1.22。
+71,EU6Fwq7SyZv__2658,637,2,turn right at the bottom,supported,下楼后 -38.6°。
+71,EU6Fwq7SyZv__2658,637,3,walk behind the two chairs toward the pool table.,not_in_view,w4 有台球桌，没有确认两把椅子后面。
+71,EU6Fwq7SyZv__2658,637,4,Turn right at the pool table,supported,台球桌附近还有 -51.2°。
+71,EU6Fwq7SyZv__2658,637,5,stop in front of the red chair with a brown leather foot stool.,not_in_view,end 是壁炉，没有红色椅子和棕色脚凳。
+71,EU6Fwq7SyZv__2658,638,1,Go to the bottom of the staircase.,supported,前两段 dy -1.22 和 -1.05，到达楼梯底部。
+71,EU6Fwq7SyZv__2658,638,2,Turn right,supported,-38.6°。
+71,EU6Fwq7SyZv__2658,638,3,go to the pool table.,supported,w4 是台球桌。
+71,EU6Fwq7SyZv__2658,638,4,From the pool table,supported,这一小句没有新的空间断言。
+71,EU6Fwq7SyZv__2658,638,5,go to the coffee table.,not_in_view,end 是壁炉，没有茶几。
+71,EU6Fwq7SyZv__2658,639,1,Go down the stairs,supported,沿木楼梯下降。
+71,EU6Fwq7SyZv__2658,639,2,turn right.,supported,-38.6°。
+71,EU6Fwq7SyZv__2658,639,3,Head toward the pool table and when you get to the fireplace,supported,w4 经过台球桌，end 到达壁炉。
+71,EU6Fwq7SyZv__2658,639,4,wait there.,supported,end 停在壁炉前。
+72,2azQ1b91cZZ__214,61,1,Walk out of the bathroom passed the sink and shower.,not_in_view,start 有洗手台，没有看到淋浴。
+72,2azQ1b91cZZ__214,61,2,Walk down the hallway through the arch ed entry and circular tiled room.,supported,w1 到 w3 穿过拱门和圆形地面的房间。
+72,2azQ1b91cZZ__214,61,3,Turn,supported,随后 +35.4° 和 +49.5°。
+72,2azQ1b91cZZ__214,61,4,walk into the bedroom with hanging curtains wooden bed frame.,supported,end 是有帷幔和木床架的卧室。
+72,2azQ1b91cZZ__214,62,1,Exit the bathroom,supported,start 在浴室，w0 离开。
+72,2azQ1b91cZZ__214,62,2,go right,supported,-68.0°。
+72,2azQ1b91cZZ__214,62,3,then turn left at the big clock,supported,w3 墙上有大钟，随后 +35.4°。
+72,2azQ1b91cZZ__214,62,4,go into the bedroom,supported,end 进入卧室。
+72,2azQ1b91cZZ__214,62,5,wait next to the bed.,supported,end 停在床边。
+72,2azQ1b91cZZ__214,63,1,Exit the bathroom,supported,start 离开浴室。
+72,2azQ1b91cZZ__214,63,2,and take a right turn.,supported,-68.0°。
+72,2azQ1b91cZZ__214,63,3,"Keep walking to the place with a clock hanging on the wall, and",supported,w3 的墙上有钟。
+72,2azQ1b91cZZ__214,63,4,make a hard left into a bedroom.,supported,+49.5° 进入卧室。
+72,2azQ1b91cZZ__214,63,5,Wait at the bedroom.,supported,end 停在卧室里。
+73,QUCTc6BB5sX__2365,577,1,"Turn, putting the exit of the building on your left.",not_in_view,第一段 -96.6°，不能确认建筑出口转到了左侧。
+73,QUCTc6BB5sX__2365,577,2,Walk to the end of the entrance way,supported,w0 走到入口区域尽头。
+73,QUCTc6BB5sX__2365,577,3,turn left.,supported,+74.8°。
+73,QUCTc6BB5sX__2365,577,4,Travel across the kitchen area with the counter and chairs on your right.,not_in_view,w2 有柜台和椅子，左右没有确认。
+73,QUCTc6BB5sX__2365,577,5,Continue straight until you reach the dining room.,supported,后三段接近直行，end 到达餐厅。
+73,QUCTc6BB5sX__2365,577,6,Enter the room,supported,end 进入餐厅。
+73,QUCTc6BB5sX__2365,577,7,stop,supported,end 停下。
+73,QUCTc6BB5sX__2365,577,8,wait one meter from the closest end of the long dining table.,not_in_view,end 有长餐桌，测不出一米。
+73,QUCTc6BB5sX__2365,578,1,Go down hallway towards the two white vases.,contradicted,两个浅色罐子在 -96.6° 之后的 w0，不在 start。
+73,QUCTc6BB5sX__2365,578,2,When you have a staircase towards your right,not_in_view,没有看到右侧楼梯。
+73,QUCTc6BB5sX__2365,578,3,turn left towards the dining room.,supported,+74.8° 后朝向餐厅。
+73,QUCTc6BB5sX__2365,578,4,Go past bar lined with chairs,supported,w2 经过一排带椅子的吧台。
+73,QUCTc6BB5sX__2365,578,5,wait in front of the long dining room table.,supported,end 停在长餐桌前。
+73,QUCTc6BB5sX__2365,579,1,Walk past the two urns,contradicted,两个陶罐在 -96.6° 之后，start 对着玻璃门。
+73,QUCTc6BB5sX__2365,579,2,turn left.,supported,+74.8°。
+73,QUCTc6BB5sX__2365,579,3,"Walk to the entrance of the dining room, straight ahead",supported,之后接近直行，end 是餐厅入口。
+73,QUCTc6BB5sX__2365,579,4,and,supported,这一小句没有空间断言。
+73,QUCTc6BB5sX__2365,579,5,stop under the arch.,supported,end 停在拱门下。
+74,x8F5xyUWy9e__807,199,1,Walk through the doorway,supported,start 前方有门洞。
+74,x8F5xyUWy9e__807,199,2,take a left through the 2nd doorway,supported,第一段 +64.9°，通向下一扇门。
+74,x8F5xyUWy9e__807,199,3,stop right before the plant on the right side.,not_in_view,end 有植物，不能确认在右侧。
+74,x8F5xyUWy9e__807,200,1,Walk to the open door.,supported,start 走向开着的门。
+74,x8F5xyUWy9e__807,200,2,Make a sharp right turn around the corner,supported,最后一段 -103.1°。
+74,x8F5xyUWy9e__807,200,3,walk through the open door into the room with grey tile.,supported,end 进入灰色石砖地面的房间。
+74,x8F5xyUWy9e__807,201,1,Walk through open door and through hall,supported,start 到 w2 通过开门和过道。
+74,x8F5xyUWy9e__807,201,2,stop at bottom of stairs.,supported,end 正对楼梯底部。
+75,Z6MFQCViBuw__2751,667,1,Follow the red carpet straight,supported,start 已经对着红毯，前四段航向变化约为 0°。
+75,Z6MFQCViBuw__2751,667,2,make the first left where the red carpet continues to go through the wooden doors.,supported,红毯尽头 +44.7°，前方是木门。
+75,Z6MFQCViBuw__2751,667,3,Wait outside of the room before entering through the wooden doors.,supported,end 停在木门前，还没有进房间。
+75,Z6MFQCViBuw__2751,668,1,Exit through double doors,supported,start 通过双开门看着红毯。
+75,Z6MFQCViBuw__2751,668,2,walk along the red carpet to the other end of the room.,supported,沿红毯走到房间另一端。
+75,Z6MFQCViBuw__2751,668,3,Wait by the second set of double doors.,supported,end 停在下一组门前。
+75,Z6MFQCViBuw__2751,669,1,Walk down the hallway,supported,沿这条约道向前。
+75,Z6MFQCViBuw__2751,669,2,pass all the picture frames placed on the right until the end.,not_in_view,墙上有画，不能确认都在右侧。
+75,Z6MFQCViBuw__2751,669,3,Turn left to enter another room,supported,+44.7° 进入另一侧房间方向。
+75,Z6MFQCViBuw__2751,669,4,and,supported,这一小句没有空间断言。
+75,Z6MFQCViBuw__2751,669,5,stop there.,supported,end 停下。
+76,2azQ1b91cZZ__4186,1030,1,Walk down stairs.,supported,start 沿楼梯向下，dy -0.64、-0.46。
+76,2azQ1b91cZZ__4186,1030,2,Once you reach the bottom,supported,w2 到达底部。
+76,2azQ1b91cZZ__4186,1030,3,turn hard left.,supported,底部 +60.7°，接着 +67.5°。
+76,2azQ1b91cZZ__4186,1030,4,Enter the room straight ahead.,contradicted,硬左转 +60.7° 之后的下一段是 +67.5°，不是直行进入房间。
+76,2azQ1b91cZZ__4186,1030,5,Wait here.,supported,end 停在房间里。
+76,2azQ1b91cZZ__4186,1031,1,Descend down the stairs.,supported,楼梯向下。
+76,2azQ1b91cZZ__4186,1031,2,Turn left,supported,底部左转 +60.7°。
+76,2azQ1b91cZZ__4186,1031,3,stop in the room.,supported,end 停在房间里。
+76,2azQ1b91cZZ__4186,1032,1,Go down the stairs,supported,start 下楼。
+76,2azQ1b91cZZ__4186,1032,2,Turn left,supported,+60.7°。
+76,2azQ1b91cZZ__4186,1032,3,enter the room.,supported,end 进入房间。
+76,2azQ1b91cZZ__4186,1032,4,Wait near the chairs that are facing the fireplace.,supported,end 的椅子朝向壁炉。
+77,QUCTc6BB5sX__834,208,1,Walk to the left,supported,第一段 +69.5°。
+77,QUCTc6BB5sX__834,208,2,going towards the right arch at the back of the room.,not_in_view,w1 有拱门，不能确认是房间后方右侧那一个。
+77,QUCTc6BB5sX__834,208,3,Walk through to the next room,supported,w4 进入下一间。
+77,QUCTc6BB5sX__834,208,4,stop when you're at the rug in front of the dining set.,not_in_view,end 有餐桌，没有确认桌前地毯。
+77,QUCTc6BB5sX__834,209,1,Walk out of the living room past the couches.,supported,w0 离开客厅，经过沙发。
+77,QUCTc6BB5sX__834,209,2,Go straight into the dining room,contradicted,进入餐厅前的第一段是 +69.5°，不是直行。
+77,QUCTc6BB5sX__834,209,3,a,supported,这一小句没有空间断言。
+77,QUCTc6BB5sX__834,209,4,stop behind the second chair on the left.,not_in_view,end 有椅子，不能确认左侧第二把椅子后面。
+77,QUCTc6BB5sX__834,210,1,Walk past the white couch on the left.,not_in_view,w0 有白色沙发，左右没有确认。
+77,QUCTc6BB5sX__834,210,2,Go through the entryway and past the oval table.,not_in_view,没有看到椭圆形桌子。
+77,QUCTc6BB5sX__834,210,3,Stop at the rectangular table.,supported,end 停在长方形餐桌旁。
+78,TbHJrupSAjP__3356,814,1,Leave the closet and bedroom.,supported,start 在衣帽间，w1 经过卧室离开。
+78,TbHJrupSAjP__3356,814,2,In the hall go down the stairs.,not_in_view,最后一段 dy 只有 -0.38，end 没有看清下楼的台阶。
+78,TbHJrupSAjP__3356,814,3,Stop on the third stair from the top.,not_in_view,数不清从上数第三级。
+78,TbHJrupSAjP__3356,815,1,Walk into the dressing room,supported,start 已经在衣帽间里。
+78,TbHJrupSAjP__3356,815,2,turn left.,supported,+115.8°。
+78,TbHJrupSAjP__3356,815,3,Walk into the bedroom.,supported,w2 进入卧室。
+78,TbHJrupSAjP__3356,815,4,Turn right,supported,-82.7°。
+78,TbHJrupSAjP__3356,815,5,walk past the bedroom to the door on the right.,supported,下一段 -65.0°，经过卧室走向右侧的门。
+78,TbHJrupSAjP__3356,815,6,Go through the doorway,supported,w4 通过门洞。
+78,TbHJrupSAjP__3356,815,7,wait a few steps down the stairs.,not_in_view,w5 和 end 都没有楼梯踏步。
+78,TbHJrupSAjP__3356,816,1,Exit the closet,supported,start 离开衣帽间。
+78,TbHJrupSAjP__3356,816,2,go to the left towards the bed.,supported,+115.8° 后 w2 朝向床。
+78,TbHJrupSAjP__3356,816,3,Go to the right to exit the bedroom.,supported,-82.7° 离开卧室。
+78,TbHJrupSAjP__3356,816,4,Go left,supported,下楼前的航向变化是 +38.7°。
+78,TbHJrupSAjP__3356,816,5,go down the stairs.,supported,这段 dy -0.38。
+78,TbHJrupSAjP__3356,816,6,Stop on the third stair.,not_in_view,数不清第三级台阶。
+79,TbHJrupSAjP__5353,1363,1,Walk forward down the hall,supported,start 沿走廊向前，第一段 +25.4°。
+79,TbHJrupSAjP__5353,1363,2,turn right at the stairs.,supported,w1 的楼梯旁航向变化 -32.6°。
+79,TbHJrupSAjP__5353,1363,3,Walk past the stairs and into the next room.,supported,经过楼梯后 end 进入下一间。
+79,TbHJrupSAjP__5353,1363,4,Wait near the entrance way.,not_in_view,end 已经在客厅内部，不能确认入口。
+79,TbHJrupSAjP__5353,1364,1,Walk down hallway,supported,start 到 w0 沿走廊走。
+79,TbHJrupSAjP__5353,1364,2,turn right at stairs going down,supported,w1 的楼梯向下，转弯是 -32.6° 和 -38.4°。
+79,TbHJrupSAjP__5353,1364,3,continue into living room.,supported,end 进入客厅。
+79,TbHJrupSAjP__5353,1365,1,Go straight,supported,第一段 +25.4°。
+79,TbHJrupSAjP__5353,1365,2,turn right.,supported,-32.6°。
+79,TbHJrupSAjP__5353,1365,3,Go straight until you get to a large room.,contradicted,右转之后还有 -38.4° 和 -15.0°，不是直行到大房间。
+79,TbHJrupSAjP__5353,1365,4,Wait at the entrance.,supported,end 停在大房间入口附近。
+80,2azQ1b91cZZ__1420,364,1,Walk down the hallway to the end.,contradicted,start 已经朝向走廊。第一段却是 +61.5°。
+80,2azQ1b91cZZ__1420,364,2,Turn left into the laundry room,supported,走廊尽头 +57.3°，end 是有洗衣机的洗衣房。
+80,2azQ1b91cZZ__1420,364,3,wait in the doorway.,supported,end 停在洗衣房门口。
+80,2azQ1b91cZZ__1420,365,1,Walk to end of hallway.,contradicted,朝向走廊时第一段是 +61.5°，不是沿走廊走到尽头。
+80,2azQ1b91cZZ__1420,365,2,Wait in threshold of laundry room.,supported,end 位于洗衣房门口。
+80,2azQ1b91cZZ__1420,366,1,Walk to the end of the hallway,contradicted,第一段 +61.5°，不是沿眼前的走廊走到尽头。
+80,2azQ1b91cZZ__1420,366,2,pass the bathroom,supported,w2 经过能看到马桶的浴室。
+80,2azQ1b91cZZ__1420,366,3,wait by the laundry room.,supported,end 停在洗衣房。
+81,2azQ1b91cZZ__6863,1729,1,Face sink,supported,start 对着水槽柜台。
+81,2azQ1b91cZZ__6863,1729,2,turn right.,supported,第一段 -92.3°。
+81,2azQ1b91cZZ__6863,1729,3,Exit the room through the door.,supported,w0 通过房门离开。
+81,2azQ1b91cZZ__6863,1729,4,Turn right,supported,下一段 -97.9°。
+81,2azQ1b91cZZ__6863,1729,5,walk between chairs and couch.,supported,w3 从椅子和沙发之间经过。
+81,2azQ1b91cZZ__6863,1729,6,Stop near round table.,supported,end 停在圆桌附近。
+81,2azQ1b91cZZ__6863,1730,1,"Walk away from the grill, and into the house the other direction.",not_in_view,start 没有烤架。
+81,2azQ1b91cZZ__6863,1730,2,Take a right in the hall,supported,走廊上 -97.9°。
+81,2azQ1b91cZZ__6863,1730,3,and go past the kitchen.,supported,w3 经过厨房区域。
+81,2azQ1b91cZZ__6863,1730,4,Enter the dining room with the round table,supported,end 是有圆桌的餐厅。
+81,2azQ1b91cZZ__6863,1730,5,and,supported,这一小句没有空间断言。
+81,2azQ1b91cZZ__6863,1730,6,stop in front of the console table.,not_in_view,end 没有供桌。
+81,2azQ1b91cZZ__6863,1731,1,Go straight and out the room.,contradicted,第一段 -92.3°，不是直行出门。
+81,2azQ1b91cZZ__6863,1731,2,Turn right,supported,-97.9°。
+81,2azQ1b91cZZ__6863,1731,3,go straight.,supported,后三段航向变化较小。
+81,2azQ1b91cZZ__6863,1731,4,Pass the bar with the stools/chairs and the couches.,not_in_view,w3 有沙发，没有看清吧台凳。
+81,2azQ1b91cZZ__6863,1731,5,Continue straight until you get to a round table and chairs.,supported,end 是圆桌和椅子。
+82,QUCTc6BB5sX__3012,739,1,Exit bathroom,supported,start 在浴室，-152.2° 后 w0 到走廊。
+82,QUCTc6BB5sX__3012,739,2,follow hallway through archway directly in front.,supported,下一段 +2.5°，前方是拱门。
+82,QUCTc6BB5sX__3012,739,3,Turn right when hallway ends at pictures and table.,supported,画和桌子附近的航向变化是 -63.1°。
+82,QUCTc6BB5sX__3012,739,4,Follow hallway passed piano,not_in_view,没有看到钢琴。
+82,QUCTc6BB5sX__3012,739,5,stop in the circle on the hallway floor.,not_in_view,end 的地面没有圆形标记。
+82,QUCTc6BB5sX__3012,740,1,Walk down the hallway,contradicted,走廊在 -152.2° 之后，start 对着浴缸。
+82,QUCTc6BB5sX__3012,740,2,take a right.,supported,-63.1°。
+82,QUCTc6BB5sX__3012,740,3,Walk past the piano,not_in_view,没有钢琴。
+82,QUCTc6BB5sX__3012,740,4,wait by the violin hanging on the wall.,not_in_view,没有墙上的小提琴。
+82,QUCTc6BB5sX__3012,741,1,walk out of the bathroom and down the hall.,supported,start 离开浴室，w0 沿走廊走。
+82,QUCTc6BB5sX__3012,741,2,Turn right at the end of the hallway.,supported,走廊尽头 -63.1°。
+82,QUCTc6BB5sX__3012,741,3,Walk past the piano.,not_in_view,没有钢琴。
+82,QUCTc6BB5sX__3012,741,4,Stop under the large chandelier by the violin.,not_in_view,没有吊灯和小提琴。
+83,QUCTc6BB5sX__4573,1138,1,Turn around,supported,第一段 -170.6°。
+83,QUCTc6BB5sX__4573,1138,2,go through the archway.,supported,w0 通过拱门。
+83,QUCTc6BB5sX__4573,1138,3,Turn to the left of the door,supported,门左侧的航向变化是 +52.9°。
+83,QUCTc6BB5sX__4573,1138,4,stop in the bathroom.,supported,end 停在有洗手台的浴室里。
+83,QUCTc6BB5sX__4573,1139,1,Exit the bedroom,supported,start 在卧室，-170.6° 后离开。
+83,QUCTc6BB5sX__4573,1139,2,walk strait across the hallway.,supported,下两段 -19.2° 和 -14.3°，穿过走廊。
+83,QUCTc6BB5sX__4573,1139,3,Enter the door at the back of the bedroom,not_in_view,没有确认是卧室后方的门。
+83,QUCTc6BB5sX__4573,1139,4,wait near the sink.,supported,end 靠近洗手台。
+83,QUCTc6BB5sX__4573,1140,1,"Walk across the hall, through the bedroom",contradicted,走廊在 -170.6° 之后。start 对着卧室内部，不是穿过走廊。
+83,QUCTc6BB5sX__4573,1140,2,stop inside the en suite bathroom.,supported,end 停在套间浴室里。
+84,x8F5xyUWy9e__3992,973,1,Exit the massage room,supported,start 有按摩床，+164.6° 后 w0 离开房间。
+84,x8F5xyUWy9e__3992,973,2,go straight across the hallway through the brown double doors,supported,下一段 +0.8°，穿过走廊和棕色双开门。
+84,x8F5xyUWy9e__3992,973,3,go down the steps,supported,随后 dy -0.36 和 -0.54。
+84,x8F5xyUWy9e__3992,973,4,stop.,supported,end 停下。
+84,x8F5xyUWy9e__3992,974,1,Turn around,supported,+164.6°。
+84,x8F5xyUWy9e__3992,974,2,walk into the room with the pool.,supported,end 是蓝色灯光的泳池房间。
+84,x8F5xyUWy9e__3992,974,3,Walk down the stairs,supported,dy 为负。
+84,x8F5xyUWy9e__3992,974,4,wait at the bottom of the stairs.,supported,end 位于台阶底部。
+84,x8F5xyUWy9e__3992,975,1,Exit the bathroom,contradicted,start 是按摩床房间，不是浴室。
+84,x8F5xyUWy9e__3992,975,2,go straight until you get to a room.,supported,转弯后接近直行进入 end 的房间。
+84,x8F5xyUWy9e__3992,975,3,Wait by the desk.,not_in_view,end 是泳池，没有书桌。
+85,2azQ1b91cZZ__3949,958,1,Go down the hallway,supported,start 沿走廊走，前三段航向变化很小。
+85,2azQ1b91cZZ__3949,958,2,turn left in the circle room,supported,w3 是圆形房间，航向变化 +35.4°。
+85,2azQ1b91cZZ__3949,958,3,go into the doorway before the mirror,supported,镜子前的门洞通向卧室。
+85,2azQ1b91cZZ__3949,958,4,take a few steps in,supported,end 已经走进卧室几步。
+85,2azQ1b91cZZ__3949,958,5,stop.,supported,end 停下。
+85,2azQ1b91cZZ__3949,959,1,Head down the hallway pass the picture on the right of the people on horseback.,not_in_view,没有看到骑马人物的画。
+85,2azQ1b91cZZ__3949,959,2,At the intersection turn left.,supported,路口处 +35.4°。
+85,2azQ1b91cZZ__3949,959,3,Go into the bedroom,supported,end 进入卧室。
+85,2azQ1b91cZZ__3949,959,4,stop next to the rug.,supported,end 的床边有地毯。
+85,2azQ1b91cZZ__3949,960,1,Exit the bedroom,contradicted,start 在走廊里，不是从卧室离开。
+85,2azQ1b91cZZ__3949,960,2,take a left.,supported,+35.4°。
+85,2azQ1b91cZZ__3949,960,3,Enter another bedroom,supported,end 进入另一间卧室。
+85,2azQ1b91cZZ__3949,960,4,"wait there, next to the table and lamp.",supported,end 有桌子和灯。
+86,oLBMNvg9in8__5246,1342,1,Head down first flight of stairs and at landing turn right to go down next second flight of stairs.,contradicted,下楼的第一段是 +136.9°，不是在平台右转。楼梯在转弯后的 w0。
+86,oLBMNvg9in8__5246,1342,2,At landing of second flight of stairs veer to the right,supported,第二段楼梯平台附近还有 -22.0°。
+86,oLBMNvg9in8__5246,1342,3,turn right into first door way.,supported,进入门洞前的航向变化是 -22.0° 和 -21.9°。
+86,oLBMNvg9in8__5246,1342,4,Stop just inside of doorway.,supported,end 停在门内。
+86,oLBMNvg9in8__5246,1343,1,Go down the stairs.,contradicted,楼梯不在 start 正前方，第一段 +136.9°，dy -0.71。
+86,oLBMNvg9in8__5246,1343,2,Turn right,supported,随后 -84.6°。
+86,oLBMNvg9in8__5246,1343,3,continue going down the stairs.,supported,下一段 dy -1.20。
+86,oLBMNvg9in8__5246,1343,4,Walk straight and slightly right down the hallway.Go into the room on the right.,supported,走廊上略向右，-21.9° 进入右侧房间。
+86,oLBMNvg9in8__5246,1343,5,Wait there.,supported,end 停下。
+86,oLBMNvg9in8__5246,1344,1,Turn around,supported,第一段 +136.9° 后 w0 正对楼梯。
+86,oLBMNvg9in8__5246,1344,2,walk down the stairs.,supported,dy 持续为负。
+86,oLBMNvg9in8__5246,1344,3,Wait in the entry way of the living area on the right.,supported,右侧连续右转后，end 停在起居区入口。
+87,2azQ1b91cZZ__2905,718,1,Exit bathroom,supported,start 能看到马桶，w0 离开浴室。
+87,2azQ1b91cZZ__2905,718,2,turn right into kitchen.,supported,-110.3° 后 end 进入厨房。
+87,2azQ1b91cZZ__2905,718,3,Stop before kitchen island.,supported,end 停在厨房中岛前。
+87,2azQ1b91cZZ__2905,719,1,Leave the bathroom,supported,start 离开浴室。
+87,2azQ1b91cZZ__2905,719,2,turn right.,supported,-110.3°。
+87,2azQ1b91cZZ__2905,719,3,Walk straight until you enter the kitchen area,supported,后段 -0.7° 进入厨房。
+87,2azQ1b91cZZ__2905,719,4,stop in front of the island counter.,supported,end 停在中岛柜台前。
+87,2azQ1b91cZZ__2905,720,1,Exit the bathroom,supported,start 在浴室。
+87,2azQ1b91cZZ__2905,720,2,turn right.,supported,-110.3°。
+87,2azQ1b91cZZ__2905,720,3,Continue straight down the hall until you reach the kitchen.,supported,w1 到 w2 沿走廊进入厨房。
+88,QUCTc6BB5sX__5286,1351,1,Walk straight down the hallway until you get to the kitchen.,contradicted,start 朝向走廊，第一段却是 +58.9°。
+88,QUCTc6BB5sX__5286,1351,2,Pass the bar with the chairs/stools.,supported,w3 经过带椅子的吧台。
+88,QUCTc6BB5sX__5286,1351,3,Walk straight until you get to a ledge on the left wall with a vase and white flowers.,not_in_view,没有看到左侧白花。
+88,QUCTc6BB5sX__5286,1351,4,Wait there.,supported,end 停下。
+88,QUCTc6BB5sX__5286,1352,1,Go to the far end of the hall.,contradicted,第一段 +58.9°，不是沿眼前的走廊走到尽头。
+88,QUCTc6BB5sX__5286,1352,2,Wait outside the dining room archway.,supported,end 停在餐厅拱门外。
+88,QUCTc6BB5sX__5286,1353,1,Turn left,supported,第一段 +58.9°。
+88,QUCTc6BB5sX__5286,1353,2,walk down the hallway.,supported,w0 到 w2 沿走廊走。
+88,QUCTc6BB5sX__5286,1353,3,Continue to walk straight through the kitchen.,supported,w3 穿过厨房吧台，之后接近直行。
+88,QUCTc6BB5sX__5286,1353,4,Stop next to the white flowers on the left.,not_in_view,没有看到左侧白花。
+89,zsNo4HB9uLZ__5333,1360,1,"Facing the clock turn left, at the intersection turn right, before the bookshelves turn right, at the intersection turn left",contradicted,第一段是 -175.8° 右转。指令要求面对钟向左转。
+89,zsNo4HB9uLZ__5333,1360,2,turn into the doorway,supported,最后进入门洞。
+89,zsNo4HB9uLZ__5333,1360,3,stop.,supported,end 停下。
+89,zsNo4HB9uLZ__5333,1361,1,Turn left and,contradicted,第一段 -175.8°，不是左转。
+89,zsNo4HB9uLZ__5333,1361,2,turn right into the hallway.,supported,下一段 -63.0° 进入走廊。
+89,zsNo4HB9uLZ__5333,1361,3,Walk straight until almost get to a room with a bookcase.Before you go to the room turn right and,supported,直行后 -88.7° 右转。
+89,zsNo4HB9uLZ__5333,1361,4,turn left,supported,随后 +95.7°。
+89,zsNo4HB9uLZ__5333,1361,5,go into the bathroom.,not_in_view,end 不能确认是浴室。
+89,zsNo4HB9uLZ__5333,1361,6,Wait near the sink.,not_in_view,没有看到洗手台。
+89,zsNo4HB9uLZ__5333,1362,1,Leave the sitting room,supported,start 在起居室，随后离开。
+89,zsNo4HB9uLZ__5333,1362,2,go left.,contradicted,离开时第一段是 -175.8°，不是向左。
+89,zsNo4HB9uLZ__5333,1362,3,Take a right before you enter the foyer.,supported,-63.0°。
+89,zsNo4HB9uLZ__5333,1362,4,Take a right before you enter the office area.,not_in_view,有 -88.7°，但没有看到办公区。
+89,zsNo4HB9uLZ__5333,1362,5,Enter the bathroom on the left.,not_in_view,最后 +95.7°，end 不能确认是左侧浴室。
+90,zsNo4HB9uLZ__6671,1681,1,Go straight into the kitchen,supported,前两段 -24.4° 和 +4.1°，w1 进入厨房。
+90,zsNo4HB9uLZ__6671,1681,2,turn left,supported,+79.6°。
+90,zsNo4HB9uLZ__6671,1681,3,go passed the bar.,not_in_view,没有看清吧台。
+90,zsNo4HB9uLZ__6671,1681,4,Go to the end of the hallway,supported,w2 到 w4 走到走廊尽头。
+90,zsNo4HB9uLZ__6671,1681,5,stop in front of the sink and shelves.,not_in_view,end 有架子，没有看清水槽。
+90,zsNo4HB9uLZ__6671,1682,1,Walk toward the kitchen counter,supported,w1 朝向厨房柜台。
+90,zsNo4HB9uLZ__6671,1682,2,turn left.,supported,+79.6°。
+90,zsNo4HB9uLZ__6671,1682,3,Walk into the kitchen past the stove and refrigerator,not_in_view,没有炉灶和冰箱。
+90,zsNo4HB9uLZ__6671,1682,4,stop in front of the sink.,not_in_view,end 没有看清水槽。
+90,zsNo4HB9uLZ__6671,1683,1,Walk passed the right of the bar,not_in_view,没有确认从吧台右侧经过。
+90,zsNo4HB9uLZ__6671,1683,2,and turn left to walk through the kitchen.,supported,+79.6° 后穿过厨房区域。
+90,zsNo4HB9uLZ__6671,1683,3,Stop once you reach the shelves on your right.,not_in_view,end 有架子，左右没有确认。
+91,oLBMNvg9in8__6007,1531,1,Go down the stairs,supported,start 沿楼梯向下，dy -0.51。
+91,oLBMNvg9in8__6007,1531,2,turn right.,supported,-67.3°，接着 -138.8°。
+91,oLBMNvg9in8__6007,1531,3,Keep going down the stairs,supported,后续 dy 仍为负。
+91,oLBMNvg9in8__6007,1531,4,stop in the doorway of the living room.,contradicted,end 在房间内部看着桌子和壁炉，不是停在门口。
+91,oLBMNvg9in8__6007,1532,1,Walk all the way to the bottom on both flight of stairs,supported,两段楼梯的 dy 都为负。
+91,oLBMNvg9in8__6007,1532,2,Walk straigh the the hallway to your left,contradicted,转弯是 -67.3° 和 -138.8°，不是左侧走廊。
+91,oLBMNvg9in8__6007,1532,3,and,supported,这一小句没有空间断言。
+91,oLBMNvg9in8__6007,1532,4,"stop right before the rug.,.",supported,end 的地毯前停下。
+91,oLBMNvg9in8__6007,1533,1,Walk down the stairs and to the right.,supported,下楼同时向右，-67.3°。
+91,oLBMNvg9in8__6007,1533,2,Walk down the stairs,supported,继续下降。
+91,oLBMNvg9in8__6007,1533,3,stop in front of the table.,supported,end 停在桌子前。
+92,TbHJrupSAjP__7278,1828,1,Turn left,supported,第一段 +71.6°。
+92,TbHJrupSAjP__7278,1828,2,enter the bedroom on the left.,supported,再左转后 w1 进入卧室。
+92,TbHJrupSAjP__7278,1828,3,Turn left,supported,随后 +108.0°。
+92,TbHJrupSAjP__7278,1828,4,walk all the way down the hallway until you reach a wall.,supported,w2 到 w3 沿走廊走到墙前。
+92,TbHJrupSAjP__7278,1828,5,Enter the bedroom to your left,supported,最后 +37.8° 进入左侧房间。
+92,TbHJrupSAjP__7278,1828,6,stop.,supported,end 停下。
+92,TbHJrupSAjP__7278,1829,1,"Leave the bathroom, and the bedroom.",supported,start 在浴室，左转后离开浴室和卧室。
+92,TbHJrupSAjP__7278,1829,2,Enter the bedroom on the far left in the hall.,supported,走廊尽头左侧进入 end 的房间。
+92,TbHJrupSAjP__7278,1829,3,Stop in the doorway.,contradicted,end 已经站在房间内部看着沙发，不是停在门口。
+92,TbHJrupSAjP__7278,1830,1,Exit bathroom,supported,start 离开浴室。
+92,TbHJrupSAjP__7278,1830,2,turn left,supported,+71.6°。
+92,TbHJrupSAjP__7278,1830,3,go through door,supported,w0 通过门。
+92,TbHJrupSAjP__7278,1830,4,turn left,supported,下一段 +73.2°。
+92,TbHJrupSAjP__7278,1830,5,walk through door,supported,w1 通过门进入房间。
+92,TbHJrupSAjP__7278,1830,6,go past rails,not_in_view,没有看到栏杆。
+92,TbHJrupSAjP__7278,1830,7,turn left at door,supported,门口附近 +37.8°。
+92,TbHJrupSAjP__7278,1830,8,wait there.,supported,end 停下。
+93,QUCTc6BB5sX__4479,1114,1,Walk straight across the wine cellar,supported,前四段航向变化接近 0°，穿过酒窖。
+93,QUCTc6BB5sX__4479,1114,2,exit out the door on the other side.,supported,w2 从另一侧的门离开。
+93,QUCTc6BB5sX__4479,1114,3,Once out turn left and,supported,出门后 +98.0°。
+93,QUCTc6BB5sX__4479,1114,4,enter in the door to your left in the corner.,supported,角落里再 +77.0° 进入左侧门。
+93,QUCTc6BB5sX__4479,1114,5,Stop once you enter the open room with several large cabinets.,not_in_view,end 是空房间，没有几个大柜子。
+93,QUCTc6BB5sX__4479,1115,1,Walk forward past the racks of wine bottles until you exit the wine cellar.,supported,start 有酒架，直行到出口。
+93,QUCTc6BB5sX__4479,1115,2,Turn to your left,supported,+98.0°。
+93,QUCTc6BB5sX__4479,1115,3,enter the first room on your left.,supported,+77.0° 进入左侧第一间。
+93,QUCTc6BB5sX__4479,1115,4,Wait on the rug just inside the room.,not_in_view,end 没有地毯。
+93,QUCTc6BB5sX__4479,1116,1,Go straight through the wine room,supported,穿过酒窖时接近直行。
+93,QUCTc6BB5sX__4479,1116,2,pass through the open gated glass door.,not_in_view,出口是木门，不是带栅栏的玻璃门。
+93,QUCTc6BB5sX__4479,1116,3,Turn sharply left,supported,+98.0°。
+93,QUCTc6BB5sX__4479,1116,4,go through the open door on your left.,supported,+77.0° 进入左侧的门。
+93,QUCTc6BB5sX__4479,1116,5,Wait just outside the door on the rug.,contradicted,end 已经在房间里面，不是停在门外。
+94,Z6MFQCViBuw__5883,1492,1,Turn around,supported,第一段 +175.5°。
+94,Z6MFQCViBuw__5883,1492,2,walk out the double doors.,supported,w0 走出双开门。
+94,Z6MFQCViBuw__5883,1492,3,Go across the next room and out the door.,supported,随后接近直行，穿过下一间并从门出去。
+94,Z6MFQCViBuw__5883,1492,4,Stop once you enter the next room with tile floor.,supported,end 进入铺着地砖的房间。
+94,Z6MFQCViBuw__5883,1493,1,Walk all the way forward,contradicted,红毯和前方的门在 +175.5° 之后，不是一直向前。
+94,Z6MFQCViBuw__5883,1493,2,enter another door.,supported,转弯后进入下一道门。
+94,Z6MFQCViBuw__5883,1493,3,Keep walking forward on the red carpet,supported,w1 到 w4 沿红毯接近直行。
+94,Z6MFQCViBuw__5883,1493,4,and,supported,这一小句没有空间断言。
+94,Z6MFQCViBuw__5883,1493,5,"stop where the tiles are on the ground, and the end of the carpet.",supported,end 停在地砖和红毯尽头。
+94,Z6MFQCViBuw__5883,1494,1,Stand with the bed behind you,supported,+175.5° 后床在身后，前方是红毯。
+94,Z6MFQCViBuw__5883,1494,2,walk straight down the red carpet.,supported,之后五段航向变化都很小。
+94,Z6MFQCViBuw__5883,1494,3,Go into the room with the tile floor,supported,end 进入地砖房间。
+94,Z6MFQCViBuw__5883,1494,4,stop after a few steps closer to the middle of the room.,supported,end 已经走进房间几步。
+95,2azQ1b91cZZ__267,79,1,Exit the bathroom,supported,start 对着洗手台，-106.7° 后离开浴室。
+95,2azQ1b91cZZ__267,79,2,walk down the hall to the second doorway on your left.,not_in_view,w1 是走廊，数不清左侧第二道门。
+95,2azQ1b91cZZ__267,79,3,Turn left,supported,+78.9°。
+95,2azQ1b91cZZ__267,79,4,enter the room through that doorway.,supported,end 通过门洞进入房间。
+95,2azQ1b91cZZ__267,80,1,Walk out of the bathroom past the sink and shower.,not_in_view,start 有洗手台，没有看到淋浴。
+95,2azQ1b91cZZ__267,80,2,Walk through the arched doorway down the hall with the throw rug.,supported,w1 通过拱门，走廊里有小地毯。
+95,2azQ1b91cZZ__267,80,3,Walk into the room with wooden closet doors and two ceiling lamps.,not_in_view,end 有木柜门，没有两盏顶灯。
+95,2azQ1b91cZZ__267,81,1,Leave the bathroom,supported,start 离开浴室。
+95,2azQ1b91cZZ__267,81,2,walk straight into the hallway.,contradicted,进入走廊的第一段是 -106.7°，不是直行。
+95,2azQ1b91cZZ__267,81,3,Go straight,supported,走廊上 +20.2° 和 +14.1°。
+95,2azQ1b91cZZ__267,81,4,enter the office in the second door on your left.,supported,+78.9° 进入左侧房间。
+96,TbHJrupSAjP__5186,1330,1,Continue forward until you reach the top of the steps and change your direction to the left.,supported,上楼第一段 +126.2°，w0 到达楼梯顶部。
+96,TbHJrupSAjP__5186,1330,2,Travel forward until you reach the base of the next staircase on your right.,supported,w2 的下一道楼梯在 -130.2° 右转之后。
+96,TbHJrupSAjP__5186,1330,3,Ascend the stairs until you reach the top step.,supported,随后 dy +1.50 和 +0.81，走到顶部。
+96,TbHJrupSAjP__5186,1330,4,Halt here.,supported,end 停下。
+96,TbHJrupSAjP__5186,1331,1,Go to the top of the stairs,supported,第一段 dy +0.43，w0 到顶部。
+96,TbHJrupSAjP__5186,1331,2,turn left.,supported,上楼时 +126.2°。
+96,TbHJrupSAjP__5186,1331,3,Go past the fake tree to the base of the stairs,supported,w1 经过植物，w2 到下一道楼梯底部。
+96,TbHJrupSAjP__5186,1331,4,go up the stairs.,supported,dy 继续为正。
+96,TbHJrupSAjP__5186,1331,5,Stop at the top of the stairs.,supported,end 停在楼梯顶部。
+96,TbHJrupSAjP__5186,1332,1,Walk up the steps,supported,start 沿台阶向上。
+96,TbHJrupSAjP__5186,1332,2,turn left.,supported,+126.2°。
+96,TbHJrupSAjP__5186,1332,3,Walk toward the front door,not_in_view,没有看到前门。
+96,TbHJrupSAjP__5186,1332,4,turn right at the steps.,supported,台阶处 -130.2°。
+96,TbHJrupSAjP__5186,1332,5,Walk up the stairs,supported,dy +1.50。
+96,TbHJrupSAjP__5186,1332,6,stop at the top of the steps.,supported,end 停在台阶顶部。
+97,zsNo4HB9uLZ__5860,1477,1,With the window behind you,not_in_view,start 没有看到身后的窗户。
+97,zsNo4HB9uLZ__5860,1477,2,walk straight past the table and kitchen area and through the doorway.,contradicted,桌子和厨房在 -98.0° 之后，不是直行穿过。
+97,zsNo4HB9uLZ__5860,1477,3,Keep going until you get to a separate sitting room on the left with blue walls and white couches.,supported,end 是蓝色墙壁、白色沙发的起居室，进入前 +57.6°。
+97,zsNo4HB9uLZ__5860,1477,4,Walk into the room,supported,end 走进房间。
+97,zsNo4HB9uLZ__5860,1477,5,stop once you step on the carpet.,supported,end 踩在地毯上。
+97,zsNo4HB9uLZ__5860,1478,1,Walk past the table and chairs.,contradicted,桌子和椅子在第一段 -98.0° 之后。
+97,zsNo4HB9uLZ__5860,1478,2,Walk past the bar with the stools.,supported,w2 经过吧台区域。
+97,zsNo4HB9uLZ__5860,1478,3,After you pass that turn left,supported,经过后 +57.6°。
+97,zsNo4HB9uLZ__5860,1478,4,wait near the two white couches and the coffee table.,supported,end 有两张白色沙发和茶几。
+97,zsNo4HB9uLZ__5860,1479,1,Walk on the left side of the table straight towards the couch and kitchen counter.,contradicted,第一段 -98.0°，不是从桌子左侧直行。
+97,zsNo4HB9uLZ__5860,1479,2,Walk between the couch and counter,supported,w0 到 w2 从沙发和柜台之间经过。
+97,zsNo4HB9uLZ__5860,1479,3,continue until straight.,supported,中间几段接近直行。
+97,zsNo4HB9uLZ__5860,1479,4,At the large clock on the wall turn left into the sitting area.,not_in_view,墙上没有大钟。左转 +57.6° 进入起居区。
+97,zsNo4HB9uLZ__5860,1479,5,And,supported,这一小句没有空间断言。
+97,zsNo4HB9uLZ__5860,1479,6,stop near the sofa on the left.,supported,end 停在沙发附近。
+98,TbHJrupSAjP__4094,1009,1,Turn ro your left,supported,第一段 +102.8°。
+98,TbHJrupSAjP__4094,1009,2,exit into the hallway.,supported,w0 进入走廊。
+98,TbHJrupSAjP__4094,1009,3,Turn left,supported,随后 +37.8°。
+98,TbHJrupSAjP__4094,1009,4,enter the bedroom and,supported,w3 进入卧室。
+98,TbHJrupSAjP__4094,1009,5,turn left,supported,进衣帽间前 +116.9°。
+98,TbHJrupSAjP__4094,1009,6,enter the closet.,supported,end 进入衣帽间。
+98,TbHJrupSAjP__4094,1010,1,Exit the bedroom.,supported,+102.8° 后 w0 离开卧室。
+98,TbHJrupSAjP__4094,1010,2,Go to the next bedroom on the left.,supported,左侧转弯后 w3 进入下一间卧室。
+98,TbHJrupSAjP__4094,1010,3,Go to the foot of the bed.,supported,w3 走到床尾。
+98,TbHJrupSAjP__4094,1010,4,Go into the closet across from the blue bed.,supported,+116.9° 后 end 进入床对面的衣帽间。
+98,TbHJrupSAjP__4094,1011,1,Stand so the foot of the bed is to your right,not_in_view,start 的床在画面里，不能确认床尾在右侧。
+98,TbHJrupSAjP__4094,1011,2,walk out of the room,supported,+102.8° 后走出房间。
+98,TbHJrupSAjP__4094,1011,3,going past a big mirror on the way.,supported,w0 经过大镜子。
+98,TbHJrupSAjP__4094,1011,4,Once outside walk straight until you see an open door to a bedroom on your left.,supported,走廊上左转后看到左侧卧室的门。
+98,TbHJrupSAjP__4094,1011,5,Walk into the room,supported,w3 走进房间。
+98,TbHJrupSAjP__4094,1011,6,stand at the foot of the bed with the bed behind you.,not_in_view,不能确认床在身后。
+98,TbHJrupSAjP__4094,1011,7,Walk through the doorway on the left into the closet.,supported,+116.9° 进入左侧衣帽间。
+98,TbHJrupSAjP__4094,1011,8,Stop in this doorway.,supported,end 停在这个门口。
+99,X7HyMhZNoso__4828,1222,1,Walk up brown wooden steps,contradicted,木台阶在 -82.0° 之后的 w1，start 对着草地。
+99,X7HyMhZNoso__4828,1222,2,and head inside through sliding glass door.,supported,上台阶后 w2 通过玻璃推拉门，dy +0.72。
+99,X7HyMhZNoso__4828,1222,3,Walk to couch.,supported,end 走向沙发。
+99,X7HyMhZNoso__4828,1222,4,Wait here.,supported,end 停下。
+99,X7HyMhZNoso__4828,1223,1,Walk straight until you get to a porch.,contradicted,第一段 -82.0°，不是直行到门廊。
+99,X7HyMhZNoso__4828,1223,2,Go up the steps of the porch and into the house using the glass double doors.,supported,w1 上台阶，w2 从玻璃双开门进门。
+99,X7HyMhZNoso__4828,1223,3,Wait near the tv.,not_in_view,end 没有看清电视。
+99,X7HyMhZNoso__4828,1224,1,Walk forward,contradicted,第一段 -82.0°，不是向前走。
+99,X7HyMhZNoso__4828,1224,2,turn right towards the three stairs to enter the house.,supported,-82.0° 和 -53.7° 朝向台阶。
+99,X7HyMhZNoso__4828,1224,3,Walk forward towards the glass door on the very left corner,not_in_view,w2 有玻璃门，不能确认最左角那一扇。
+99,X7HyMhZNoso__4828,1224,4,and,supported,这一小句没有空间断言。
+99,X7HyMhZNoso__4828,1224,5,stop there.,supported,end 停下。
+100,X7HyMhZNoso__2642,634,1,Turn right,contradicted,第一段是 +56.9° 左转，不是右转。
+100,X7HyMhZNoso__2642,634,2,enter through the sliding door.,supported,随后 -44.2° 和 -92.4°，w2 通过推拉门。
+100,X7HyMhZNoso__2642,634,3,Continue past the TV on the right.,not_in_view,w3 有电视，左右没有确认。
+100,X7HyMhZNoso__2642,634,4,Enter the kitchen,supported,end 进入厨房。
+100,X7HyMhZNoso__2642,634,5,wait beside the fridge.,supported,end 停在冰箱旁边。
+100,X7HyMhZNoso__2642,635,1,Go toward the white table on the patio.,supported,start 朝向露台的白色桌子。
+100,X7HyMhZNoso__2642,635,2,Turn right,supported,-44.2°。
+100,X7HyMhZNoso__2642,635,3,go inside through the sliding doors.,supported,w2 从推拉门进入室内。
+100,X7HyMhZNoso__2642,635,4,Go through the room with television and into the kitchen.,supported,w3 经过电视，end 进入厨房。
+100,X7HyMhZNoso__2642,635,5,Stop nest to the stove and island in the kitchen.,supported,end 停在炉灶和中岛旁边。
+100,X7HyMhZNoso__2642,636,1,Walk toward the white patio table and chairs,supported,start 朝向白色露台桌椅。
+100,X7HyMhZNoso__2642,636,2,go into the house through the glass sliding doors.,supported,右转后 w2 从玻璃推拉门进门。
+100,X7HyMhZNoso__2642,636,3,Pass the grey couches,supported,w3 经过灰色沙发。
+100,X7HyMhZNoso__2642,636,4,go into the kitchen.,supported,end 进入厨房。
+100,X7HyMhZNoso__2642,636,5,Wait by the toaster.,not_in_view,end 没有烤面包机。

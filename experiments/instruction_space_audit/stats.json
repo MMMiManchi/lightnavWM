@@ -1,0 +1,19 @@
+{
+  "episodes": 1839,
+  "routes": 613,
+  "group_size_ok": true,
+  "matched_results": 1839,
+  "missing_result": 0,
+  "success_episodes": 1129,
+  "fail_episodes": 710,
+  "all_success_routes": 210,
+  "partial_routes": 316,
+  "all_fail_routes": 87,
+  "routes_with_1_success": 133,
+  "routes_with_2_success": 183,
+  "fail_with_success_sibling": 449,
+  "fail_without_success_sibling": 261,
+  "no_path_episodes": 90,
+  "all_fail_routes_no_path": 30,
+  "all_fail_routes_finite": 57
+}

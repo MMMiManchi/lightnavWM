@@ -1,0 +1,7 @@
+failure_type,n,model_success,expert_success,stop_success,stop_recovered,expert_recovered,sampled
+一开始就走反,6,0,6,0,0,6,1
+走近后又走偏,6,0,6,0,0,6,1
+进入 3 米后又离开,6,0,6,6,6,6,1
+停在最近距离 3–5 米,6,0,6,0,0,6,1
+停在更远的位置,0,0,0,0,0,0,0
+原本成功对照,6,6,6,6,0,0,1

@@ -1,0 +1,105 @@
+{
+  "paired": true,
+  "duplicates": {
+    "model": 0,
+    "oracle_stop": 0,
+    "expert": 0
+  },
+  "n": 30,
+  "missing_baseline": [],
+  "success_flag_mismatches": [],
+  "abs_final_distance_delta_m": {
+    "n": 30,
+    "median": 0.0,
+    "max": 0.05757904052734375,
+    "gt_0_5m": 0,
+    "gt_1m": 0
+  },
+  "modes": {
+    "model": {
+      "n": 30,
+      "success": 6,
+      "fail": 24,
+      "sr": 0.2,
+      "spl": 0.1776975194338982,
+      "ne_geodesic_m": 8.899375798304876,
+      "ndtw": 0.3628592001270251,
+      "mean_decisions": 108.63333333333334,
+      "mean_first_infer_s": 0.09982333333333335,
+      "first_infer_n": 30,
+      "oracle_fired": 0,
+      "success_with_final_ge_3": []
+    },
+    "oracle_stop": {
+      "n": 30,
+      "success": 12,
+      "fail": 18,
+      "sr": 0.4,
+      "spl": 0.39470500630416383,
+      "ne_geodesic_m": 8.522700691223145,
+      "ndtw": 0.4402992316382631,
+      "mean_decisions": 92.4,
+      "mean_first_infer_s": 0.10211333333333333,
+      "first_infer_n": 30,
+      "oracle_fired": 12,
+      "success_with_final_ge_3": []
+    },
+    "expert": {
+      "n": 30,
+      "success": 30,
+      "fail": 0,
+      "sr": 1.0,
+      "spl": 0.9970570798632729,
+      "ne_geodesic_m": 0.8907229165236156,
+      "ndtw": 0.923899093890953,
+      "mean_decisions": 35.63333333333333,
+      "mean_first_infer_s": null,
+      "first_infer_n": 0,
+      "oracle_fired": 0,
+      "success_with_final_ge_3": []
+    }
+  },
+  "stop_recovered": [
+    "x8F5xyUWy9e/189",
+    "TbHJrupSAjP/376",
+    "2azQ1b91cZZ/1087",
+    "2azQ1b91cZZ/214",
+    "TbHJrupSAjP/174",
+    "QUCTc6BB5sX/142"
+  ],
+  "stop_hurt": [],
+  "expert_recovered": [
+    "X7HyMhZNoso/1759",
+    "x8F5xyUWy9e/189",
+    "2azQ1b91cZZ/326",
+    "QUCTc6BB5sX/455",
+    "TbHJrupSAjP/376",
+    "2azQ1b91cZZ/1266",
+    "2azQ1b91cZZ/1087",
+    "8194nk5LbLH/221",
+    "2azQ1b91cZZ/214",
+    "TbHJrupSAjP/174",
+    "x8F5xyUWy9e/585",
+    "TbHJrupSAjP/1332",
+    "x8F5xyUWy9e/201",
+    "Z6MFQCViBuw/393",
+    "X7HyMhZNoso/901",
+    "2azQ1b91cZZ/116",
+    "EU6Fwq7SyZv/639",
+    "EU6Fwq7SyZv/972",
+    "QUCTc6BB5sX/142",
+    "QUCTc6BB5sX/569",
+    "oLBMNvg9in8/846",
+    "x8F5xyUWy9e/199",
+    "2azQ1b91cZZ/1049",
+    "QUCTc6BB5sX/875"
+  ],
+  "expert_hurt": [],
+  "failure_heading_gt_45deg": 9,
+  "failure_heading_n": 24,
+  "apos_states": {
+    "rot_left": 14,
+    "rot_right": 6,
+    "point": 10
+  }
+}

@@ -1,0 +1,19 @@
+episode_id,step,privileged_deg,privileged_side,opening_on_privileged_side,instruction_agrees_with_privileged,note
+1049,0,163.3,left_rear,no,no,前方是走道。指令是走到走道尽头。画面里没有后方的分支。
+116,8,-118.1,right,uncertain,no,窄空间前方有出口。指令先写向前走。右侧有没有可进入的开口看不清。
+1266,24,95.6,left,uncertain,uncertain,前方是玻璃门。左侧有没有走廊看不清。指令里的右转和特权方向的左侧不是同一侧。
+326,26,83.6,left,yes,no,左侧拱门可见。指令写的是远处右侧的门。
+221,10,128.7,left,no,no,起居空间。楼梯和要进的门不在画面里。
+639,42,83.7,left,uncertain,uncertain,大房间。楼梯和左侧开口没有确认。
+972,33,85.6,left,no,uncertain,柜子和椅子。看不到左侧可进入的开口。指令要站到楼梯下，楼梯不在画面里。
+455,22,-142.4,right,yes,uncertain,右缘有开口，走廊在正前方。古董柜没有确认，这个开口是不是该转的口不能定。
+569,8,-118.5,right,uncertain,uncertain,床在右侧，拱门在前方。床头右侧的出口没有在这一帧里对上。
+875,6,150.2,left_rear,uncertain,no,走廊在前方。左后方的分支不在视野里。画面也不能确认已经对着柜台之间。
+1332,3,79.3,left,uncertain,uncertain,台阶在画面下方，前方有门。左转之后的目标没有确认。
+1759,11,-110.1,right,yes,uncertain,右侧有门洞。指令写右转进浴室，浴室本身看不清。
+901,32,-87.8,right,uncertain,uncertain,露台，前方有暗口。右侧是不是可进入的分支看不清。
+393,9,-89.2,right,uncertain,uncertain,红桌在画面右侧。右侧暗口是否可进入、是不是特权分支，不能定。指令的稍向右和 -89 度不是同一个动作。
+846,4,-93.2,right,uncertain,no,壁炉在前方。指令要求从左侧的门离开，特权方向在右侧。左右开口都不够清楚。
+199,18,-82.2,right,no,no,砖墙和植物。右侧没有开口。指令里的门和右侧的植物都对不上。
+201,20,-139.5,right,no,no,左侧有开着的门，右侧是墙和植物。指令要穿过这扇门，特权方向在右侧。
+585,13,-149.4,right,yes,no,左右都有门，右侧门可见。特权方向几乎朝后。指令写左转，和特权方向相反。

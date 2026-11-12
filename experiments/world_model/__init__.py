@@ -1,0 +1,10 @@
+"""Train-only transition collection. This package does not train a world model."""
+
+SCHEMA_VERSION = "wm-transition/0.2"
+ALLOWLIST_VERSION = "wm-allowlist/0.1"
+COLLECTOR_VERSION = "wm-collector/0.1"
+GROUP_VERSION = "wm-group/0.1"
+END_RULE_VERSION = "wm-end-priority/0.1"
+DATASET_NAME = "R2R_VLNCE_v1-3_preprocessed"
+DT_SIM_REASON = "measured from habitat_sim.Simulator.get_world_time before and after Env.step"
+WAYPOINT_TIME_REASON = "decoded waypoints have no physical time base; k*dt was not invented"

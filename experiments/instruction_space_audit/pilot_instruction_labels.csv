@@ -1,0 +1,19 @@
+sample_index,route_group_id,episode_id,success,go2_path,semantic_conflict_confirmed,explains_failure,geodesic_note,evidence
+1,oLBMNvg9in8__3484,850,0,no_path,yes,uncertain,无 Go2 路径。参考路径可以核验，这条路线留在语义样本里。,“go straight”与起步朝向相反。门、左侧楼梯和终点雕像分别在 w0、w2、end，但这句开头已经和参考动作冲突。
+1,oLBMNvg9in8__3484,851,0,no_path,uncertain,uncertain,无 Go2 路径。参考路径可以核验。,右转出门、走廊和上楼都能对上。w1_r80 正对关闭的白门，浴室内部仍然看不见。
+1,oLBMNvg9in8__3484,852,0,no_path,no,not_applicable,无 Go2 路径。参考路径可以核验。,右转出门、左侧楼梯、继续向左上楼和终点雕像都有对应画面。
+2,QUCTc6BB5sX__4761,1201,0,finite,wording_only,not_applicable,测地序列只有两次左转。参考路径在 w2 还有 -93.9° 右转。标签不因此改成 uncertain。,左转进入柜台通道、在椅子旁左转，和 w0、w1 一致。参考路径其后还有 -93.9° 和 +82.5°，这句话没有写。
+2,QUCTc6BB5sX__4761,1202,1,finite,yes,not_applicable,测地序列只有两次左转。参考路径在 w2 还有 -93.9° 右转。,第一段是 +60.4° 的左转，不是先直行。后面的右转、左侧房间和椅子在 w2、w3、end。
+2,QUCTc6BB5sX__4761,1203,1,finite,no,not_applicable,测地序列只有两次左转，没有指令里的右转。参考画面 w2 有这次 -93.9° 右转。,两次左转、一次右转、左侧房间和椅子背后，对应 w0 到 end。测地路径没有这次右转，标签仍按参考画面。
+3,EU6Fwq7SyZv__6014,1534,1,finite,no,not_applicable,测地第一步是 -170.9°，参考第一步是 +178°。两者都是掉头，符号相反。指令写的是 turn around。,掉头、床和箱子、左转下楼，对应 start、w0、w1、w2 和 end。
+3,EU6Fwq7SyZv__6014,1535,0,finite,yes,uncertain,测地第一步是 -170.9°，参考第一步是 +178°。轻微左转和这两种掉头都不符。,起步画面没有躺椅，第一段是 +178°。end 在底层地面，不是第三级台阶。
+3,EU6Fwq7SyZv__6014,1536,1,finite,no,not_applicable,测地第一步是 -170.9°，参考第一步是 +178°。两者都是掉头。,掉头、床边的楼梯和底层终点，对应 w0、w1 和 end。
+4,QUCTc6BB5sX__300,94,1,finite,no,not_applicable,30° 阈值下测地路径直到终点才积累出 +31.2°。参考路径有 -50.5° 和 +89.0°。标签只表示与参考路径一致。,玻璃门已经在 start 里。w1 左转 89°，end 的门口内能看到床。
+4,QUCTc6BB5sX__300,95,0,finite,no,not_applicable,30° 阈值下测地路径直到终点才积累出 +31.2°。参考路径有 -50.5° 和 +89.0°。,大窗在 start，硬左转是 +89°。w2 有柜台和高脚椅，end 是前方房间。
+4,QUCTc6BB5sX__300,96,0,finite,no,not_applicable,30° 阈值下测地路径直到终点才积累出 +31.2°。参考路径有 -50.5° 和 +89.0°。,w0 是法式玻璃门，左转后经过 w2 的柜台，w5 拱门旁有画。
+5,Z6MFQCViBuw__4534,1132,0,finite,no,not_applicable,测地第一步也是约 -168.5° 的右转，和参考掉头同向。,离开起步正对的画、右侧椅子和红地毯都能对上。双扇门不在 end 的正前方，而在 end_r60。
+5,Z6MFQCViBuw__4534,1133,0,finite,yes,uncertain,测地第一步也是约 -168.5° 的右转，和参考掉头同向。,start 正对画，参考第一段 -178.6°。直行和参考路径相反。
+5,Z6MFQCViBuw__4534,1134,0,finite,yes,uncertain,测地第一步也是约 -168.5° 的右转，和参考掉头同向。,花椅、两次左转和灭火器在 w2、w3、end_r60 能对上。起步画面正对的是画，到达花椅前要先掉头。
+6,2azQ1b91cZZ__1275,328,0,finite,no,not_applicable,测地路径也是连续右转，和参考同向。,楼梯在起步正前方。w4 转入右侧书架房间，end 是圆毯和书架。
+6,2azQ1b91cZZ__1275,329,1,finite,no,not_applicable,测地路径也是连续右转，和参考同向。,下楼后 w3 正对木门，右侧拱门转入 w4 的圆毯和书架。
+6,2azQ1b91cZZ__1275,330,1,finite,no,not_applicable,测地路径也是连续右转，和参考同向。,下楼进入 w3 的砖地房间，再右转穿过拱门，地面有圆毯。

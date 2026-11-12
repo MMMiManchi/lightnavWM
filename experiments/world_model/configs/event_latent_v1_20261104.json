@@ -1,0 +1,25 @@
+{
+  "run_dir": "/home/szgx/LightNav-0/output/world_model_training/event_latent_v1_20261104_01",
+  "annotations": "/home/szgx/LightNav-0/output/world_model_diagnostics/official_nodes_20261104_04",
+  "approval_key": "/home/szgx/.local/share/lightnav_world_model/approval.key",
+  "encoder_snapshot": "/home/szgx/.cache/huggingface/hub/models--google--siglip-so400m-patch14-384/snapshots/9fdffc58afc957d1a03a25b10dba0329ab15c2a3",
+  "source_runs": ["formal_fit_20261028_04", "formal_dev_20261028_01", "formal_fit_radius010_20261029_01", "formal_fit_radius010_20261029_02", "formal_fit_radius010_20261029_03", "formal_fit_radius010_20261029_04", "formal_fit_radius010_20261029_05", "formal_fit_radius010_20261029_06"],
+  "workers": 8,
+  "encoder_batch_size": 16,
+  "model": {"feature_dim": 1152, "history_length": 8, "width": 256, "layers": 4, "heads": 8, "stochastic_dim": 64},
+  "updates": 1600,
+  "batch_size": 64,
+  "learning_rate": 0.0002,
+  "evaluate_every": 100,
+  "patience_evaluations": 6,
+  "experiments": [
+    {"name": "tssm_branch", "seed": 20261104, "use_branch": true, "stochastic": true},
+    {"name": "tssm_no_branch", "seed": 20261104, "use_branch": false, "stochastic": true},
+    {"name": "tssm_branch", "seed": 20261105, "use_branch": true, "stochastic": true},
+    {"name": "tssm_no_branch", "seed": 20261105, "use_branch": false, "stochastic": true},
+    {"name": "tssm_branch", "seed": 20261106, "use_branch": true, "stochastic": true},
+    {"name": "tssm_no_branch", "seed": 20261106, "use_branch": false, "stochastic": true},
+    {"name": "deterministic_branch", "seed": 20261104, "use_branch": true, "stochastic": false},
+    {"name": "deterministic_no_branch", "seed": 20261104, "use_branch": false, "stochastic": false}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "recorded_on": "2026-10-27",
+  "decision_source": "User instruction on 2026-10-27: accept the current collection protocol, accept the fit/dev report thresholds as a whole, select simulation-time option 3, develop the train_dev entry without executing collection, and keep COLLECTION_AUTHORIZED false.",
+  "protocol_accepted": true,
+  "scale_thresholds_accepted": "whole_set",
+  "sim_time_window": "option_3",
+  "collection_authorized": false,
+  "dev_collection_executed": false
+}

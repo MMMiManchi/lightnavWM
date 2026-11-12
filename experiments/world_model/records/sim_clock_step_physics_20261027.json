@@ -1,0 +1,18 @@
+{
+  "habitat_sim": "0.3.1",
+  "scene": "17DRP5sb8fy.glb",
+  "renderer_created": false,
+  "sensors": 0,
+  "habitat_env": false,
+  "episode": false,
+  "physics_target_sps": 60.0,
+  "requested_step_physics_s": 0.016666666666666666,
+  "physics_time_step_s": 0.008,
+  "world_time_before_kinematic_s": 0.0,
+  "world_time_after_try_step_set_state_s": 0.0,
+  "horizontal_displacement_m": 0.3904685378074646,
+  "world_time_after_one_step_physics_s": 0.016,
+  "world_time_after_two_step_physics_s": 0.032,
+  "separate_step_world_0_1_s": 0.096,
+  "note": "Isolated habitat_sim.Simulator calls only. Not habitat.Env.step and not an episode."
+}

@@ -1,0 +1,11 @@
+{
+  "recorded_on": "2026-10-27",
+  "decision_source": "User instruction in Codex conversation on 2026-10-27: authorize formal train_fit data collection and permit COLLECTION_AUTHORIZED to be set true.",
+  "scope": "train_fit",
+  "collection_authorized": true,
+  "limitations": {
+    "feature_extraction_authorized": false,
+    "training_authorized": false,
+    "formal_evaluation_authorized": false
+  }
+}

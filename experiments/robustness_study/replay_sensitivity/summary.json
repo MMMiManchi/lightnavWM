@@ -1,0 +1,484 @@
+{
+  "steps_tested": 3259,
+  "replay_text_match": {
+    "n": 2102,
+    "denom": 3259,
+    "rate": 0.645
+  },
+  "replay_rvq_match": {
+    "n": 2412,
+    "denom": 3259,
+    "rate": 0.7401
+  },
+  "action_changed_on_rvq_matched_steps": {
+    "n": 214,
+    "denom": 2412,
+    "rate": 0.0887
+  },
+  "yaw_sign_changed": {
+    "n": 6,
+    "denom": 2412,
+    "rate": 0.0025
+  },
+  "stop_changed": {
+    "n": 7,
+    "denom": 2412,
+    "rate": 0.0029
+  },
+  "rotations_agree_against_original": {
+    "n": 161,
+    "denom": 2412,
+    "rate": 0.0667
+  },
+  "by_group": {
+    "entered_then_left": {
+      "n": 45,
+      "denom": 497,
+      "rate": 0.0905
+    },
+    "never_entered_3m": {
+      "n": 138,
+      "denom": 1618,
+      "rate": 0.0853
+    },
+    "success": {
+      "n": 31,
+      "denom": 297,
+      "rate": 0.1044
+    }
+  },
+  "by_step_bucket": {
+    "10_to_29": {
+      "n": 44,
+      "denom": 451,
+      "rate": 0.0976
+    },
+    "1_to_9": {
+      "n": 14,
+      "denom": 215,
+      "rate": 0.0651
+    },
+    "30_plus": {
+      "n": 137,
+      "denom": 1604,
+      "rate": 0.0854
+    },
+    "last5": {
+      "n": 17,
+      "denom": 116,
+      "rate": 0.1466
+    },
+    "step0": {
+      "n": 2,
+      "denom": 26,
+      "rate": 0.0769
+    }
+  },
+  "within_3_of_sustained_rise": {
+    "n": 9,
+    "denom": 121,
+    "rate": 0.0744
+  },
+  "episodes_with_any_change": 28,
+  "episodes": [
+    {
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "10",
+      "group": "success",
+      "probe_class": "success",
+      "success": "True",
+      "steps_tested": 68,
+      "replay_rvq_match": 60,
+      "action_changed_steps": 6,
+      "first_changed_step": 0,
+      "yaw_sign_steps": 0,
+      "both_rotations_agree_against_original": 4
+    },
+    {
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "116",
+      "group": "never_entered_3m",
+      "probe_class": "big_drift",
+      "success": "False",
+      "steps_tested": 121,
+      "replay_rvq_match": 103,
+      "action_changed_steps": 6,
+      "first_changed_step": 7,
+      "yaw_sign_steps": 0,
+      "both_rotations_agree_against_original": 6
+    },
+    {
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "214",
+      "group": "entered_then_left",
+      "probe_class": "left_after_1m",
+      "success": "False",
+      "steps_tested": 154,
+      "replay_rvq_match": 117,
+      "action_changed_steps": 14,
+      "first_changed_step": 38,
+      "yaw_sign_steps": 0,
+      "both_rotations_agree_against_original": 8
+    },
+    {
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "326",
+      "group": "never_entered_3m",
+      "probe_class": "big_drift",
+      "success": "False",
+      "steps_tested": 155,
+      "replay_rvq_match": 115,
+      "action_changed_steps": 10,
+      "first_changed_step": 15,
+      "yaw_sign_steps": 0,
+      "both_rotations_agree_against_original": 2
+    },
+    {
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "1049",
+      "group": "never_entered_3m",
+      "probe_class": "wrong_way",
+      "success": "False",
+      "steps_tested": 58,
+      "replay_rvq_match": 48,
+      "action_changed_steps": 3,
+      "first_changed_step": 37,
+      "yaw_sign_steps": 0,
+      "both_rotations_agree_against_original": 2
+    },
+    {
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "1087",
+      "group": "entered_then_left",
+      "probe_class": "left_after_3m",
+      "success": "False",
+      "steps_tested": 144,
+      "replay_rvq_match": 115,
+      "action_changed_steps": 6,
+      "first_changed_step": 9,
+      "yaw_sign_steps": 1,
+      "both_rotations_agree_against_original": 3
+    },
+    {
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "1266",
+      "group": "never_entered_3m",
+      "probe_class": "stop_just_outside",
+      "success": "False",
+      "steps_tested": 78,
+      "replay_rvq_match": 62,
+      "action_changed_steps": 3,
+      "first_changed_step": 37,
+      "yaw_sign_steps": 0,
+      "both_rotations_agree_against_original": 2
+    },
+    {
+      "scene": "QUCTc6BB5sX",
+      "episode_id": "98",
+      "group": "success",
+      "probe_class": "success",
+      "success": "True",
+      "steps_tested": 80,
+      "replay_rvq_match": 60,
+      "action_changed_steps": 4,
+      "first_changed_step": 12,
+      "yaw_sign_steps": 0,
+      "both_rotations_agree_against_original": 1
+    },
+    {
+      "scene": "QUCTc6BB5sX",
+      "episode_id": "142",
+      "group": "entered_then_left",
+      "probe_class": "left_after_1m",
+      "success": "False",
+      "steps_tested": 80,
+      "replay_rvq_match": 62,
+      "action_changed_steps": 2,
+      "first_changed_step": 1,
+      "yaw_sign_steps": 0,
+      "both_rotations_agree_against_original": 1
+    },
+    {
+      "scene": "QUCTc6BB5sX",
+      "episode_id": "455",
+      "group": "never_entered_3m",
+      "probe_class": "big_drift",
+      "success": "False",
+      "steps_tested": 465,
+      "replay_rvq_match": 251,
+      "action_changed_steps": 23,
+      "first_changed_step": 14,
+      "yaw_sign_steps": 0,
+      "both_rotations_agree_against_original": 65
+    },
+    {
+      "scene": "QUCTc6BB5sX",
+      "episode_id": "569",
+      "group": "never_entered_3m",
+      "probe_class": "wrong_way",
+      "success": "False",
+      "steps_tested": 47,
+      "replay_rvq_match": 36,
+      "action_changed_steps": 3,
+      "first_changed_step": 15,
+      "yaw_sign_steps": 0,
+      "both_rotations_agree_against_original": 0
+    },
+    {
+      "scene": "QUCTc6BB5sX",
+      "episode_id": "875",
+      "group": "never_entered_3m",
+      "probe_class": "stop_just_outside",
+      "success": "False",
+      "steps_tested": 408,
+      "replay_rvq_match": 323,
+      "action_changed_steps": 29,
+      "first_changed_step": 11,
+      "yaw_sign_steps": 0,
+      "both_rotations_agree_against_original": 16
+    },
+    {
+      "scene": "TbHJrupSAjP",
+      "episode_id": "174",
+      "group": "entered_then_left",
+      "probe_class": "left_after_1m",
+      "success": "False",
+      "steps_tested": 89,
+      "replay_rvq_match": 75,
+      "action_changed_steps": 7,
+      "first_changed_step": 10,
+      "yaw_sign_steps": 0,
+      "both_rotations_agree_against_original": 3
+    },
+    {
+      "scene": "TbHJrupSAjP",
+      "episode_id": "376",
+      "group": "entered_then_left",
+      "probe_class": "left_after_3m",
+      "success": "False",
+      "steps_tested": 60,
+      "replay_rvq_match": 50,
+      "action_changed_steps": 4,
+      "first_changed_step": 1,
+      "yaw_sign_steps": 0,
+      "both_rotations_agree_against_original": 1
+    },
+    {
+      "scene": "TbHJrupSAjP",
+      "episode_id": "1332",
+      "group": "never_entered_3m",
+      "probe_class": "big_drift",
+      "success": "False",
+      "steps_tested": 73,
+      "replay_rvq_match": 52,
+      "action_changed_steps": 6,
+      "first_changed_step": 1,
+      "yaw_sign_steps": 0,
+      "both_rotations_agree_against_original": 3
+    },
+    {
+      "scene": "x8F5xyUWy9e",
+      "episode_id": "189",
+      "group": "entered_then_left",
+      "probe_class": "left_after_3m",
+      "success": "False",
+      "steps_tested": 104,
+      "replay_rvq_match": 78,
+      "action_changed_steps": 12,
+      "first_changed_step": 13,
+      "yaw_sign_steps": 0,
+      "both_rotations_agree_against_original": 2
+    },
+    {
+      "scene": "x8F5xyUWy9e",
+      "episode_id": "199",
+      "group": "never_entered_3m",
+      "probe_class": "stop_just_outside",
+      "success": "False",
+      "steps_tested": 30,
+      "replay_rvq_match": 19,
+      "action_changed_steps": 1,
+      "first_changed_step": 10,
+      "yaw_sign_steps": 0,
+      "both_rotations_agree_against_original": 1
+    },
+    {
+      "scene": "x8F5xyUWy9e",
+      "episode_id": "201",
+      "group": "never_entered_3m",
+      "probe_class": "big_drift",
+      "success": "False",
+      "steps_tested": 43,
+      "replay_rvq_match": 27,
+      "action_changed_steps": 3,
+      "first_changed_step": 2,
+      "yaw_sign_steps": 0,
+      "both_rotations_agree_against_original": 2
+    },
+    {
+      "scene": "x8F5xyUWy9e",
+      "episode_id": "585",
+      "group": "never_entered_3m",
+      "probe_class": "wrong_way",
+      "success": "False",
+      "steps_tested": 38,
+      "replay_rvq_match": 35,
+      "action_changed_steps": 6,
+      "first_changed_step": 20,
+      "yaw_sign_steps": 0,
+      "both_rotations_agree_against_original": 3
+    },
+    {
+      "scene": "EU6Fwq7SyZv",
+      "episode_id": "198",
+      "group": "success",
+      "probe_class": "success",
+      "success": "True",
+      "steps_tested": 73,
+      "replay_rvq_match": 56,
+      "action_changed_steps": 7,
+      "first_changed_step": 17,
+      "yaw_sign_steps": 0,
+      "both_rotations_agree_against_original": 4
+    },
+    {
+      "scene": "EU6Fwq7SyZv",
+      "episode_id": "639",
+      "group": "never_entered_3m",
+      "probe_class": "big_drift",
+      "success": "False",
+      "steps_tested": 82,
+      "replay_rvq_match": 57,
+      "action_changed_steps": 2,
+      "first_changed_step": 31,
+      "yaw_sign_steps": 0,
+      "both_rotations_agree_against_original": 3
+    },
+    {
+      "scene": "EU6Fwq7SyZv",
+      "episode_id": "972",
+      "group": "never_entered_3m",
+      "probe_class": "stop_just_outside",
+      "success": "False",
+      "steps_tested": 38,
+      "replay_rvq_match": 29,
+      "action_changed_steps": 0,
+      "first_changed_step": null,
+      "yaw_sign_steps": 0,
+      "both_rotations_agree_against_original": 1
+    },
+    {
+      "scene": "8194nk5LbLH",
+      "episode_id": "221",
+      "group": "never_entered_3m",
+      "probe_class": "wrong_way",
+      "success": "False",
+      "steps_tested": 199,
+      "replay_rvq_match": 162,
+      "action_changed_steps": 16,
+      "first_changed_step": 1,
+      "yaw_sign_steps": 2,
+      "both_rotations_agree_against_original": 6
+    },
+    {
+      "scene": "Z6MFQCViBuw",
+      "episode_id": "393",
+      "group": "never_entered_3m",
+      "probe_class": "wrong_way",
+      "success": "False",
+      "steps_tested": 177,
+      "replay_rvq_match": 115,
+      "action_changed_steps": 10,
+      "first_changed_step": 14,
+      "yaw_sign_steps": 1,
+      "both_rotations_agree_against_original": 6
+    },
+    {
+      "scene": "oLBMNvg9in8",
+      "episode_id": "846",
+      "group": "never_entered_3m",
+      "probe_class": "stop_just_outside",
+      "success": "False",
+      "steps_tested": 112,
+      "replay_rvq_match": 87,
+      "action_changed_steps": 10,
+      "first_changed_step": 0,
+      "yaw_sign_steps": 2,
+      "both_rotations_agree_against_original": 10
+    },
+    {
+      "scene": "oLBMNvg9in8",
+      "episode_id": "1072",
+      "group": "success",
+      "probe_class": "success",
+      "success": "True",
+      "steps_tested": 63,
+      "replay_rvq_match": 48,
+      "action_changed_steps": 6,
+      "first_changed_step": 6,
+      "yaw_sign_steps": 0,
+      "both_rotations_agree_against_original": 2
+    },
+    {
+      "scene": "X7HyMhZNoso",
+      "episode_id": "901",
+      "group": "never_entered_3m",
+      "probe_class": "stop_just_outside",
+      "success": "False",
+      "steps_tested": 62,
+      "replay_rvq_match": 52,
+      "action_changed_steps": 5,
+      "first_changed_step": 7,
+      "yaw_sign_steps": 0,
+      "both_rotations_agree_against_original": 2
+    },
+    {
+      "scene": "X7HyMhZNoso",
+      "episode_id": "1090",
+      "group": "success",
+      "probe_class": "success",
+      "success": "True",
+      "steps_tested": 36,
+      "replay_rvq_match": 22,
+      "action_changed_steps": 0,
+      "first_changed_step": null,
+      "yaw_sign_steps": 0,
+      "both_rotations_agree_against_original": 0
+    },
+    {
+      "scene": "X7HyMhZNoso",
+      "episode_id": "1759",
+      "group": "never_entered_3m",
+      "probe_class": "wrong_way",
+      "success": "False",
+      "steps_tested": 62,
+      "replay_rvq_match": 45,
+      "action_changed_steps": 2,
+      "first_changed_step": 4,
+      "yaw_sign_steps": 0,
+      "both_rotations_agree_against_original": 1
+    },
+    {
+      "scene": "zsNo4HB9uLZ",
+      "episode_id": "1040",
+      "group": "success",
+      "probe_class": "success",
+      "success": "True",
+      "steps_tested": 60,
+      "replay_rvq_match": 51,
+      "action_changed_steps": 8,
+      "first_changed_step": 14,
+      "yaw_sign_steps": 0,
+      "both_rotations_agree_against_original": 1
+    }
+  ],
+  "thresholds": {
+    "yaw_rad": 0.05,
+    "forward_m": 0.05,
+    "angles_deg": [
+      -1.0,
+      1.0
+    ]
+  },
+  "engine_load_s": 1354.9
+}

@@ -1,0 +1,128 @@
+{
+  "sources": {
+    "official_results": "/home/szgx/LightNav-0/output/r2r_official/results.jsonl",
+    "go2_results": "/home/szgx/LightNav-0/output/r2r_go2w/results.jsonl",
+    "failure_index": "/home/szgx/LightNav-0/experiments/r2r_diagnosis/failure_index.jsonl",
+    "missing_from_results": [
+      "per-step pose",
+      "per-step pointing",
+      "per-step RVQ codes",
+      "decoded waypoints",
+      "collision flag",
+      "per-step inference latency"
+    ],
+    "present_in_results": [
+      "episode id",
+      "scene id",
+      "instruction",
+      "success",
+      "oracle_success",
+      "spl",
+      "ndtw",
+      "steps",
+      "min_distance",
+      "final_distance",
+      "min distance step",
+      "aggregated velocity action counts",
+      "forced_stop"
+    ]
+  },
+  "official": {
+    "episodes": 1839,
+    "successes": 1245,
+    "failures": 594,
+    "sr": 0.6769983686786297,
+    "oracle_success_rate": 0.7281131049483415,
+    "ne_final_m": 3.998683744986289,
+    "ne_if_stop_at_closest_m": 2.6357549838271033,
+    "spl": 0.623755145889519,
+    "ndtw": 0.6334272467528999,
+    "forced_stop_failures": 6,
+    "failure_steps_ge_490": 34,
+    "class_counts": {
+      "left_after_1m": 27,
+      "big_drift": 65,
+      "wrong_way": 184,
+      "stop_just_outside": 83,
+      "mild_drift": 102,
+      "left_after_3m": 67,
+      "stop_far_closest": 66
+    },
+    "rolled_counts": {
+      "进入 3 米后又离开": 94,
+      "走近后又走偏": 167,
+      "一开始就走反": 184,
+      "停在最近距离 3–5 米": 83,
+      "停在更远的位置": 66
+    },
+    "hindsight_stop_recovers": 94,
+    "hindsight_stop_matches_left_class": true
+  },
+  "go2": {
+    "episodes": 1839,
+    "successes": 1129,
+    "failures": 710,
+    "sr": 0.6139206090266449,
+    "oracle_success_rate": 0.6634040239260468,
+    "ne_final_m": 4.396263039773655,
+    "ne_if_stop_at_closest_m": 2.945487473326165,
+    "spl": 0.6068641464434058,
+    "ndtw": 0.6197861264288941,
+    "forced_stop_failures": 12,
+    "failure_steps_ge_490": 57,
+    "class_counts": {
+      "mild_drift": 98,
+      "left_after_3m": 66,
+      "big_drift": 83,
+      "wrong_way": 194,
+      "stop_far_closest": 74,
+      "stop_just_outside": 80,
+      "left_after_1m": 25,
+      "unreachable": 90
+    },
+    "rolled_counts": {
+      "走近后又走偏": 181,
+      "进入 3 米后又离开": 91,
+      "一开始就走反": 194,
+      "停在更远的位置": 74,
+      "停在最近距离 3–5 米": 80,
+      "测地距离无穷": 90
+    },
+    "hindsight_stop_recovers": 91,
+    "hindsight_stop_matches_left_class": true
+  },
+  "overlap": {
+    "both_fail": 440,
+    "only_go2_fail": 270,
+    "only_official_fail": 154,
+    "go2_inf": 90,
+    "official_outcome_of_go2_inf": {
+      "success": 58,
+      "走近后又走偏": 13,
+      "停在更远的位置": 7,
+      "一开始就走反": 5,
+      "停在最近距离 3–5 米": 4,
+      "进入 3 米后又离开": 3
+    }
+  },
+  "expert_shortest_path": {
+    "present": true,
+    "episodes_with_final_pose": 1749,
+    "skipped_rows": 0,
+    "final_lt_3m": 1749,
+    "final_le_1m": 1746,
+    "final_median_m": 0.8797320127487183,
+    "note": "These are poses along the privileged shortest path, not Habitat success flags. A final distance under 3 m means the path entered the success radius."
+  },
+  "probe_episodes": 30,
+  "class_rule": {
+    "unreachable": "min or final distance is not finite",
+    "left_after_1m": "min <= 1 and final > 3",
+    "left_after_3m": "1 < min <= 3 and final > 3",
+    "stop_just_outside": "final - min <= 0.5 and 3 < min <= 5",
+    "stop_far_closest": "final - min <= 0.5 and min > 5",
+    "wrong_way": "not the above, progress from start < 1 m, and final is > 0.5 m worse than min",
+    "big_drift": "progress >= 1 m and final is >= 3 m worse than min",
+    "mild_drift": "progress >= 1 m and final is 0.5–3 m worse than min"
+  }
+}

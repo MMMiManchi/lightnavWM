@@ -1,0 +1,81 @@
+sample_index,episode_id,phrase_index,phrase,kind,where_to_look,verdict,evidence
+1,850,1,go straight,action,opening,contradicted,start 面对贝壳雕塑和墙，航向 180°。参考第一段航向 1.5°，相对起步 -178.5°。门在 w0，不在起步画面正前方。
+1,850,2,exit the room,landmark,opening,supported,w0 正对打开的门口，路径从这间房进入走廊。
+1,850,3,stairs on your left,relation,early_path,supported,w1 到 w2 的航向变化是 +69.6°。w2 正对绿色楼梯。
+1,850,4,get to the top,extent,late_path,supported,参考路径高度从 3.01 升到 6.08。w5 和 end 都在上层平台。
+1,850,5,wait by the statue,landmark,goal,supported,end 左侧紧挨着立像，终点就在这座雕像旁边。
+1,851,1,door to the right,relation,opening,supported,起步到第一段是 -178.5°，符号为右。w0 的门位于这个朝向上。
+1,851,2,walk by the bathroom,landmark,early_path,not_in_view,w1 右侧有白门。w1_r80 正对这扇关闭的双扇白门，门内仍然看不见，不能确认浴室。
+1,851,3,another door into the landing,landmark,mid_path,supported,w1 是走廊门洞，w2 转到楼梯口。
+1,851,4,all the way up the stairs,action,late_path,supported,路径继续爬到 y=6.08，end 在楼梯上方。
+1,851,5,wait there,stop,goal,supported,终点在上层楼梯口。这句没有再指定雕像。
+1,852,1,turn right,action,opening,supported,起步到第一段是 -178.5°，符号为右。
+1,852,2,go through the door,landmark,opening,supported,w0 正对门口。
+1,852,3,go down the hallway,landmark,early_path,supported,w1 看向走廊。
+1,852,4,stairway to the left,relation,mid_path,supported,w2 的航向变化是 +69.6°，画面正对楼梯。
+1,852,5,continue up the stairway to the left,action,late_path,supported,上楼还有 +38.7° 和 +143.0°。w3、w4 仍在楼梯上。
+1,852,6,wait by the statue,landmark,goal,supported,end 左侧是立像。
+2,1201,1,left of the counter,relation,opening,supported,起步航向 120° 到第一段 -179.6°，变化 +60.4°。w0 是两排柜台之间的通道。
+2,1201,2,go down the hall,landmark,early_path,supported,w0 的柜台通道向前延伸到一把椅子。
+2,1201,3,turn left next to the chairs,action,late_path,supported,w1 相对上一段 +67.8°，深色椅子在画面右侧。
+2,1202,1,step forward,action,opening,contradicted,没有沿起步朝向的直行段。第一段整段都在左转 60.4° 之后的柜台通道上，起步画面和 w0 不是同一个朝向。
+2,1202,2,make a left,action,early_path,supported,w1 相对上一段 +67.8°。
+2,1202,3,turn right,action,mid_path,supported,w2 相对上一段 -93.9°。
+2,1202,4,enter the room on the left,relation,late_path,supported,w3 相对上一段 +82.5°，穿过拱门进入房间。
+2,1202,5,wait near the chair,landmark,goal,supported,end 正对一把扶手椅的背面。
+2,1203,1,turn to your left,action,opening,supported,第一段相对起步 +60.4°。
+2,1203,2,black chair alone at the wall,landmark,early_path,supported,w0 通道尽头有一把单独的深色椅子。
+2,1203,3,turn left,action,mid_path,supported,w1 相对上一段 +67.8°，椅子在身旁。
+2,1203,4,turn right and walk down the hallway,action,mid_path,supported,w2 相对上一段 -93.9°，朝向沿墙和玻璃门的通道。
+2,1203,5,first room on your left,relation,late_path,supported,w3 相对上一段 +82.5°，从拱门进入左侧房间。
+2,1203,6,stop behind the first chair,landmark,goal,supported,end 位于扶手椅背后，看到的是椅背。
+3,1534,1,turn around,action,opening,supported,起步航向约 0°，第一段 178°，变化 +178°。start 和 w0 方向相反。
+3,1534,2,bed with the trunk,landmark,early_path,supported,w0 和 w1 能看到箱子，以及床或长沙发。
+3,1534,3,take a left,action,mid_path,supported,w2 相对上一段 +125.3°，朝向楼下。
+3,1534,4,head down the stairway,action,late_path,supported,w2 到 end 高度从 3.66 降到 0.73，楼梯向下。栏杆网格有破损，楼梯方向仍然看得清。
+3,1534,5,stop right before the end of the stairway,stop,goal,supported,end 站在楼梯底部的地面上，和楼梯结束的位置一致。
+3,1535,1,toward the lounge chair,landmark,opening,contradicted,start 是阁楼走廊，正前方没有躺椅。床和箱子出现在掉头后的 w0、w1。
+3,1535,2,pivot and bear slightly left,action,early_path,contradicted,第一段相对起步是 +178°，随后还有 +54.3° 和 +125.3°。都不是轻微左转。
+3,1535,3,turn left and walk down the stairs,action,mid_path,supported,w2 的 +125.3° 之后，路径沿楼梯下降。
+3,1535,4,third step from the landing,stop,goal,contradicted,终点 y=0.73，上一个路点 y=1.78。end 站在底层地面，不是梯级上的第三级。
+3,1536,1,turn around,action,opening,supported,第一段相对起步 +178°，start 与 w0 方向相反。
+3,1536,2,stairs next to the foot of the bed,relation,early_path,supported,w1 能看到床，下一帧 w2 正对楼梯。
+3,1536,3,stop at the bottom of the stairs,stop,goal,supported,end 在底层地面，楼梯留在身后。
+4,94,1,walk forward,action,opening,supported,start 已经能看到整排玻璃门。第一段 -50.5° 是朝这些门转过去。
+4,94,2,left around the corner,action,early_path,supported,w1 相对上一段 +89.0°。
+4,94,3,end of the hallway,landmark,late_path,supported,w4 和 w5 是这条走廊的后段，直到拱门。
+4,94,4,door before the bedroom,landmark,goal,supported,end 停在门口，门内能看到床。
+4,95,1,big wall of windows,landmark,opening,supported,start 右侧是整排玻璃窗。
+4,95,2,turn hard left,action,early_path,supported,w1 相对上一段 +89.0°。
+4,95,3,continue past the kitchen,landmark,mid_path,supported,w2 和 w2m 左侧是柜台和高脚椅。没有看到炉灶。
+4,95,4,stop at the room in front of you,stop,goal,supported,end 面向前方的房间。
+4,96,1,french doors,landmark,opening,supported,w0 正对多扇玻璃门。
+4,96,2,turn left,action,early_path,supported,w1 相对上一段 +89.0°。
+4,96,3,walk past the kitchen,landmark,mid_path,supported,w2 和 w2m 左侧是柜台和高脚椅。
+4,96,4,end of the hallway,landmark,late_path,supported,w4、w5 走到走廊尽头的拱门。
+4,96,5,archway near the painting,landmark,goal,supported,w5 拱门旁有画，end 门内也能看到画。
+5,1132,1,along the red carpet,landmark,whole_path,supported,w0 到 end 的沿途画面都有红地毯。
+5,1132,2,away from the painting,relation,opening,supported,start 正对红墙上的画。第一段相对起步 -178.6°，w0 改为沿走廊离开这幅画。
+5,1132,3,chairs on your right,relation,early_path,supported,w0 画面右侧是一排椅子。
+5,1132,4,turn the corner following the red carpet,action,mid_path,supported,w2 相对上一段 +38.9°，w3 再 +89.8°，地毯仍在脚下。
+5,1132,5,stop just before the double doors,landmark,goal,supported,正向的 end 没有正对门。end_r60 在终点右侧约 60° 看到打开的双扇木门，人停在门这一侧。
+5,1132,6,opposite corner from the start,relation,goal,supported,终点在两次左转之后的另一侧房间，不在起步那幅画前面。
+5,1133,1,walk straight until you cannot,action,early_path,contradicted,start 正对画。参考第一段是 -178.6°。沿起步画面直行会走向那幅画，参考路径是掉头离开。
+5,1133,2,turn left,action,mid_path,supported,掉头之后有 +38.9° 和 +89.8° 两次左转。
+5,1133,3,doorway straight ahead,landmark,goal,supported,end_r60 的双扇门开在终点右侧，地毯通向门洞。
+5,1134,1,stay on the red carpet,landmark,whole_path,supported,掉头之后的 w0 到 end 都沿着红地毯。
+5,1134,2,towards the decorative chair,landmark,early_path,contradicted,转弯处的花椅在 w2，起步画面正对的是画。到达这把椅子之前，参考路径先做了 -178.6° 的掉头。
+5,1134,3,turn left at the decorative chair,action,mid_path,supported,w2 能看到花椅，该段航向变化 +38.9°。
+5,1134,4,make another left,action,late_path,supported,w3 相对上一段 +89.8°。
+5,1134,5,doorway with a fire extinguisher,landmark,goal,supported,end_r60 和 end_r120 的门边有红色灭火器。
+6,328,1,go down the stairs,action,opening,supported,start 和 w0 几乎同向，差值 +4.9°，楼梯在正前方。高度从 2.11 降到 0.13。
+6,328,2,library which is the second room on the right,landmark,late_path,supported,w2 右侧先有一个开口。w3 右侧拱门通向书架，下一段 -62.6° 转入。w4 是带书架的房间。
+6,328,3,rug close to the books on the shelf,landmark,goal,supported,end 地面是圆毯，前方和两侧是书架。
+6,329,1,go down the stairs,action,opening,supported,start、w0 正对向下的楼梯。
+6,329,2,towards the front door,landmark,mid_path,supported,w3 在楼梯底部正对一扇关闭的木门。
+6,329,3,arched doorway to one side of the front door,landmark,late_path,supported,这扇木门右侧是打开的拱门。w3 到 w4 的航向变化是 -62.6°。
+6,329,4,room with the round rug and shelves,landmark,goal,supported,w4 和 end 是圆毯加书架。
+6,330,1,down the stairs to the lower level,action,opening,supported,路径沿楼梯降到 y=0.13，w2 已经能看到底层。
+6,330,2,room ahead with the tile mosaic,landmark,mid_path,supported,w2 和 w3 的楼梯正前方是红砖地面和圆形地面图案。
+6,330,3,open arched door to the right,relation,late_path,supported,w3 右侧拱门开着，路径以 -62.6° 转入。
+6,330,4,rug on the ground,landmark,goal,supported,w4 地面有圆毯。

@@ -1,0 +1,543 @@
+{
+  "n_episodes": 10,
+  "n_inferences": 70,
+  "engine_load_s": 33.3,
+  "sampling": {
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "top_k": 0,
+    "traj_top1": false
+  },
+  "perturbation": "image-plane rotation about the JPEG center, cv2 INTER_LINEAR, BORDER_REPLICATE; not a Habitat camera extrinsic",
+  "repeat_episodes_with_any_text_change": 0,
+  "repeat_matches_logged_count": 27,
+  "repeat_possible_matches": 30,
+  "rotation_text_changes": 6,
+  "rotation_trials": 40,
+  "rotation_l0_changes": 5,
+  "rotation_yaw_sign_changes": 1,
+  "mean_infer_s": 0.096,
+  "peak_gpu_mib": 10978.6,
+  "episodes": [
+    {
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "10",
+      "failure_type": "success",
+      "repeat_unique_texts": 1,
+      "repeat_matches_logged": 0,
+      "rotations_text_changed": 3,
+      "rotations_l0_changed": 2,
+      "rotations_yaw_sign_changed": 0,
+      "rotation_details": [
+        {
+          "deg": -1.0,
+          "raw_text_changed": true,
+          "rvq_changed": true,
+          "l0_changed": true,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": -0.31694,
+          "forward_delta_m": -0.14856,
+          "raw_text": "<apos_794><opos_0><act_l0_197><act_l1_94><act_l2_187><|im_end|>"
+        },
+        {
+          "deg": -0.5,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_794><opos_0><act_l0_0><act_l1_97><act_l2_174><|im_end|>"
+        },
+        {
+          "deg": 0.5,
+          "raw_text_changed": true,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_841><opos_0><act_l0_0><act_l1_97><act_l2_174><|im_end|>"
+        },
+        {
+          "deg": 1.0,
+          "raw_text_changed": true,
+          "rvq_changed": true,
+          "l0_changed": true,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": -0.31694,
+          "forward_delta_m": -0.14856,
+          "raw_text": "<apos_794><opos_0><act_l0_197><act_l1_94><act_l2_187><|im_end|>"
+        }
+      ]
+    },
+    {
+      "scene": "X7HyMhZNoso",
+      "episode_id": "1090",
+      "failure_type": "success",
+      "repeat_unique_texts": 1,
+      "repeat_matches_logged": 3,
+      "rotations_text_changed": 0,
+      "rotations_l0_changed": 0,
+      "rotations_yaw_sign_changed": 0,
+      "rotation_details": [
+        {
+          "deg": -1.0,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_1297><opos_0><act_l0_41><act_l1_92><act_l2_77><|im_end|>"
+        },
+        {
+          "deg": -0.5,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_1297><opos_0><act_l0_41><act_l1_92><act_l2_77><|im_end|>"
+        },
+        {
+          "deg": 0.5,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_1297><opos_0><act_l0_41><act_l1_92><act_l2_77><|im_end|>"
+        },
+        {
+          "deg": 1.0,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_1297><opos_0><act_l0_41><act_l1_92><act_l2_77><|im_end|>"
+        }
+      ]
+    },
+    {
+      "scene": "8194nk5LbLH",
+      "episode_id": "221",
+      "failure_type": "wrong_way",
+      "repeat_unique_texts": 1,
+      "repeat_matches_logged": 3,
+      "rotations_text_changed": 0,
+      "rotations_l0_changed": 0,
+      "rotations_yaw_sign_changed": 0,
+      "rotation_details": [
+        {
+          "deg": -1.0,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_1297><opos_0><act_l0_41><act_l1_92><act_l2_77><|im_end|>"
+        },
+        {
+          "deg": -0.5,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_1297><opos_0><act_l0_41><act_l1_92><act_l2_77><|im_end|>"
+        },
+        {
+          "deg": 0.5,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_1297><opos_0><act_l0_41><act_l1_92><act_l2_77><|im_end|>"
+        },
+        {
+          "deg": 1.0,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_1297><opos_0><act_l0_41><act_l1_92><act_l2_77><|im_end|>"
+        }
+      ]
+    },
+    {
+      "scene": "QUCTc6BB5sX",
+      "episode_id": "569",
+      "failure_type": "wrong_way",
+      "repeat_unique_texts": 1,
+      "repeat_matches_logged": 3,
+      "rotations_text_changed": 0,
+      "rotations_l0_changed": 0,
+      "rotations_yaw_sign_changed": 0,
+      "rotation_details": [
+        {
+          "deg": -1.0,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_1298><opos_0><act_l0_13><act_l1_90><act_l2_39><|im_end|>"
+        },
+        {
+          "deg": -0.5,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_1298><opos_0><act_l0_13><act_l1_90><act_l2_39><|im_end|>"
+        },
+        {
+          "deg": 0.5,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_1298><opos_0><act_l0_13><act_l1_90><act_l2_39><|im_end|>"
+        },
+        {
+          "deg": 1.0,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_1298><opos_0><act_l0_13><act_l1_90><act_l2_39><|im_end|>"
+        }
+      ]
+    },
+    {
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "326",
+      "failure_type": "big_drift",
+      "repeat_unique_texts": 1,
+      "repeat_matches_logged": 3,
+      "rotations_text_changed": 0,
+      "rotations_l0_changed": 0,
+      "rotations_yaw_sign_changed": 0,
+      "rotation_details": [
+        {
+          "deg": -1.0,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_840><opos_0><act_l0_243><act_l1_218><act_l2_79><|im_end|>"
+        },
+        {
+          "deg": -0.5,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_840><opos_0><act_l0_243><act_l1_218><act_l2_79><|im_end|>"
+        },
+        {
+          "deg": 0.5,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_840><opos_0><act_l0_243><act_l1_218><act_l2_79><|im_end|>"
+        },
+        {
+          "deg": 1.0,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_840><opos_0><act_l0_243><act_l1_218><act_l2_79><|im_end|>"
+        }
+      ]
+    },
+    {
+      "scene": "EU6Fwq7SyZv",
+      "episode_id": "639",
+      "failure_type": "big_drift",
+      "repeat_unique_texts": 1,
+      "repeat_matches_logged": 3,
+      "rotations_text_changed": 0,
+      "rotations_l0_changed": 0,
+      "rotations_yaw_sign_changed": 0,
+      "rotation_details": [
+        {
+          "deg": -1.0,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_1297><opos_0><act_l0_41><act_l1_92><act_l2_77><|im_end|>"
+        },
+        {
+          "deg": -0.5,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_1297><opos_0><act_l0_41><act_l1_92><act_l2_77><|im_end|>"
+        },
+        {
+          "deg": 0.5,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_1297><opos_0><act_l0_41><act_l1_92><act_l2_77><|im_end|>"
+        },
+        {
+          "deg": 1.0,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_1297><opos_0><act_l0_41><act_l1_92><act_l2_77><|im_end|>"
+        }
+      ]
+    },
+    {
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "214",
+      "failure_type": "left_after_1m",
+      "repeat_unique_texts": 1,
+      "repeat_matches_logged": 3,
+      "rotations_text_changed": 0,
+      "rotations_l0_changed": 0,
+      "rotations_yaw_sign_changed": 0,
+      "rotation_details": [
+        {
+          "deg": -1.0,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_848><opos_0><act_l0_9><act_l1_161><act_l2_217><|im_end|>"
+        },
+        {
+          "deg": -0.5,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_848><opos_0><act_l0_9><act_l1_161><act_l2_217><|im_end|>"
+        },
+        {
+          "deg": 0.5,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_848><opos_0><act_l0_9><act_l1_161><act_l2_217><|im_end|>"
+        },
+        {
+          "deg": 1.0,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_848><opos_0><act_l0_9><act_l1_161><act_l2_217><|im_end|>"
+        }
+      ]
+    },
+    {
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "1087",
+      "failure_type": "left_after_3m",
+      "repeat_unique_texts": 1,
+      "repeat_matches_logged": 3,
+      "rotations_text_changed": 0,
+      "rotations_l0_changed": 0,
+      "rotations_yaw_sign_changed": 0,
+      "rotation_details": [
+        {
+          "deg": -1.0,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_1298><opos_0><act_l0_13><act_l1_90><act_l2_39><|im_end|>"
+        },
+        {
+          "deg": -0.5,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_1298><opos_0><act_l0_13><act_l1_90><act_l2_39><|im_end|>"
+        },
+        {
+          "deg": 0.5,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_1298><opos_0><act_l0_13><act_l1_90><act_l2_39><|im_end|>"
+        },
+        {
+          "deg": 1.0,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_1298><opos_0><act_l0_13><act_l1_90><act_l2_39><|im_end|>"
+        }
+      ]
+    },
+    {
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "1266",
+      "failure_type": "stop_just_outside",
+      "repeat_unique_texts": 1,
+      "repeat_matches_logged": 3,
+      "rotations_text_changed": 2,
+      "rotations_l0_changed": 2,
+      "rotations_yaw_sign_changed": 0,
+      "rotation_details": [
+        {
+          "deg": -1.0,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_810><opos_0><act_l0_120><act_l1_248><act_l2_192><|im_end|>"
+        },
+        {
+          "deg": -0.5,
+          "raw_text_changed": true,
+          "rvq_changed": true,
+          "l0_changed": true,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.00018,
+          "forward_delta_m": 6e-05,
+          "raw_text": "<apos_1298><opos_0><act_l0_118><act_l1_83><act_l2_254><|im_end|>"
+        },
+        {
+          "deg": 0.5,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_810><opos_0><act_l0_120><act_l1_248><act_l2_192><|im_end|>"
+        },
+        {
+          "deg": 1.0,
+          "raw_text_changed": true,
+          "rvq_changed": true,
+          "l0_changed": true,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": -0.00918,
+          "forward_delta_m": -0.01404,
+          "raw_text": "<apos_1104><opos_0><act_l0_2><act_l1_208><act_l2_180><|im_end|>"
+        }
+      ]
+    },
+    {
+      "scene": "oLBMNvg9in8",
+      "episode_id": "846",
+      "failure_type": "stop_just_outside",
+      "repeat_unique_texts": 1,
+      "repeat_matches_logged": 3,
+      "rotations_text_changed": 1,
+      "rotations_l0_changed": 1,
+      "rotations_yaw_sign_changed": 1,
+      "rotation_details": [
+        {
+          "deg": -1.0,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_1297><opos_0><act_l0_41><act_l1_92><act_l2_77><|im_end|>"
+        },
+        {
+          "deg": -0.5,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_1297><opos_0><act_l0_41><act_l1_92><act_l2_77><|im_end|>"
+        },
+        {
+          "deg": 0.5,
+          "raw_text_changed": false,
+          "rvq_changed": false,
+          "l0_changed": false,
+          "yaw_sign_changed": false,
+          "yaw_delta_rad": 0.0,
+          "forward_delta_m": 0.0,
+          "raw_text": "<apos_1297><opos_0><act_l0_41><act_l1_92><act_l2_77><|im_end|>"
+        },
+        {
+          "deg": 1.0,
+          "raw_text_changed": true,
+          "rvq_changed": true,
+          "l0_changed": true,
+          "yaw_sign_changed": true,
+          "yaw_delta_rad": -0.62501,
+          "forward_delta_m": -0.00134,
+          "raw_text": "<apos_991><opos_0><act_l0_197><act_l1_187><act_l2_55><|im_end|>"
+        }
+      ]
+    }
+  ]
+}

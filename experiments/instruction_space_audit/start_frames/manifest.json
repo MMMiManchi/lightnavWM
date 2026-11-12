@@ -1,0 +1,219 @@
+[
+  {
+    "route_group_id": "2azQ1b91cZZ__412",
+    "file": "experiments/instruction_space_audit/start_frames/2azQ1b91cZZ__412.jpg",
+    "stratum": "partial",
+    "geodesic_turns_45": "left left",
+    "geodesic_pattern_45": "conflict_fails_match_succeeds"
+  },
+  {
+    "route_group_id": "2azQ1b91cZZ__1627",
+    "file": "experiments/instruction_space_audit/start_frames/2azQ1b91cZZ__1627.jpg",
+    "stratum": "partial",
+    "geodesic_turns_45": "right",
+    "geodesic_pattern_45": "conflict_fails_match_succeeds"
+  },
+  {
+    "route_group_id": "2azQ1b91cZZ__3411",
+    "file": "experiments/instruction_space_audit/start_frames/2azQ1b91cZZ__3411.jpg",
+    "stratum": "partial",
+    "geodesic_turns_45": "left left",
+    "geodesic_pattern_45": "conflict_succeeds_match_fails"
+  },
+  {
+    "route_group_id": "2azQ1b91cZZ__4089",
+    "file": "experiments/instruction_space_audit/start_frames/2azQ1b91cZZ__4089.jpg",
+    "stratum": "all_success",
+    "geodesic_turns_45": "left",
+    "geodesic_pattern_45": "alignment_does_not_split_success"
+  },
+  {
+    "route_group_id": "2azQ1b91cZZ__4721",
+    "file": "experiments/instruction_space_audit/start_frames/2azQ1b91cZZ__4721.jpg",
+    "stratum": "all_fail",
+    "geodesic_turns_45": "right",
+    "geodesic_pattern_45": "alignment_does_not_split_success"
+  },
+  {
+    "route_group_id": "2azQ1b91cZZ__4954",
+    "file": "experiments/instruction_space_audit/start_frames/2azQ1b91cZZ__4954.jpg",
+    "stratum": "partial",
+    "geodesic_turns_45": "right",
+    "geodesic_pattern_45": "partial_split"
+  },
+  {
+    "route_group_id": "8194nk5LbLH__1141",
+    "file": "experiments/instruction_space_audit/start_frames/8194nk5LbLH__1141.jpg",
+    "stratum": "all_success",
+    "geodesic_turns_45": "left left",
+    "geodesic_pattern_45": "alignment_does_not_split_success"
+  },
+  {
+    "route_group_id": "QUCTc6BB5sX__1690",
+    "file": "experiments/instruction_space_audit/start_frames/QUCTc6BB5sX__1690.jpg",
+    "stratum": "all_fail",
+    "geodesic_turns_45": "left left",
+    "geodesic_pattern_45": "alignment_does_not_split_success"
+  },
+  {
+    "route_group_id": "QUCTc6BB5sX__4204",
+    "file": "experiments/instruction_space_audit/start_frames/QUCTc6BB5sX__4204.jpg",
+    "stratum": "partial",
+    "geodesic_turns_45": "left right left left",
+    "geodesic_pattern_45": "conflict_succeeds_match_fails"
+  },
+  {
+    "route_group_id": "QUCTc6BB5sX__4268",
+    "file": "experiments/instruction_space_audit/start_frames/QUCTc6BB5sX__4268.jpg",
+    "stratum": "all_success",
+    "geodesic_turns_45": "right",
+    "geodesic_pattern_45": "alignment_does_not_split_success"
+  },
+  {
+    "route_group_id": "TbHJrupSAjP__697",
+    "file": "experiments/instruction_space_audit/start_frames/TbHJrupSAjP__697.jpg",
+    "stratum": "partial",
+    "geodesic_turns_45": "right right",
+    "geodesic_pattern_45": "conflict_fails_match_succeeds"
+  },
+  {
+    "route_group_id": "TbHJrupSAjP__1317",
+    "file": "experiments/instruction_space_audit/start_frames/TbHJrupSAjP__1317.jpg",
+    "stratum": "all_success",
+    "geodesic_turns_45": "right left left",
+    "geodesic_pattern_45": "alignment_does_not_split_success"
+  },
+  {
+    "route_group_id": "TbHJrupSAjP__1825",
+    "file": "experiments/instruction_space_audit/start_frames/TbHJrupSAjP__1825.jpg",
+    "stratum": "partial",
+    "geodesic_turns_45": "left left right",
+    "geodesic_pattern_45": "conflict_fails_match_succeeds"
+  },
+  {
+    "route_group_id": "TbHJrupSAjP__4148",
+    "file": "experiments/instruction_space_audit/start_frames/TbHJrupSAjP__4148.jpg",
+    "stratum": "partial",
+    "geodesic_turns_45": "left left right",
+    "geodesic_pattern_45": "partial_split"
+  },
+  {
+    "route_group_id": "TbHJrupSAjP__4969",
+    "file": "experiments/instruction_space_audit/start_frames/TbHJrupSAjP__4969.jpg",
+    "stratum": "all_fail",
+    "geodesic_turns_45": "right",
+    "geodesic_pattern_45": "alignment_does_not_split_success"
+  },
+  {
+    "route_group_id": "X7HyMhZNoso__2585",
+    "file": "experiments/instruction_space_audit/start_frames/X7HyMhZNoso__2585.jpg",
+    "stratum": "all_success",
+    "geodesic_turns_45": "right left right",
+    "geodesic_pattern_45": "alignment_does_not_split_success"
+  },
+  {
+    "route_group_id": "X7HyMhZNoso__3085",
+    "file": "experiments/instruction_space_audit/start_frames/X7HyMhZNoso__3085.jpg",
+    "stratum": "all_success",
+    "geodesic_turns_45": "right right",
+    "geodesic_pattern_45": "alignment_does_not_split_success"
+  },
+  {
+    "route_group_id": "X7HyMhZNoso__3492",
+    "file": "experiments/instruction_space_audit/start_frames/X7HyMhZNoso__3492.jpg",
+    "stratum": "partial",
+    "geodesic_turns_45": "right",
+    "geodesic_pattern_45": "conflict_succeeds_match_fails"
+  },
+  {
+    "route_group_id": "Z6MFQCViBuw__1597",
+    "file": "experiments/instruction_space_audit/start_frames/Z6MFQCViBuw__1597.jpg",
+    "stratum": "partial",
+    "geodesic_turns_45": "left",
+    "geodesic_pattern_45": "conflict_fails_match_succeeds"
+  },
+  {
+    "route_group_id": "Z6MFQCViBuw__5059",
+    "file": "experiments/instruction_space_audit/start_frames/Z6MFQCViBuw__5059.jpg",
+    "stratum": "all_fail",
+    "geodesic_turns_45": "right",
+    "geodesic_pattern_45": "alignment_does_not_split_success"
+  },
+  {
+    "route_group_id": "oLBMNvg9in8__2804",
+    "file": "experiments/instruction_space_audit/start_frames/oLBMNvg9in8__2804.jpg",
+    "stratum": "partial",
+    "geodesic_turns_45": "left left left",
+    "geodesic_pattern_45": "partial_split"
+  },
+  {
+    "route_group_id": "oLBMNvg9in8__3269",
+    "file": "experiments/instruction_space_audit/start_frames/oLBMNvg9in8__3269.jpg",
+    "stratum": "all_success",
+    "geodesic_turns_45": "right right",
+    "geodesic_pattern_45": "alignment_does_not_split_success"
+  },
+  {
+    "route_group_id": "oLBMNvg9in8__5646",
+    "file": "experiments/instruction_space_audit/start_frames/oLBMNvg9in8__5646.jpg",
+    "stratum": "all_success",
+    "geodesic_turns_45": "right right right right",
+    "geodesic_pattern_45": "alignment_does_not_split_success"
+  },
+  {
+    "route_group_id": "zsNo4HB9uLZ__184",
+    "file": "experiments/instruction_space_audit/start_frames/zsNo4HB9uLZ__184.jpg",
+    "stratum": "partial",
+    "geodesic_turns_45": "left",
+    "geodesic_pattern_45": "partial_split"
+  },
+  {
+    "route_group_id": "zsNo4HB9uLZ__1030",
+    "file": "experiments/instruction_space_audit/start_frames/zsNo4HB9uLZ__1030.jpg",
+    "stratum": "all_success",
+    "geodesic_turns_45": "right",
+    "geodesic_pattern_45": "alignment_does_not_split_success"
+  },
+  {
+    "route_group_id": "zsNo4HB9uLZ__1793",
+    "file": "experiments/instruction_space_audit/start_frames/zsNo4HB9uLZ__1793.jpg",
+    "stratum": "partial",
+    "geodesic_turns_45": "left",
+    "geodesic_pattern_45": "conflict_succeeds_match_fails"
+  },
+  {
+    "route_group_id": "zsNo4HB9uLZ__2763",
+    "file": "experiments/instruction_space_audit/start_frames/zsNo4HB9uLZ__2763.jpg",
+    "stratum": "partial",
+    "geodesic_turns_45": "left right",
+    "geodesic_pattern_45": "alignment_does_not_split_success"
+  },
+  {
+    "route_group_id": "zsNo4HB9uLZ__3391",
+    "file": "experiments/instruction_space_audit/start_frames/zsNo4HB9uLZ__3391.jpg",
+    "stratum": "partial",
+    "geodesic_turns_45": "right",
+    "geodesic_pattern_45": "conflict_fails_match_succeeds"
+  },
+  {
+    "route_group_id": "zsNo4HB9uLZ__4297",
+    "file": "experiments/instruction_space_audit/start_frames/zsNo4HB9uLZ__4297.jpg",
+    "stratum": "partial",
+    "geodesic_turns_45": "left",
+    "geodesic_pattern_45": "conflict_fails_match_succeeds"
+  },
+  {
+    "route_group_id": "zsNo4HB9uLZ__5026",
+    "file": "experiments/instruction_space_audit/start_frames/zsNo4HB9uLZ__5026.jpg",
+    "stratum": "all_success",
+    "geodesic_turns_45": "left",
+    "geodesic_pattern_45": "alignment_does_not_split_success"
+  },
+  {
+    "route_group_id": "zsNo4HB9uLZ__5403",
+    "file": "experiments/instruction_space_audit/start_frames/zsNo4HB9uLZ__5403.jpg",
+    "stratum": "partial",
+    "geodesic_turns_45": "left",
+    "geodesic_pattern_45": "partial_split"
+  }
+]

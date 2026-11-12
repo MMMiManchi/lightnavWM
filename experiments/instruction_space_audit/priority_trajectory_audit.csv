@@ -1,0 +1,25 @@
+route_group_id,episode_id,success,phrase,reference_first_turn,geodesic_first_turn,execution,semantic_conflict,explains_failure,evidence
+2azQ1b91cZZ__412,115,1,door on the right then turn left,left 126 deg at 0 m,left 103 deg at 0 m,right about 143 deg then left; success 0.85 m,no,not_applicable,成功回合实际先右转。参考路径和测地路径的第一段都在左侧，不能用来否定这句。
+2azQ1b91cZZ__412,116,0,turn right then turn right again,left 126 deg at 0 m then right 87 deg at 1.3 m,left 103 deg then left 71 deg,same opening as 115: right then left; closest 3.28 m then 13.11 m,uncertain,no,第二个右转没有被执行。失败发生在和成功回合分开之后，不能归因于写了两个右转。
+2azQ1b91cZZ__412,117,1,turn left into bathroom,left 126 deg at 0 m,left 103 deg at 0 m,still turned right first then left; success 0.53 m,wording_only,not_applicable,少写了开头的右转，但动作和 115 一样并且成功。
+2azQ1b91cZZ__1627,403,1,turn right through the right doorway,right 82 deg at 0 m,right 83 deg at 0 m,no execution log,no,uncertain,朝向测地首段能看到木质门洞。这句和两条路径的第一右转一致。没有执行轨迹，不能解释 404 的失败。
+2azQ1b91cZZ__1627,404,0,turn slight left into the room at left,right 82 deg at 0 m,right 83 deg at 0 m,no execution log,uncertain,uncertain,起步帧左侧也有拱门。左和右都看得到，不能单凭路径首段把左转判成写错。
+2azQ1b91cZZ__1627,405,0,doorway to the left of the wooden bench,right 82 deg at 0 m,right 83 deg at 0 m,no execution log,uncertain,uncertain,没有看到长凳，也没有执行轨迹。
+TbHJrupSAjP__697,172,1,walk to the right of the stairs then turn right,right 48 deg at 0 m,right 69 deg at 0 m,yaw to about -69 deg then walk; success 1.01 m,no,not_applicable,朝向测地方向时楼梯在画面左侧、走廊在前方，和“楼梯右侧”一致。
+TbHJrupSAjP__697,173,0,at the bottom of the stairs take a left,right 48 deg at 0 m,right 69 deg at 0 m,in-place left about 180 deg before moving; closest 5.34 m,yes,yes,两条路径的第一段都向右。模型按句中的左转执行，没有接近终点。174 的失败不是这一句。
+TbHJrupSAjP__697,174,0,walk past the stairs; no turn verb,right 48 deg at 0 m,right 69 deg at 0 m,same right opening as 172; reached 0.98 m then turned left and left,no,no,最近 0.98 米后自己离开。失败是停止，不是漏写右转。
+TbHJrupSAjP__1825,451,0,turn left then right then left,left 137 deg at 0 m,left 45 deg at 0 m,no execution log,uncertain,uncertain,起步和朝向路径的画面都贴在柜子或破损几何里，不能判断双扇门和楼梯。
+TbHJrupSAjP__1825,452,1,past the desk and out the black door; no turn verb,left 137 deg at 0 m,left 45 deg at 0 m,no execution log,uncertain,not_applicable,参考路径朝向能看到桌子，但画面破损，不能确认黑门。
+TbHJrupSAjP__1825,453,1,go left then turn right through double doors,left 137 deg at 0 m,left 45 deg at 0 m,no execution log,uncertain,not_applicable,参考路径和测地路径的后续转向不一致，起步画面不可用。
+X7HyMhZNoso__3492,856,1,turn left toward the dark grey fence,left 121 deg at 0 m,right 174 deg at 0 m,no execution log,no,not_applicable,朝向参考路径能看到深色栅栏。测地方向看到的是房子，和这句相反。成功句匹配的是参考路径，不是测地路径。
+X7HyMhZNoso__3492,857,0,turn left to the grey fence,left 121 deg at 0 m,right 174 deg at 0 m,no execution log,no,no,和 856 一样指向栅栏。句子和参考画面一致，但评测失败，所以匹配参考路径也不能解释失败。
+X7HyMhZNoso__3492,858,0,go right along the right side of the house,left 121 deg at 0 m,right 174 deg at 0 m,no execution log,uncertain,uncertain,朝向测地路径能看到房子，这个方向真实存在。它和参考路径相反，也和成功句相反，但没有执行轨迹。
+Z6MFQCViBuw__1597,397,1,turn completely around then through the doorway by the urn,left 172 deg at 0 m,left 164 deg at 0 m,no execution log,no,not_applicable,两条路径都是接近 180 度的左转。掉头和这个幅度一致。瓮没有在画面里确认。
+Z6MFQCViBuw__1597,398,1,"turn righ, take a left",left 172 deg at 0 m,left 164 deg at 0 m,no execution log,uncertain,not_applicable,righ 是拼写残缺。自动对齐只抓到后面的 left，那条 exact 标签无效。
+Z6MFQCViBuw__1597,399,0,turn slight right into the double doors,left 172 deg at 0 m,left 164 deg at 0 m,no execution log,yes,uncertain,轻微右转和两条路径开头约 170 度的左转直接矛盾。没有执行轨迹，不知道模型是否照做。
+zsNo4HB9uLZ__1793,445,1,walk to the right of the bathroom; no turn verb,left 59 deg at 0 m,left 59 deg at 0 m,no execution log,uncertain,not_applicable,朝向路径能看到柜间走廊。没有看到浴室，不能判断 right of bathroom。
+zsNo4HB9uLZ__1793,446,1,turn slight right then turn right,left 59 deg at 0 m then right 78 deg at 11.1 m,left 59 deg at 0 m,no execution log,uncertain,not_applicable,测地路径把它标成冲突，但这句成功。起步左右都有通道。
+zsNo4HB9uLZ__1793,447,0,make a left at the bedroom door,left 59 deg at 0 m,left 59 deg at 0 m,no execution log,uncertain,uncertain,自动标签认为它和测地路径一致，评测却失败。走廊是否就是这扇卧室门，单帧不能确定。
+zsNo4HB9uLZ__3391,826,1,down the hall until it ends then turn right,right 86 deg at 5.9 m,right 72 deg at 5.5 m,no execution log,no,not_applicable,两条路径都是先近乎直行，约 5.5 米后再右转。和“走到走廊尽头再右转”同序。转弯处画面没有另拍。
+zsNo4HB9uLZ__3391,827,1,down the hallway then turn right,right 86 deg at 5.9 m,right 72 deg at 5.5 m,no execution log,no,not_applicable,和 826 一样，右转在 5 米之后。
+zsNo4HB9uLZ__3391,828,0,make a left and wait by the bookshelf,right 86 deg at 5.9 m,right 72 deg at 5.5 m,no execution log,uncertain,uncertain,起步帧左侧就是书架。左转可能指这个书架，而路径终点在更远处的右转之后。没有执行轨迹，也没有终点画面。

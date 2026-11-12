@@ -1,0 +1,58 @@
+# @package _global_
+# Independent Go2-W config for train-split transition collection.
+# The baseline file habitat_server/configs/vlnce_r2r_go2w.yaml stays on val_unseen
+# and keeps the 500-step evaluation budget. Training collection uses a 0.10 m
+# body radius to match the Go2-W geometry selected for the world-model dataset.
+# A pilot still passes --max-steps 20 to the collection server; that flag is the
+# run budget and does not edit this habitat cap.
+
+defaults:
+  - /habitat: habitat_config_base
+  - /habitat/task: vln_r2r
+  - /habitat/task/actions@habitat.task.actions.velocity_control: velocity_control
+  - /habitat/simulator/sensor_setups@habitat.simulator.agents.main_agent: rgbd_agent
+  - /habitat/dataset: dataset_config_schema
+  - _self_
+
+habitat:
+  environment:
+    max_episode_steps: 500
+
+  task:
+    actions:
+      velocity_control:
+        lin_vel_range: [0.0, 2.5]
+        ang_vel_range: [-300.0, 300.0]
+        min_abs_lin_speed: 0.01
+        min_abs_ang_speed: 0.5
+        time_step: 0.1
+
+  dataset:
+    type: VLN-CE-v1
+    split: train
+    data_path: "data/datasets/R2R_VLNCE_v1-3_preprocessed/{split}/{split}.json.gz"
+    scenes_dir: "data/scene_datasets/"
+
+  simulator:
+    agents:
+      main_agent:
+        height: 0.50
+        radius: 0.10
+        sim_sensors:
+          rgb_sensor:
+            width: 480
+            height: 270
+            hfov: 120
+            type: HabitatSimRGBSensor
+            position: [0, 0.50, 0]
+          depth_sensor:
+            width: 480
+            height: 270
+            hfov: 120
+            type: HabitatSimDepthSensor
+            position: [0, 0.50, 0]
+    forward_step_size: 0.25
+    turn_angle: 15
+    habitat_sim_v0:
+      gpu_device_id: 0
+      allow_sliding: true
